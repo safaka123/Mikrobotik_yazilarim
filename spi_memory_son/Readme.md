@@ -11,3 +11,10 @@ Hatta SPI çalışma frekanslar ve çalışma modları farklı olabiliyor. Bunda
 
 Bu dokümanlara ait yazımın bulunduğu adres burasıdır. Sayfa dili Türkçe dir. 
 
+Örnek olarak kullanılan hafıza entegreleri :
+1-) 25LC512
+2-) 25LC640A
+3-) AT25F512
+
+
+PIC örneği ise 12F683 entegresiyle yapılmıştır. 
