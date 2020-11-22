@@ -1,0 +1,108 @@
+'****************************************************************
+'*  Name    : Rotery_encoder                                      *
+'*  Author  : [select VIEW...EDITOR OPTIONS]                    *
+'*  Notice  : Copyright (c) 2020 [                            *
+'*  Date    : 15.09.2020                                       *
+'*  Version : 1.0                                               *
+'*  Notes   :   Gerçek endüstriyel çalýþma. zero butonlu. limit butonlu                                                *
+'*          :                                                   *
+'****************************************************************
+DEFINE OSC 8
+ Include "Modedefs.Bas"
+ 
+#config
+ __config _FCMEN_OFF & _IESO_OFF & _CP_OFF & _CPD_OFF & _BOD_OFF & _MCLRE_OFF & _WDT_OFF & _PWRTE_ON & _INTRC_OSC_NOCLKOUT
+#ENDCONFIG
+
+
+OSCCON=%01110101   ; Ýlk programa dönüþ için osccal deðerini kapat. 
+CMCON0 = 7
+ADCON0=%00000000
+ANSEL=0 ;ADC ler iptal
+TRISIO=%00011000
+
+
+ 
+
+say var word       ;65536 ya kadar sayýlabilir.    Binary olarak 16 bit. 1111 1111 1111 1111
+
+
+SS    var GPIO.0
+SCK   var GPIO.1
+MOSI    var GPIO.2
+MISO    var GPIO.3
+
+temp1   var byte
+say2   var byte
+yaz     var byte
+oku1    var byte
+oku2    var byte
+addr1   var byte
+addr2   var byte
+addr3   var byte
+
+ 
+ 
+; SEROUT2 GPIO.5,84,["LCDDD"]
+; pause 100
+addr1=$00
+  addr2=$00
+  addr3=$00
+  yaz=0
+
+ basla:
+ 
+  call Dwrite
+  pause 1000
+  Call Dread
+  Pause 1000
+  SEROUT2 GPIO.5,84,["YAzilan:   ",HEX2 yaz,"   ",HEX2 yaz+1,"   ","  Okunan:  ",HEX2 oku1,"   ",HEX2 oku2,13,10]
+  addr3=addr3+2  
+  yaz=yaz+2 
+  Pause 1000 
+   if GPIO.4=0 then 
+   SEROUT2 GPIO.5,84,["silme butona basildi",13,10]
+   call pageerase
+   endif
+ goto basla
+ 
+ pageerase:
+    Low SS ' haberleþme aç
+    Shiftout MoSI,SCK,MSBFIRST,[6] ' komut ve veri gönder
+    High SS ' haberleþme kapat
+    Low SS ' haberleþme aç
+    pause 10
+    Shiftout MOSI,SCK,MSBFIRST,[$42,$0,$0,$0]' komut ve veri gonder
+    High SS ' Haberleþme kapat
+    Pause 3000 ' Allow the eeprom to allocate the byte
+    
+ return
+ 
+ Dwrite:
+ Low SS ' haberleþme aç
+Shiftout MoSI,SCK,MSBFIRST,[6] ' komut ve veri gönder
+High SS ' haberleþme kapat
+Low SS ' haberleþme aç
+Shiftout MOSI,SCK,MSBFIRST,[2,Addr1,addr2,addr3,yaz,yaz+1]' komut ve veri gonder
+High SS ' Haberleþme kapat
+Pause 5 ' Allow the eeprom to allocate the byte
+Return
+ 
+
+ 
+ Dread:
+
+Eread: Low SS ' haberleþme aç
+Shiftout MOSI,SCK,MSBFIRST,[3,Addr1,addr2,addr3]' veri okuma baþlangýç adresi gönder
+Shiftin MISO,SCK,MSBPRE,[oku1,oku2] ' veri okuma
+High SS ' haberleþme kapat
+Return
+ 
+ 
+ return
+ 
+ 
+
+
+end
+
