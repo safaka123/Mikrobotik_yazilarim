@@ -1,0 +1,205 @@
+'****************************************************************
+'*  Name    : 16f1827 LCD SERIAL CONTROL                        *
+'*  Author  : [select VIEW...EDITOR OPTIONS]                    *
+'*  Notice  : Copyright (c) 2016 [select VIEW...EDITOR OPTIONS] *
+'*          : All Rights Reserved                               *
+'*  Date    : 20.12.2016                                        *
+'*  Version : 1.0                                               *
+'*  Notes   :                                                   *
+'*          :                                                   *
+'****************************************************************
+;#config     ; XXXXXXXXX   ESKÝ KONFÝGÜRASYON BAZI DEÐÝÞÝKLÝKLER YAPILDI KULLANILABÝLÝR. XXXXXXXXXXXXXXXXXXXX
+;  __config _CONFIG1, _FOSC_INTOSC & _WDTE_OFF & _PWRTE_ON & _MCLRE_OFF & _CP_OFF & _CPD_OFF & _BOREN_OFF & _CLKOUTEN_OFF & _IESO_ON & _FCMEN_ON
+;  __config _CONFIG2, _WRT_ALL & _PLLEN_OFF & _STVREN_ON & _LVP_OFF & _BORV_19 & _LVP_OFF
+;#ENDCONFIG
+
+#config
+  __config _CONFIG1, _FOSC_INTOSC & _WDTE_OFF & _PWRTE_ON & _MCLRE_OFF & _CP_OFF & _CPD_OFF & _BOREN_OFF & _CLKOUTEN_OFF & _IESO_OFF & _FCMEN_OFF
+  __config _CONFIG2, _WRT_ALL & _PLLEN_OFF & _STVREN_OFF & _LVP_OFF & _BORV_LO & _LVP_OFF
+#ENDCONFIG
+
+; 32mhz OSC  _________________________
+DEFINE OSC 32
+OSCCON= %11110000 
+;_______________________________________
+
+ANSELA=0
+ANSELB=0
+ APFCON1=%00000000    ; XXXXXXX   ccp2 porta.7 ye alýndý þayet sýfýr olursa ccp1 ve ccp2 rb3 ve rb6 da birlikte çalýþýyordu. 
+                    ; porta.7 ye alýndýðýnda ccp2 çalýþmadý fakat neden RB.6 da çalýþtý araþtýr. ??????????
+ APFCON0=%00000000
+WPUB=255
+WPUA=255
+;DACCON0=0
+adcon0=0
+adcon1=0
+;LATA.5=1
+OPTION_REG.7=0
+TRISA=%00110000
+TRISB=%00000010     ' PORTB.1 RX UCU ÝNPUT YAPILDI
+
+;BAUDCON= %01001000
+
+
+; orjinal
+; ********  32 mhz de   9600 baud 8 N 1 ****************
+DEFINE HSER_RCSTA 90h ; Enable serial port & continuous receive
+DEFINE HSER_TXSTA 24h ;' Enable transmit, BRGH = 0
+DEFINE HSER_CLROERR 1 ;' Clear overflow automatically
+DEFINE HSER_SPBRGH 3
+DEFINE HSER_SPBRG 64         ;++++++++++++  SPBRG  L olmalý +++++++++++++++++++++
+BAUDCON= %01001000         ' Enable 16 bit baudrate generator
+
+
+SYMBOL  GIE  =INTCON.7  
+SYMBOL  PEIE =INTCON.6  
+SYMBOL  RCIE =PIE1.5    
+SYMBOL  RCIF =PIR1.5
+
+   sayH  VAR word [20]
+  sayL  VAR word [20]
+
+sayLL  VAR word [12]
+sayHH  VAR word [12]
+
+ii var byte ; sayHH deðerini çaðýrmak için 
+jj  var byte ;sayLL deðerini çaðýrmak için
+kk  var byte ;son deðeri sayL dizisine aktarmak için    kullanýlacak. 
+
+T   var byte
+I       VAR BYTE
+RECV_PIN var porta.2
+temp1 var word
+temp var word
+
+
+RCIE=1
+PEIE=1
+GIE=1
+
+                                   
+  hserout ["Seri port basla ",13,10]
+
+basla:
+ hserout ["IR sinyali gonder ",13,10]
+  temp=0:temp1=0
+
+while temp1<14000
+PULSIN RECV_PIN,1,temp1
+wend 
+ 
+
+
+for I=0 to 20
+PULSIN RECV_PIN,0,sayL[I]
+next
+
+
+
+while temp1<14000
+PULSIN RECV_PIN,1,temp1
+wend
+
+for I=0 to 20
+PULSIN RECV_PIN,1,sayH[I]
+next
+
+;for I=0 to 20
+;hserout ["sayL : ",dec5 sayL[I],"  sayH : ",dec5 sayH[I],13,10]
+;next
+;**********  buraya kadar sinyali bir diziye çevirdik. sonrasýnda diziden tekrarlanan kýsýmlardan 1 tanesini alýp koda dönüþtüreceðiz. 
+T=0:temp=0
+for I=0 to 20
+if T=11 then temp=1      ; sayLL de ihtiyacýmýz olan bilgi her defasýnda 11 adettir. bunu aldýktan sonra kayýt yapmayý durduruyoruz.
+if temp=0 then 
+sayLL[T]=sayL[I]
+T=T+1
+endif
+next
+
+T=0:temp=1
+for I=0 to 20
+
+if T=11 then temp=1      ; sayHH de ihtiyacýmýz olan bilgi her defasýnda 11 adettir. bunu aldýktan sonra kayýt yapmayý durduruyoruz.
+if temp=0 then 
+sayHH[T]=sayH[I]
+T=T+1
+endif
+if sayH[I]>3000 then temp=0    ; 2 sinyal arasý HIGH seviyesi yaklaþýk 15000 birim bu kýsmý baþlangýç yapýp sonrakini alýyoruz. 
+next
+
+  for I=0 to 11
+;hserout ["sayLL : ",dec5 sayLL[I],"  sayHH : ",dec5 sayHH[I],13,10]
+next
+
+; ************* buraya kadar gerçek sinyal deðerlerini bulduk. burada büyük olan sinyalleri 2 ye bölerek gerçek sinyali 1 ve 0 olarak koda çeviriyoruz. 
+; burada sayL ve sayH ile iþimiz bittiði için hesaplanmýþ deðerleri sayL dizisinde saklayacaðýz. 
+ii=0:jj=0:kk=0
+sayL[0]=1:sayL[1]=0 ; en baþta kayýp olan baþlangýç sinyali 1 seviyesinden 0 seviyesine gidiyor. 
+kk=kk+2; yukarýda 0. ve 1. dizi elemanlarýný kullandýk. artýk kayýtlar 2 den sonra baþlamalý. yoksa eski kayýtýn üzerine yazar.
+
+        call tekrarla
+        call tekrarla
+        call tekrarla
+        call tekrarla
+        call tekrarla
+        call tekrarla
+        call tekrarla
+        call tekrarla
+        call tekrarla
+        call tekrarla
+        call tekrarla
+        call tekrarla
+        call tekrarla
+for I=0 to 27     ; 14 bit 1 ve 0 olarak 28 adet yapýyor. 0 dan baþlayýnca 0-27 arasý 28 kez çalýþýyor. 
+hserout ["sayL : ",dec1 sayL[I],13,10]
+next
+
+        call sonkod
+hserout ["Son Kod BINARY  ",bin temp,13,10] 
+hserout ["Son Kod HEX ",hex4 temp,13,10] 
+;hserout ["Son Kod DEC ",dec5 temp,13,10]
+
+goto basla
+
+
+tekrarla:
+ if sayHH[ii]<1200 then 
+    sayL[kk]=1
+    ii=ii+1:kk=kk+1
+ elseif  sayHH[ii]>1200 then  
+        sayL[kk]=1
+        kk=kk+1: sayL[kk]=1
+        ii=ii+1:kk=kk+1
+ endif
+ 
+ if sayLL[jj]<1200 then 
+    sayL[kk]=0
+    jj=jj+1:kk=kk+1
+ elseif  sayLL[jj]>1200 then  
+        sayL[kk]=0
+        kk=kk+1: sayL[kk]=0
+        jj=jj+1:kk=kk+1
+ endif     
+ return
+     
+sonkod: 
+
+temp=0
+for I=0 to 27  step 2
+;hserout ["sayL I :  ",dec1 sayL[I],"    sayL I+1 :  ",dec1 sayL[I+1],13,10]
+
+if sayL[I]=0 and sayL[I+1]=1 then 
+    temp=temp<<1    ; temp sayýsý son kod deðiþkenidir. her iþlem sonucu 1 sola kaydýrýlarak eklenir. 
+    temp=temp+0
+endif
+
+if sayL[I]=1 and sayL[I+1]=0 then 
+    temp=temp<<1    ; temp sayýsý son kod deðiþkenidir. her iþlem sonucu 1 sola kaydýrýlarak eklenir. 
+    temp=temp+1
+endif    
+next
+
+return
+
+end
