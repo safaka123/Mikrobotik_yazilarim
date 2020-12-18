@@ -1,0 +1,6 @@
+Programın ihtiyacı olan kütüphane bu dizindir.
+ 
+buradaki kütüphaneyi belgeleriniz içerisindeki
+ arduino dizininin içindeki library dizinine kopyalayıp sonrasında
+ bu programı derlemeniz lazım. 
+
