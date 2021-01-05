@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="1082" height="375.833" viewBox="0, 0, 1082, 375.833">
+  <g id="Layer_1">
+    <g>
+      <path d="M0,141.677 L1082,141.677 L1082,213.677 L0,213.677 L0,141.677 z" fill="#656565"/>
+      <g>
+        <path d="M54.5,46.007 L41.288,130.716" fill-opacity="0" stroke="#A3A3A3" stroke-width="4"/>
+        <path d="M41.288,130.716 L37.038,126.814 L39.808,140.201 L46.523,128.294 z" fill="#A3A3A3" fill-opacity="1" stroke="#A3A3A3" stroke-width="4" stroke-opacity="1"/>
+      </g>
+      <g>
+        <path d="M289.083,311.333 L255.499,242.427" fill-opacity="0" stroke="#A3A3A3" stroke-width="4"/>
+        <path d="M255.499,242.427 L261.216,243.201 L251.293,233.798 L252.586,247.407 z" fill="#A3A3A3" fill-opacity="1" stroke="#A3A3A3" stroke-width="4" stroke-opacity="1"/>
+      </g>
+      <g>
+        <path d="M380.249,46.007 L367.129,119.248" fill-opacity="0" stroke="#A3A3A3" stroke-width="4"/>
+        <path d="M367.129,119.248 L362.968,115.252 L365.436,128.698 L372.418,116.945 z" fill="#A3A3A3" fill-opacity="1" stroke="#A3A3A3" stroke-width="4" stroke-opacity="1"/>
+      </g>
+      <g>
+        <path d="M786.417,279.333 L778.387,248.079" fill-opacity="0" stroke="#A3A3A3" stroke-width="4"/>
+        <path d="M778.387,248.079 L783.832,249.984 L775.998,238.781 L774.534,252.373 z" fill="#A3A3A3" fill-opacity="1" stroke="#A3A3A3" stroke-width="4" stroke-opacity="1"/>
+      </g>
+      <path d="M139,136.677 L371,136.677 L371,218.677 L139,218.677 L139,136.677 z" fill="#A3A3A3"/>
+      <path d="M687,136.677 L954,136.677 L954,218.677 L687,218.677 L687,136.677 z" fill="#A3A3A3"/>
+      <path d="M152,126.677 L357,126.677 L357,228.677 L152,228.677 L152,126.677 z" fill="#D0D0D0"/>
+      <path d="M703,126.677 L940,126.677 L940,228.677 L703,228.677 L703,126.677 z" fill="#D0D0D0"/>
+      <text transform="matrix(1, 0, 0, 1, 86.159, 24.5)">
+        <tspan x="-85.243" y="10.5" font-family="Avenir-Medium" font-size="35" fill="#656565">Ferrite rod</tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 394.492, 31.167)">
+        <tspan x="-94.909" y="10.5" font-family="Avenir-Medium" font-size="35" fill="#656565">Coil former</tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 322.826, 339.333)">
+        <tspan x="-142.576" y="6.5" font-family="Avenir-Medium" font-size="35" fill="#656565">Coil for first band</tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 800.159, 327.333)">
+        <tspan x="-120.295" y="-13.5" font-family="Avenir-Medium" font-size="35" fill="#656565">Coil for second </tspan>
+        <tspan x="-123.848" y="34.5" font-family="Avenir-Medium" font-size="35" fill="#656565">frequency band</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
