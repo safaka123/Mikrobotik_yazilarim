@@ -7,5 +7,8 @@ Programlar Kaynak gösterilerek paylaşılmalıdır.
 İsteyenlere eldeki stok pcb ler ve komponentler monte edilmeden ücreti mukabilinde gönderilebilir. 
 Sadece stok kadar gönderilecektir. 
 
+EASYLCD hakkında tüm detaylar bu sitemdedir. 
+https://www.mikrobotik.com/wp2/
+
 ŞAFAK AĞUSTOSLU
 safakagustoslu@hotmail.com
