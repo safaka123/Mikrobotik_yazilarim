@@ -6,7 +6,7 @@ daha ucuza yapsınlar diye paylaşmaya karar verdim.
 Herkes kendisi isterse yapsın diye AÇIK kaynak olarak dağıtmaya karar verdim.
 PCB şemalarına kadar tüm programlar, örnek programlar ve videoları paylaşıma açılacaktır. 
 TİCARİ KULLANIM YASAKTIR. Sadece kişisel kullanıma açılmıştır. Ticari kullanımlarda Mahkeme yoluna gidilecektir. 
-Programlar Kaynak gösterilerek paylaşılmalıdır. 
+PROGRAMLAR KAYNAK GÖSTERİLEREK PAYLAŞILMALIDIR. Aşagıda bulunan lisans şartlarına göre paylaşabilirsiniz.
 
 İsteyenlere eldeki stok pcb ler ve komponentler monte edilmeden ücreti mukabilinde gönderilebilir. 
 Sadece stok kadar gönderilecektir. 
