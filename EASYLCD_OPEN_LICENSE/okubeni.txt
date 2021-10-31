@@ -1,0 +1,76 @@
+Detaylar için https://www.mikrobotik.com/wp2/  siteme bakabilirsiniz. 
+
+Örnek Videolar için : https://www.youtube.com/watch?v=Iz6FQB1LtWQ&list=PLLdhySdP_wwcLM1b_utPm8hqjr6BhIRXv&index=1
+
+Virtual seri port sadece 32 bit kullanýmda free lisans var.
+ 
+Bundan dolayý 64 bit bile kullansanýz bu programý kullanýn . API KEY içerisindedir.
+Bu program her açýlýþýnda 64 bit yapayýmmý diyor. SAKIN 64 BÝT YAPMAYIN ANAHTAR GEÇERSÝZ OLUR. 
+32 BÝT WÝNDOWS 10 DA BÝLE GAYET GÜZEL ÇALIÞIYOR. 
+SADECE 1 COM PORT AÇTIÐINIZDA BUNU PROTEUS COMPIM ARACINA BÝLDÝRÝYORSUNUZ VE
+ 2 PROTEUS PROGRAMI AYNI COM PORT ÜZERÝNDEN HABERLEÞEREK ÇALIÞIYOR. 
+Animasyon programlarýný Virtual EASYLCD ile simülatör olarak kullanabilirsiniz.
+Videoda kullanýmlarý görebilirsiniz. 
+ 
+VisualBasicPowerPacksSetup.rar programý
+ VB2010 EASYLCD programýný windows10 programýný kurduðunuzda
+Çalýþmazsa kurulacak. Belki eskiden baþka sebeplerle kurmuþ olabilirsiniz. 
+
+
+
+
+Programda yapýlan son deðiþiklikler:
+
+01.03.2018 de yapýlan deðiþiklik ile 
+
+setup kullanýcý eprom lokasyonu 613 ve 614. satýr iptal edildi. 
+
+ayrýca READY kelimesinin altýna mode ve satýr sayýlarý yazýldý.
+
+bu þekilde setup karýþmýþ mý belli olacak. 
+
+ayrýca usb seri çeviriciden TX ve RX ile birlikte GND alýnýp easylcd ayrý bir 
+batarya ile çalýþtýrýlýyorsa. þaselerden etkilenme olup eprom sorun yaratýyordu. 
+bu þekilde çalýþmada katodu easylcd ye bakacak þekilde 1n5819 diyot konuldu. 
+ve bu diyotla ft232rl nin þasesi, easylcd nin þasesine birleþtirilmiþ olarak çalýþtýrdýðýmýzda
+sorun ortadan kalktý.
+
+
+ayrýca ilk açýlýþta ekranda kutularda görünüyordu bu da engellenmiþ oldu.
+
+Ayrý batarya kullanýlýyorsa bu durumun dikkate alýnmasý lazým. 
+
+son program ismi 16F1827_RS232_AL_V25_01032018.pbp
+
+
+
+5 kasým 2019 yapýlan deðiþiklikler. 
+______________________________________
+
+Program ismi 16F1827_RS232_AL_V26_05112019.pbp  oldu.
+
+250. satýrdaki bu satýr içerisinde SH=41 yapýldý. ESP CR +LF gönderdiðinde 
+40 karakterin 40. karakteri basýlamýyordu. 
+
+
+
+185. satýrdaki   lcdout $FE,$C0,dec mode," , ",dec3 line3," , ",dec3 line4   
+ 
+call baudyazdir oldu. ekranýn 1. satýrýnýa 96008N1 olarak yazýyor. bunu baudyazdir 
+kýsmýndaki baud ayar parametreleri ile birlikte kullanýyor. baudyazdir hem ilk ayarda hem de 
+ilk açýlýþta kullanýlýyor. ekrana yazdýrmak için. 
+
+Kesme altprogramýnda CRLF için bu eklenti yapýldý.Bu eklentide temp1 olan deðer 1 eksiltilerek
+ karakter sayýsýnýn ayný kalmasý ve CR LF nin data sonundan silinmesi saðlandý. 
+
+
+for temp1=2 to 50
+  HSERIN 5,atla, [ dd[temp1]] 
+  if dd[temp1]=13 or dd[temp1]=10 then 
+     ;dd[temp1]=""   ; bu satir yerine temp1 -1 yap. bir daha gelirse temp-1 yapsýn. CR LF iptal olacaktýr*************************************************
+     ; burada bir deðiþken tanýmlayýp sonunda temp1 sayýsýný o kadar eksiltmek gerek. CR LF aktarma yapmamalý
+     temp1=temp1-1   ; data kaç karakter ise temp1 de o kadar olacak fazlalýklarý atmak için 1 eksiltildi. 
+   endif
+;  if dd[temp1]=13 then goto atla          ; bu satýrý rem satýrýna dönüþtür kontrol et.
+  next temp1  
+
