@@ -1,0 +1,10 @@
+Tüm proteus programları Proteus V7.10 versiyonuyla yapıldığından
+Proteus 8 versiyonlarıyla ve yukarı versiyonlarıyla tam uyumludur. 
+
+Proteus sanal EASYLCD kullanan animasyonlarda 
+PIC16F827 entegresinin KAynak HEX dosyası 
+16F1827_RS232_AL_V26_05112019.HEX olan EASYLCD programıdır. 
+Bu program ile proteus sanal EASYLCD çalıştığı gibi Gerçek EASYLCD devresi için
+entegreye bu HEX dosyasını yüklemeniz gerekir. 
+
+Son versiyon budur. 
