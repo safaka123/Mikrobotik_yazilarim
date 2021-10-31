@@ -1,0 +1,272 @@
+'****************************************************************
+'*  Name    : 16f628_RS232 LCD Kontrol Verici                   *
+'*  Author  : [ÞAFAK]                    *
+'*  Notice  : Copyright (c) 2016 [ÞAFAK] *
+'*          : All Rights Reserved                               *
+'*  Date    : 31.12.2016                                        *
+'*  Version : 1.0                                               *
+'*  Notes   : hafiza yeterli olmadýðýndan program 16f1827 ye uyarlanýp animasyonlar eklenecek *
+'*          :                                                   *
+'****************************************************************
+ ; 16F1827 config ayarlarý 
+
+#config
+  __config _CONFIG1, _FOSC_INTOSC & _WDTE_OFF & _PWRTE_ON & _MCLRE_OFF & _CP_OFF & _CPD_OFF & _BOREN_OFF & _CLKOUTEN_OFF & _IESO_OFF & _FCMEN_OFF
+  __config _CONFIG2, _WRT_ALL & _PLLEN_OFF & _STVREN_OFF & _LVP_OFF & _BORV_LO & _LVP_OFF
+#ENDCONFIG
+
+; 32mhz OSC  _________________________
+;DEFINE OSC 32
+;OSCCON= %11110000 
+;_______________________________________
+
+; 4mhz OSC  _________________________
+DEFINE OSC 4
+OSCCON= %01101000 
+;_______________________________________
+
+
+ANSELA=0
+ANSELB=0
+ APFCON1=%00000000    ; XXXXXXX   ccp2 porta.7 ye alýndý þayet sýfýr olursa ccp1 ve ccp2 rb3 ve rb6 da birlikte çalýþýyordu. 
+                    ; porta.7 ye alýndýðýnda ccp2 çalýþmadý fakat neden RB.6 da çalýþtý araþtýr. ??????????
+ APFCON0=%00000000
+WPUB=255
+WPUA=255
+DACCON0=0
+adcon0=0
+adcon1=0
+LATA.5=1
+TRISA=%00000000
+TRISB=%00000010     ' PORTB.1 RX UCU ÝNPUT YAPILDI
+
+SYMBOL  GIE  =INTCON.7  
+SYMBOL  PEIE =INTCON.6  
+SYMBOL  RCIE =PIE1.5    
+SYMBOL  RCIF =PIR1.5
+
+
+dd  var byte[6]               ; READ karakter eklenecekse bu sayý 15 olacak. ????????????????
+
+;DEFINE HSER_RCSTA 90h ' Enable serial port & continuous receive
+;DEFINE HSER_TXSTA 24h ' Enable transmit, BRGH = 1
+;DEFINE HSER_CLROERR 1 ' Clear overflow automatically
+;DEFINE HSER_SPBRG 160 ' 2400 Baud @ SPBRGH = 1 4MHZ
+;DEFINE HSER_SPBRGH 1
+;BAUDCON.3 = 1         ' Enable 16 bit baudrate generator
+
+
+;DEFINE HSER_RCSTA 90h ' Enable serial port & continuous receive
+;DEFINE HSER_TXSTA 20h ' Enable transmit, BRGH = 0
+;DEFINE HSER_CLROERR 1 ' Clear overflow automatically
+;DEFINE HSER_SPBRG 12  ' 19200 Baud @ SPBRGH = 0
+;BAUDCON.3 = 1         ' Enable 16 bit baudrate generator
+
+
+
+
+
+
+
+DEFINE HSER_RCSTA 90h ' Enable serial port & continuous receive
+DEFINE HSER_TXSTA 24h ' Enable transmit, BRGH = 1
+DEFINE HSER_SPBRG 25  ' 9600 Baud @ 4MHz, 0,16%
+DEFINE HSER_CLROERR 1 ' Clear overflow automatically
+DEFINE HSER_BAUD 9600 ' BaudRate 9600
+
+; orjinal
+; ********  32 mhz de   9600 baud 8 N 1 ****************
+;DEFINE HSER_RCSTA 90h ; Enable serial port & continuous receive
+;DEFINE HSER_TXSTA 24h ;' Enable transmit, BRGH = 0
+;DEFINE HSER_CLROERR 1 ;' Clear overflow automatically
+;DEFINE HSER_SPBRGH 3
+;DEFINE HSER_SPBRG 64         ;++++++++++++  SPBRG  L olmalý +++++++++++++++++++++
+;BAUDCON= %01001000         ' Enable 16 bit baudrate generator
+
+
+
+
+;SYMBOL SER=PORTB.4
+
+pause 100  ; Alýcý devre hazýr olsun diye gecikme.
+
+tt  var byte
+temp1    var byte
+don     var byte
+temp    var byte
+sayac   var byte
+dondur  var byte
+dur     var word
+sayma1  var byte
+sayma2  var byte
+sayma3  var byte
+tt1     var byte
+tt2     var byte
+
+
+
+sayac=0
+don=0
+RCIE=1
+PEIE=1
+GIE=1
+ON INTERRUPT GOTO KESME  
+pause 1
+dur=300
+
+;sayac=57
+;hserout ["LCDDD"]
+;pause 100
+hserout ["LCDDD"]
+;  PAUSE 30
+;  hserout ["LCDWR 1,1-0123456789012345678901234567890123456789"]
+;  hserout ["LCDWR 1,1-DENEK"]
+;DENE:
+;  GOTO DENE
+;pause 100
+basla:
+;disable:goto saymaduzen2      ; normal kullanýmda silinecek ????????????????????????
+if don=1 and dd[2]="R" then sayac=sayac+1:pause dur:gosub yazdir:don=0
+if don=1 and dd[2]="P" and sayac>0 then pause dur:sayac=sayac-1:gosub yazdir:don=0
+if don=1 and dd[2]="H" and sayac=0 then pause dur:hserout ["LCDDD"]:sayac=sayac+1:don=0
+if don=1 and sayac=0 then sayac=sayac+1:hserout ["LCDDD"]
+;if don=1 and sayac=0 then hserout ["LCDDD"]
+goto basla
+
+yazdir:    ; read 8 karakter okuma koy geleni ise seri porttan al ve karþýya yazdýr xxxxxxxxxxxxx
+
+if sayac=1 then hserout ["LCDDD"]:goto sonkal
+ 
+if sayac=2 then hserout ["LCDNC 3-",$0E,$10,$10,$0E,$01,$05,$1E,$04]:goto sonkal
+if sayac=3 then hserout ["LCDWR 1,1-","A",3,"IK"]:goto sonkal
+if sayac=4 then hserout ["LCDWR 2,1-",3," NEW CHARACTER"]:goto sonkal
+if sayac=5 then hserout ["LCDWR 2,1-","HEX ",hex2 65," DEC ",dec2 65,"(A)"];:goto sonkal
+if sayac=6 then hserout ["LCDWR 1,1-","DISP. WILL CLOSE"];:goto sonkal
+if sayac=7 then hserout ["LCDDC"];:goto sonkal
+if sayac=8 then hserout ["LCDWR 1,1-","DISP OPENED     "]; :goto sonkal
+if sayac=9 then hserout ["LCDDO"] ; :goto sonkal
+if sayac=10 then hserout ["LCDWR 1,1-","CUR.BOX    "]; :goto sonkal
+if sayac=11 then hserout ["LCDCB"]  ;:goto sonkal
+if sayac=12 then hserout ["LCDWR 1,1-","CUR.UNDER  "] ;:goto sonkal
+if sayac=13 then hserout ["LCDCU"] ; :goto sonkal
+if sayac=14 then hserout ["LCDWR 1,1-","CUR.HIDDEN "];:goto sonkal
+if sayac=15 then hserout ["LCDCH"];:goto sonkal
+if sayac=16 then hserout ["LCDWR 1,1-","CUR SHIFT L<="] ; :goto sonkal
+if sayac=17 then hserout ["LCDCB"];:goto sonkal
+if sayac=18 then hserout ["LCDCL"]; :goto sonkal
+if sayac=19 then hserout ["LCDCL"] ;:goto sonkal
+if sayac=20 then hserout ["LCDCL"] ;:goto sonkal
+if sayac=21 then hserout ["LCDWR 1,1-","CUR SHIFT R=>"]  ;:goto sonkal
+if sayac=22 then hserout ["LCDCR"]; :goto sonkal
+if sayac=23 then hserout ["LCDCR"]; :goto sonkal
+if sayac=24 then hserout ["LCDCR"]; :goto sonkal
+if sayac=25 then hserout ["LCDWR 1,1-","DISP. SHIFT R==>"] ; :goto sonkal
+if sayac=26 then hserout ["LCDSR"]  ;:goto sonkal
+if sayac=27 then hserout ["LCDSR"]  ;:goto sonkal
+if sayac=28 then hserout ["LCDWR 1,1-","DISP. SHIFT L<=="]  ; :goto sonkal
+if sayac=29 then hserout ["LCDSL"]  ; :goto sonkal
+if sayac=30 then hserout ["LCDSL"]  ;  :goto sonkal
+if sayac=31 then hserout ["LCDWR 1,1-","CURSOR HOME     "]    ;:goto sonkal
+if sayac=32 then hserout ["LCDHO"]   ;   :goto sonkal
+if sayac=33 then hserout ["LCDWR 1,1-","BACKLIGHT CLOSE "]   ; :goto sonkal
+if sayac=34 then hserout ["LCDBC"];:goto sonkal
+if sayac=35 then hserout ["LCDWR 1,1-","BACKLIGHT OPEN  "]   ; :goto sonkal
+if sayac=36 then hserout ["LCDBO"];:goto sonkal
+if sayac=37 then hserout ["LCDWR 1,1-","BACKLIGHT  %10  "]   ; :goto sonkal
+if sayac=38 then hserout ["LCDBL 1"] ;:goto sonkal
+if sayac=39 then hserout ["LCDWR 1,1-","BACKLIGHT  %90  "]   ; :goto sonkal
+if sayac=40 then hserout ["LCDBL 9"] ;:goto sonkal
+if sayac=41 then hserout ["LCDWR 1,1-","BACKLIGHT  %40  "]   ; :goto sonkal
+if sayac=42 then hserout ["LCDBL 4"] ;:goto sonkal
+if sayac=43 then hserout ["LCDCH"];: goto sonkal
+if sayac=44 then hserout ["LCDWR 1,1-","EEPROM RECORDING"]   ; :goto sonkal
+if sayac=45 then hserout ["LCDWR 2,1-","                "]   ; :goto sonkal
+if sayac=46 then hserout ["LCDEW 0-",$0A,$00,$11,$11,$11,$11,$0E,$00];:goto sonkal ; Ü
+if sayac=47 then hserout ["LCDEW 17-",$0E,$11,$10,$10,$11,$0E,$04,$00];:goto sonkal ; Ç
+if sayac=48 then hserout ["LCDEW 2-",$04,$00,$0E,$04,$04,$04,$0E,$00];: goto sonkal ; Ý
+if sayac=49 then hserout ["LCDEW 3-",$0A,$00,$0E,$11,$11,$11,$0E,$00];: goto sonkal ; Ö
+if sayac=50 then hserout ["LCDEW 4-",$0E,$00,$1F,$10,$13,$11,$1F,$00];:goto sonkal   ; Ð
+if sayac=51 then hserout ["LCDEW 5-",$0F,$11,$10,$0E,$01,$15,$0E,$04];:goto sonkal   ; Þ
+if sayac=52 then hserout ["LCDEW 6-",$0C,$12,$12,$0C,$00,$00,$00,$00];: goto sonkal  ; derece
+if sayac=53 then hserout ["LCDEW 7-",$04,$04,$1F,$04,$04,$00,$1F,$00];: goto sonkal  ; + -
+if sayac=54 then hserout ["LCDSC 17,3-"];: goto sonkal   ; SWAP CHAR.
+if sayac=55 then hserout ["LCDWR 2,1-","A",3,"IK            "];:  goto sonkal
+if sayac=56 then hserout ["LCDWR 1,1-",3," READ CH. EPROM"] ;   :goto sonkal
+if sayac=57 then hserout ["LCDDD"];:goto sonkal
+if sayac=58 then hserout ["LCDCU"];:goto sonkal
+if sayac=59 then hserout ["LCDER"];:goto sonkal       ; EPROM DA YAZILAN 8 KARAKTER GÖR.
+if sayac=60 then hserout ["LCDDD"];:goto sonkal
+if sayac=61 then hserout ["LCDCB"];:goto sonkal
+if sayac=62 then hserout ["LCDWR 1,1-","READ   CHARACTER"] ;:goto sonkal   ; EKRANDAN 8 KARAKTER OKUMA
+if sayac=63 then hserout ["LCDRC 1,14-"] ; :goto sonkal
+if sayac=64 then don=0:gosub saymaduzen :sayac=0
+
+sonkal:
+resume
+
+saymaduzen:
+temp1=0
+hserout ["LCDDD"]
+while don=0
+wend
+don=0
+
+hserout ["LCDWR 1,3-","FASTEST WRITE"]
+while don=0
+wend
+; don=0
+
+for  tt= 0 to 59
+for tt1=0 to 59
+for tt2=0 to 59
+ PAUSE 1
+ if don=1 then don=0:hserout ["LCDWR 2,4-",dec2 tt,"/",dec2 tt1,"/",dec2 tt2]
+ while don=0
+wend
+next tt2
+next tt1
+next tt
+pause dur
+
+resume
+
+
+
+
+
+
+
+DISABLE
+KESME:  ; SERÝ PORT KESMESÝ
+GIE=0
+
+  HSERIN 5,atla2, [WAIT("LCD"),dd[1]]
+
+  HSERIN 5,atla, [ dd[2]] 
+  HSERIN 5,atla, [ dd[3]]
+  HSERIN 5,atla, [ dd[4]]
+  HSERIN 5,atla, [ dd[5]]
+  HSERIN 5,atla, [ dd[6]]
+ATLA:
+
+don=1
+if dd[2]="C" then don=0
+atla2:
+dondur=1
+TEMP=RCREG
+GIE=1
+
+;if sayac>30 then 
+;    pause 3
+;else
+    pauseUS 50
+;endif
+
+return
+enable
+
+
+
+end
+
+

@@ -1,0 +1,127 @@
+'****************************************************************
+'*  Name    : UNTITLED.BAS                                      *
+'*  Author  : [select VIEW...EDITOR OPTIONS]                    *
+'*  Notice  : Copyright (c) 2015 [select VIEW...EDITOR OPTIONS] *
+'*          : All Rights Reserved                               *
+'*  Date    : 25.06.2015                                        *
+'*  Version : 1.0                                               *
+'*  Notes   :                                                   *
+'*          :                                                   *
+'****************************************************************
+ DEFINE OSC 4
+
+ 
+;#config
+; __config _INTRC_OSC_NOCLKOUT & _MCLRE_OFF & _WDT_OFF & _CP_OFF
+;#ENDCONFIG
+ 
+ADCON1=7
+;ADCON0=%00000000
+
+;ANSEL=0 ;ADC ler iptal
+
+SYMBOL TXPIN=portc.6
+dur     var word
+dur=5000
+pause 1300
+BASLA:
+
+serout2 TXPIN,84,["LCDDD"]
+pause dur
+serout2 TXPIN,84,["LCDDD"]
+pause dur
+serout2 TXPIN,84,["LCDNC 3-",$0E,$10,$10,$0E,$01,$05,$1E,$04]
+pause dur
+serout2 TXPIN,84,["LCDWR 1,1-","A",3,"IK"]
+pause dur
+serout2 TXPIN,84,["LCDWR 2,1-",3," NEW CHARACTER"]:
+pause dur
+serout2 TXPIN,84,["LCDWR 2,1-","HEX ",hex2 65," DEC ",dec2 65,"(A)"]
+pause dur
+serout2 TXPIN,84,["LCDWR 1,1-DISP. WILL CLOSE"];:goto sonkal
+pause dur
+serout2 TXPIN,84,["LCDDC"];:goto sonkal
+pause dur
+serout2 TXPIN,84,["LCDWR 1,1-DISP OPENED     "]; :goto sonkal
+pause dur
+serout2 TXPIN,84,["LCDDO"] ; :goto sonkal
+pause dur
+
+
+serout2 TXPIN,84,["LCDWR 1,1-","CUR.UNDER  "] ;:goto sonkal
+pause dur
+serout2 TXPIN,84,["LCDCU"] ; :goto sonkal
+pause dur
+serout2 TXPIN,84,["LCDWR 1,1-","CUR.HIDDEN "];:goto sonkal
+pause dur
+serout2 TXPIN,84,["LCDCH"];:goto sonkal
+pause dur
+serout2 TXPIN,84,["LCDWR 1,1-","CUR.BOX    "]; :goto sonkal
+pause dur
+serout2 TXPIN,84,["LCDCB"]  ;:goto sonkal
+pause dur
+serout2 TXPIN,84,["LCDWR 1,1-","CUR SHIFT L<="] ; :goto sonkal
+pause dur
+serout2 TXPIN,84,["LCDCL"]; :goto sonkal
+pause dur
+serout2 TXPIN,84,["LCDCL"] ;:goto sonkal
+pause dur
+serout2 TXPIN,84,["LCDCL"] ;:goto sonkal
+pause dur
+serout2 TXPIN,84,["LCDWR 1,1-","CUR SHIFT R=>"]  ;:goto sonkal
+pause dur
+serout2 TXPIN,84,["LCDCR"]; :goto sonkal
+pause dur
+serout2 TXPIN,84,["LCDCR"]; :goto sonkal
+pause dur
+serout2 TXPIN,84,["LCDCR"]; :goto sonkal
+pause dur
+
+
+
+serout2 TXPIN,84,["LCDWR 1,1-DISP. SHIFT R==>"] ; :goto sonkal
+pause dur
+serout2 TXPIN,84,["LCDSR"]  ;:goto sonkal
+pause dur
+serout2 TXPIN,84,["LCDSR"]  ;:goto sonkal
+pause dur
+serout2 TXPIN,84,["LCDWR 1,1-DISP. SHIFT L<=="]  ; :goto sonkal
+pause dur
+serout2 TXPIN,84,["LCDSL"]  ; :goto sonkal
+pause dur
+serout2 TXPIN,84,["LCDSL"]  ;  :goto sonkal
+pause dur
+serout2 TXPIN,84,["LCDWR 1,1-","CURSOR HOME     "]    ;:goto sonkal
+pause dur
+serout2 TXPIN,84,["LCDHO"]   ;   :goto sonkal
+pause dur
+serout2 TXPIN,84,["LCDCH"];: goto sonkal
+pause dur
+serout2 TXPIN,84,["LCDWR 1,1-","EEPROM RECORDING"]   ; :goto sonkal
+pause dur
+serout2 TXPIN,84,["LCDWR 2,1-","                "]   ; :goto sonkal
+pause dur
+serout2 TXPIN,84,["LCDEW 0-",$0A,$00,$11,$11,$11,$11,$0E,$00];:goto sonkal ; Ü
+pause dur
+serout2 TXPIN,84,["LCDEW 1-",$0E,$11,$10,$10,$11,$0E,$04,$00];:goto sonkal ; Ç
+pause dur
+serout2 TXPIN,84,["LCDSC 1,3-"];: goto sonkal   ; SWAP CHAR.
+pause dur
+serout2 TXPIN,84,["LCDWR 2,1-","A",3,"IK            "];:  goto sonkal
+pause dur
+serout2 TXPIN,84,["LCDWR 1,1-",3," READ CH. EPROM"] ;   :goto sonkal
+pause dur
+serout2 TXPIN,84,["LCDWR 1,1-","READ   CHARACTER"] ;:goto sonkal   ; EKRANDAN 8 KARAKTER OKUMA
+pause dur
+serout2 TXPIN,84,["LCDRC 1,14-"] ; :goto sonkal                    
+pause dur
+serout2 TXPIN,84,["LCDDD"];:goto sonkal
+pause dur
+serout2 TXPIN,84,["LCDCB"];:goto sonkal
+pause dur
+serout2 TXPIN,84,["LCDER"];:goto sonkal       ; EPROM DA YAZILAN 8 KARAKTER GÖR.
+pause 26000
+goto basla
+
+end
+
