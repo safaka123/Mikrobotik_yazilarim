@@ -1,0 +1,4 @@
+Bu program compim çıkışını kullanır. 
+isterseniz gerçek EASYLCD modül bağlarsınız 
+isterseniz de virtual easylcd dizinindeki proteus simülatörünü kullanabilirsiniz.
+Bu şekilde çalışacaksanız virtual seri port programını kullanmanız gerekecektir.

@@ -1,0 +1,12 @@
+Arduino yerine ATMEGA328 entegre kullanıldı. Fakat gerçek arduinoda aynen çalışır. 
+Gerçek arduino denilen dizinde arduino üzerinde çalışan versiyonda var.
+
+Bu program proteus üzerinde çalışmasını gösterir. 
+EASYLCD pcb ye kurmadan evvel proteus üzerinde kullanıp inceleyebilirsiniz.
+
+Arduino programınızda değişiklik yaptığınızda TASLAK menüsünden DERLENMİŞ BİNARY ÇIKAR 
+seçeneğini seçerek HEX dosyasını yeniden oluşturmuş olursunuz.
+
+Bendeki Arduino İDE versiyon " LCD_sender_LCD.cpp.hex " isminde oluşturdu. 
+Sizdeki isim farklıysa ATMEGA entegresinin kaynak dosyta ismini
+Kendi isminize ait dosya ismi ile değiştirin. 
