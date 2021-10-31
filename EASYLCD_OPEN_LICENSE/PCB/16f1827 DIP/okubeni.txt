@@ -1,0 +1,4 @@
+Eldeki pcb düzeltme olmadan yapılmış programdır. 
+PCB de sorun yok fakat bazı yerler yakın olduğundan düzeltme programında 
+lehim yaparken rahat yapılabilsin diye bazı yollar ve smd ler biraz uzaklaştırıldı. 
+Sadece lehim yaparken sorun olmasın diye. 

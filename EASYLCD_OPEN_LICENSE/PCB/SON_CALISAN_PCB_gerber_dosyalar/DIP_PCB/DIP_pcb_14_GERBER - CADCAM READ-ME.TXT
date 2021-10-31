@@ -1,0 +1,64 @@
+LABCENTER PROTEUS TOOL INFORMATION FILE
+=======================================
+
+In case of difficulty, please e-mail support@labcenter.co.uk
+
+Tool set up for Proteus layout '16F1827_RS232_pcb_14_GERBER.LYT'.
+CADCAM generated at 12:53:54 on 01 Nisan 2017 Cumartesi.
+
+File List
+---------
+Top Copper              : DIP_pcb_14_GERBER - CADCAM Top Copper.TXT
+Bottom Copper           : DIP_pcb_14_GERBER - CADCAM Bottom Copper.TXT
+Top Silk Screen         : DIP_pcb_14_GERBER - CADCAM Top Silk Screen.TXT
+Bottom Silk Screen      : DIP_pcb_14_GERBER - CADCAM Bottom Silk Screen.TXT
+Top Solder Resist       : DIP_pcb_14_GERBER - CADCAM Top Solder Resist.TXT
+Bottom Solder Resist    : DIP_pcb_14_GERBER - CADCAM Bottom Solder Resist.TXT
+Top SMT Paste Mask      : DIP_pcb_14_GERBER - CADCAM Top SMT Paste Mask.TXT
+Bottom SMT Paste Mask   : DIP_pcb_14_GERBER - CADCAM Bottom SMT Paste Mask.TXT
+Mechanical 1            : DIP_pcb_14_GERBER - CADCAM Mechanical 1.TXT
+Drill                   : DIP_pcb_14_GERBER - CADCAM Drill.TXT
+
+Photoplotter Setup
+------------------
+Format: RS274X, ASCII, 2.4, imperial, absolute, eob=*, LZO
+Notes:  D=Diameter, S=Side, W=Width, H=Height, C=Chamfer
+
+D10	CIRCLE  D=20th                                                            DRAW
+D11	CIRCLE  D=30th                                                            DRAW
+D12	CIRCLE  D=25th                                                            DRAW
+D13	CIRCLE  D=30th                                                            FLASH
+D14	SQUARE  S=80th                                                            FLASH
+D15	DIL     W=60th                H=100th               C=12th                FLASH
+D16	DIL     W=100th               H=60th                C=12th                FLASH
+D17	CIRCLE  D=8th                                                             DRAW
+D18	CIRCLE  D=40th                                                            DRAW
+D19	RECT    W=80th                H=60th                                      FLASH
+D70	RECT    W=80th                H=150th                                     FLASH
+D71	RECT    W=60th                H=40th                                      FLASH
+D20	RECT    W=40th                H=60th                                      FLASH
+D21	RECT    W=40th                H=35th                                      FLASH
+D22	RECT    W=51th                H=79th                                      FLASH
+D23	RECT    W=79th                H=51th                                      FLASH
+D24	CIRCLE  D=2.5th                                                           DRAW
+D25	CIRCLE  D=6th                                                             DRAW
+D26	CIRCLE  D=50th                                                            FLASH
+D27	SQUARE  S=100th                                                           FLASH
+D28	DIL     W=80th                H=120th               C=12th                FLASH
+D29	DIL     W=120th               H=80th                C=12th                FLASH
+D72	RECT    W=100th               H=80th                                      FLASH
+D73	RECT    W=100th               H=170th                                     FLASH
+D30	RECT    W=60th                H=80th                                      FLASH
+D31	RECT    W=60th                H=55th                                      FLASH
+
+NC Drill Setup
+--------------
+Format: ASCII, 2.4, imperial, absolute, eob=<CR><LF>, no zero suppression.
+Notes:  Tool sizes are diameters. Layer sets are in brackets - 0=TOP, 15=BOTTOM, 1-14=INNER.
+
+T01	15th (0-15)
+T02	40th (0-15)
+T03	30th (0-15)
+
+
+[END OF FILE]

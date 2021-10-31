@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity version="1.0.0.2" name="vb_serial12.exe" publicKeyToken="d9311f5c516bd9ee" language="tr-TR" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="favicon_3.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="vb_serial12" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="vb_serial12.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.VisualBasic.PowerPacks.Vs.dll" size="259464">
+      <assemblyIdentity name="Microsoft.VisualBasic.PowerPacks.Vs" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>ht9gayw7qviBWoZTNeGrJx3jUcI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="vb_serial12.exe" size="45056">
+      <assemblyIdentity name="vb_serial12" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>D4XEbHL4m95G6RU9s/CxqPo5KI4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="favicon_3.ico" size="5694">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>TjjtDNoDoG6E3EeIFbvsXuC+TVg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Microsoft.VisualBasic.PowerPacks.Vs.xml" size="233078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Z+OguWpVzUJpuvrB/QVpdoDwkCI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="vb_serial12.exe.config" size="1346">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>YhZQ+fSY4HsNvgDSvkCB4S6O60o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="vb_serial12.pdb" size="50688">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>zdnTBJw8ZcOfQOAqmZac+edbdD0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="vb_serial12.xml" size="676">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>UEmIZmRC13XY+Sve8dVpkICbu20=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=LG-10D6D2BEB665\LG_PC" issuerKeyHash="6ab139d8372d1822e9363289bfee9dd812912a37" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>wD3wLkoTwAed9EpCIGRq8Gl913w=</DigestValue></Reference></SignedInfo><SignatureValue>R1ioqiTOj0qGtO6MLXnXwgD9Z/7GhsctULW6E4tlwHvMEoaqP866vqGeeRNWGOqZoOtp37OZmz5LEG1xoEy+eETm9RtyNY1h87pTH3XXaeAOiB/6dta3xxp67J+US0++Qt8oUTtPTwv+c3rl6GYfUAcIND9C0PLCcRSttxnwu7Y=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uQP53nmG/pzAtwBYnQZG+m0a2MH89jZQCqKG74SCvBfZOxZ2i5InNZCrwSrOkvyX5IkIO7nhKWRo2MEL7brufMlbtRDeM9MtMVGPyk4ixHZRCIkas/oDtfAmr08DzegpldIGI+YJVuOzVPxPDRanhfEbXov9f+XXvTISwtPdgxE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7cd77d69f06a6420424af49d07c0134a2ef03dc0" Description="" Url=""><as:assemblyIdentity version="1.0.0.2" name="vb_serial12.exe" publicKeyToken="d9311f5c516bd9ee" language="tr-TR" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LG-10D6D2BEB665\LG_PC</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>kQoAZCK1CffUGqtq2pbOdEbmkzI=</DigestValue></Reference></SignedInfo><SignatureValue>byI9Zi5gHsg0d5iGya8b0Sjj/pNn/+22PQHwBQQOmLiUdEnW/naK/No19eLzDmDnuYe3HzaA4i2lfsEqjrHvKS2TryRUBrfepJ3idVwqDbz85WtMJFdwKL5sOeZfiiebqFOBdBd3IPv57J0FfY6Sn/PN0823AdmnGqc2dux6imE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uQP53nmG/pzAtwBYnQZG+m0a2MH89jZQCqKG74SCvBfZOxZ2i5InNZCrwSrOkvyX5IkIO7nhKWRo2MEL7brufMlbtRDeM9MtMVGPyk4ixHZRCIkas/oDtfAmr08DzegpldIGI+YJVuOzVPxPDRanhfEbXov9f+XXvTISwtPdgxE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAVKgAwIBAgIQVVwj5xBy8LBAdtNxfC5njTAJBgUrDgMCHQUAMDUxMzAxBgNVBAMeKgBMAEcALQAxADAARAA2AEQAMgBCAEUAQgA2ADYANQBcAEwARwBfAFAAQzAeFw0xODAyMTUwNjE0MDRaFw0xOTAyMTUxMjE0MDRaMDUxMzAxBgNVBAMeKgBMAEcALQAxADAARAA2AEQAMgBCAEUAQgA2ADYANQBcAEwARwBfAFAAQzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAuQP53nmG/pzAtwBYnQZG+m0a2MH89jZQCqKG74SCvBfZOxZ2i5InNZCrwSrOkvyX5IkIO7nhKWRo2MEL7brufMlbtRDeM9MtMVGPyk4ixHZRCIkas/oDtfAmr08DzegpldIGI+YJVuOzVPxPDRanhfEbXov9f+XXvTISwtPdgxECAwEAATAJBgUrDgMCHQUAA4GBAJYGsSETsKFltlEH8KVux+JRFF4Zx9732dBYNVRIZB1xzTKVyhIGcqKPLQ0FQYfZcp34QBb1RcFPf7KLes4xZ8uzZr4RAYotFZwbxFHT/4maAq1KiMDRWATdg8p5EzK8hhU38HwrkiMVvHp3i9VMi73ZiX2+NYggSlis+cZiyB9/</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

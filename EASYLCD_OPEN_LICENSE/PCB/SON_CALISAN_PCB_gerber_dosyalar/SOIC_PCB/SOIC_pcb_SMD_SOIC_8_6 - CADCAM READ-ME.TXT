@@ -1,0 +1,60 @@
+LABCENTER PROTEUS TOOL INFORMATION FILE
+=======================================
+
+In case of difficulty, please e-mail support@labcenter.co.uk
+
+Tool set up for Proteus layout '16F1827_LCD_pcb_SMD_SOIC_8_6.LYT'.
+CADCAM generated at 12:59:15 on 01 Nisan 2017 Cumartesi.
+
+File List
+---------
+Top Copper              : SOIC_pcb_SMD_SOIC_8_6 - CADCAM Top Copper.TXT
+Bottom Copper           : SOIC_pcb_SMD_SOIC_8_6 - CADCAM Bottom Copper.TXT
+Top Silk Screen         : SOIC_pcb_SMD_SOIC_8_6 - CADCAM Top Silk Screen.TXT
+Bottom Silk Screen      : SOIC_pcb_SMD_SOIC_8_6 - CADCAM Bottom Silk Screen.TXT
+Top Solder Resist       : SOIC_pcb_SMD_SOIC_8_6 - CADCAM Top Solder Resist.TXT
+Bottom Solder Resist    : SOIC_pcb_SMD_SOIC_8_6 - CADCAM Bottom Solder Resist.TXT
+Top SMT Paste Mask      : SOIC_pcb_SMD_SOIC_8_6 - CADCAM Top SMT Paste Mask.TXT
+Bottom SMT Paste Mask   : SOIC_pcb_SMD_SOIC_8_6 - CADCAM Bottom SMT Paste Mask.TXT
+Mechanical 1            : SOIC_pcb_SMD_SOIC_8_6 - CADCAM Mechanical 1.TXT
+Drill                   : SOIC_pcb_SMD_SOIC_8_6 - CADCAM Drill.TXT
+
+Photoplotter Setup
+------------------
+Format: RS274X, ASCII, 2.4, imperial, absolute, eob=*, LZO
+Notes:  D=Diameter, S=Side, W=Width, H=Height, C=Chamfer
+
+D10	CIRCLE  D=0.51mm                                                          DRAW
+D11	CIRCLE  D=0.64mm                                                          DRAW
+D12	CIRCLE  D=0.76mm                                                          FLASH
+D13	SQUARE  S=2.03mm                                                          FLASH
+D14	RECT    W=1.02mm              H=1.52mm                                    FLASH
+D15	DIL     W=2.54mm              H=1.52mm              C=0.3mm               FLASH
+D16	RECT    W=1.02mm              H=0.89mm                                    FLASH
+D17	CIRCLE  D=0.2mm                                                           DRAW
+D18	RECT    W=2.03mm              H=1.52mm                                    FLASH
+D19	RECT    W=2.03mm              H=3.81mm                                    FLASH
+D70	RECT    W=0.84mm              H=2.26mm                                    FLASH
+D71	RECT    W=1.52mm              H=1.02mm                                    FLASH
+D20	RECT    W=0.99mm              H=1.85mm                                    FLASH
+D21	CIRCLE  D=0.0635mm                                                        DRAW
+D22	CIRCLE  D=0.15mm                                                          DRAW
+D23	CIRCLE  D=1.27mm                                                          FLASH
+D24	SQUARE  S=2.54mm                                                          FLASH
+D25	RECT    W=1.52mm              H=2.03mm                                    FLASH
+D26	DIL     W=3.05mm              H=2.03mm              C=0.3mm               FLASH
+D27	RECT    W=1.52mm              H=1.4mm                                     FLASH
+D28	RECT    W=2.54mm              H=2.03mm                                    FLASH
+D29	RECT    W=2.54mm              H=4.32mm                                    FLASH
+
+NC Drill Setup
+--------------
+Format: ASCII, 2.4, imperial, absolute, eob=<CR><LF>, no zero suppression.
+Notes:  Tool sizes are diameters. Layer sets are in brackets - 0=TOP, 15=BOTTOM, 1-14=INNER.
+
+T01	0.38mm (0-15)
+T02	1.02mm (0-15)
+T03	0.76mm (0-15)
+
+
+[END OF FILE]

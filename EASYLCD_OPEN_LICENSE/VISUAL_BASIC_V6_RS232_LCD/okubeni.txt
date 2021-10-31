@@ -1,0 +1,10 @@
+Bu program ile seri port üzerinden EASYLCD modülünüzü TEST edebilirsiniz
+Yeni karakter yapıp gönderebilirsiniz. 
+EEPROMunu yeni karakterlerle bir tuş basımıyla doldurabilirsiniz. 
+
+VB6 ile yazıldı. Fakat VB2010 ile yazılan programı da bulacaksınız. 
+VB6 ile EXE program vermiyorum çünkü virüslü olarak çeviriyor. 
+Kaynak kodunda virüs yoktur. Test edilmiştir. 
+
+VB2010 programında virüs yoktur ve setup yaptığınızda kolaylıkla kullanabilirsiniz.
+

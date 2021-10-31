@@ -1,0 +1,5 @@
+HTML dosyasını çalıştırıp web sayfası olarak açılır ve türkçeleştirebilirsiniz. 
+
+Bu konuyu anlamanız demek EASYLCD programını anlamanız demektir. 
+
+Çünkü EASYLCD bu sistemi kullanarak 1,2,4 satır ve 16,20 sütunlu LCD leri rahatlıkla kullanır. 

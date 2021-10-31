@@ -1,0 +1,59 @@
+	DOUBLE CLICK SELECT COMMAND
+	(Data is written in the send data text box)
+
+******************  COMMANDS ********************
+LCDDD		( Display Delete)
+
+LCDWR 1,1-	( WRite 1. Column , 1. Row )
+
+LCDDC		( Display Close)
+
+LCDDO		( Display Open)
+
+LCDCU		( Cursor Underline)
+
+LCDCB		( Cursor Box)
+
+LCDCH		( Cursor Hidden)
+
+LCDCL		( Cursor Left)
+
+LCDCR		( Cursor Right)
+
+LCDHO		( cursor HOme)
+
+LCDSL		( display Shift Left)
+
+LCDSR		( display Shift Right)
+
+LCDBC		( Backlight Close)
+
+LCDBO		( Backlight Open)
+
+LCDBL 1		( Backlight Level  1. "1 to 9 between adj.")
+
+LCDEW 0-	( Eeprom Write 0. "0 to23 between ")
+
+LCDSC 13,3-	( Select Character  13 eeprom adres , 3 cgram adress)
+
+LCDER		( Eeprom Read)
+
+LCDRC 1,14-	( Read Character on display 1. Row 14. Column)
+
+LCDNC 3-	(8 x "hex" code) ( New Character  3 cgram adres "0 to 7 between"
+
+LCDLS 0		(Lcd Select 0 = 4 x 16 , 1 = diðer lcd tipleri için kullanýlýr. 
+		Ýsterseniz modül ilk çalýþtýrmada modül üzerindeki butonlardan yada
+		 programdan bu komutla ayarlayabilirsiniz. 4 x 16 lcd de özel 
+		bir DDRAM adresleme durumu var. Bundan dolayý kullanýlmasý gerekmektedir.)
+
+
+*******************     FEEDBACK   *****************************************
+
+LCD H		(hatasý sadece busy flag hatasý Modül cevap portlarýndan ikiside
+		 1 seviyesinde olursa bu hata gelmiþtir. 
+
+LCD P		(hatasý komut yanlýþ girildiyse özellikle LCD kýsmý.
+		  Sadece ilgili port 1 verir diðeri 0 verir. 
+
+LCD R		(Ready hazýr durumu. Sadece ilgili port 1 verir diðeri 0 verir. 
