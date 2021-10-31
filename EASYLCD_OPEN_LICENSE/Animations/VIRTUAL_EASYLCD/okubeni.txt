@@ -1,0 +1,17 @@
+Bu program EASYLCD programının kendisidir. HEX olarak proteus üzerinde çalışır. 
+Devreyi gerçekleştirmesenizde, Bu proteus programını çalıştırdığınızda proteus üzerinden
+çalıştırdığınız animasyon programlarınızı ve gerçek devrenizde çalışan animasyon programlarınızı
+COMPIM aracıyla proteus üzerinden haberleştirerek EASYLCD kullanımını görebilirsiniz. 
+
+Bu compim aracını kullanıp 2 proteus programı çalışacaksa 
+virtual seri port emulator.rar programıyla bir sanal com port yapmak zorundasınız.
+
+DİKKAT :virtual seri port emulator.rar programı 32 bittir ve free lisans için
+32 bit kullanılması gerekmektedir. Bu windows 10 da bile sorunsuz kullanılıyor. 
+WİN10 64 bit her çalıştıgında 64 bit versiyona geçeyimmi diye sorar. İPTAL edin. 
+Bu şekliyle gayet güzel çalışıyor. 
+
+Şayet 64 bit isterseniz para vermek zorundasınız. DİKKAT EDİN. 32 bit size yetiyor. 
+
+Bu programın kurulum dosyaları, programların bulunduğu yerde bulunmaktadır. 
+
