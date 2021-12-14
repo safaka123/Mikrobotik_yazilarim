@@ -1,4 +1,5 @@
 Detaylar : https://www.mikrobotik.com/wp2/2021/12/14/easylcd_mobile-ile-eski-telefonlarinizla-esp-modulune-elveda-diyebilirsiniz/
+
 Video : https://www.youtube.com/watch?v=DCWsxI_pgg4
 
 
