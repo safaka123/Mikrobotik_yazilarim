@@ -1,0 +1,28 @@
+void D1(){
+    digitalWrite (wire1,HIGH);//A
+    digitalWrite (wire2,LOW);//A NOT
+    digitalWrite (wire3,LOW);// B
+    digitalWrite (wire4,HIGH);// B NOT
+  delay(speeddelay);
+}
+void D2(){
+  digitalWrite (wire1,HIGH);//A
+  digitalWrite (wire2,LOW);//A NOT
+  digitalWrite (wire3,HIGH);// B
+  digitalWrite (wire4,LOW);// B NOT
+  delay(speeddelay);
+}
+void D3(){
+      digitalWrite (wire1,LOW);//A
+    digitalWrite (wire2,HIGH);//A NOT
+    digitalWrite (wire3,HIGH);// B
+    digitalWrite (wire4,LOW);// B NOT 
+  delay(speeddelay);
+}
+void D4(){
+    digitalWrite (wire1,LOW);//A
+    digitalWrite (wire2,HIGH);//A NOT
+    digitalWrite (wire3,LOW);// B
+    digitalWrite (wire4,HIGH);// B NOT 
+  delay(speeddelay);
+}

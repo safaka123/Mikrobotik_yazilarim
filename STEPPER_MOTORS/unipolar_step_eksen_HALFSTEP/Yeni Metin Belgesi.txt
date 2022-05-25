@@ -1,0 +1,258 @@
+void D1(){
+    digitalWrite (wire1,HIGH);//A
+    digitalWrite (wire2,HIGH);//A NOT
+    digitalWrite (wire3,LOW);// B
+    digitalWrite (wire4,LOW);// B NOT 
+  delay(speeddelay);
+}
+void D2(){
+    digitalWrite (wire1,HIGH);//A       3
+    digitalWrite (wire2,LOW);//A NOT
+    digitalWrite (wire3,LOW);// B
+    digitalWrite (wire4,HIGH);// B NOT 
+  delay(speeddelay);
+}
+
+void D3(){
+    digitalWrite (wire1,HIGH);//A     2
+    digitalWrite (wire2,LOW);//A NOT
+    digitalWrite (wire3,LOW);// B
+    digitalWrite (wire4,LOW);// B NOT
+  delay(speeddelay);
+}
+void D4(){
+  digitalWrite (wire1,HIGH);//A     1
+  digitalWrite (wire2,LOW);//A NOT
+  digitalWrite (wire3,HIGH);// B
+  digitalWrite (wire4,LOW);// B NOT
+  delay(speeddelay);
+}
+void D5(){
+      digitalWrite (wire1,LOW);//A        8
+    digitalWrite (wire2,LOW);//A NOT
+    digitalWrite (wire3,HIGH);// B
+    digitalWrite (wire4,LOW);// B NOT 
+  delay(speeddelay);
+}
+void D6(){
+    digitalWrite (wire1,LOW);//A
+    digitalWrite (wire2,HIGH);//A NOT     7
+    digitalWrite (wire3,HIGH);// B
+    digitalWrite (wire4,LOW);// B NOT 
+  delay(speeddelay);
+}
+void D7(){
+    digitalWrite (wire1,LOW);//A        6
+    digitalWrite (wire2,HIGH);//A NOT
+    digitalWrite (wire3,LOW);// B
+    digitalWrite (wire4,LOW);// B NOT 
+  delay(speeddelay);
+}
+void D8(){
+    digitalWrite (wire1,LOW);//A        5
+    digitalWrite (wire2,HIGH);//A NOT
+    digitalWrite (wire3,LOW);// B
+    digitalWrite (wire4,HIGH);// B NOT 
+  delay(speeddelay);
+}
+
+
+
+Serial.println("D1");
+D1();
+delay(500);
+
+Serial.println("D2");
+D2();
+delay(500);
+
+
+Serial.println("D3");
+D3();
+delay(500);
+
+
+Serial.println("D4");
+D4();
+delay(500);
+
+Serial.println("D5");
+D5();
+delay(500);
+
+Serial.println("D6");
+D6();
+delay(500);
+
+Serial.println("D7");
+D7();
+delay(500);
+
+Serial.println("D8");
+D8();
+delay(1000);
+
+Serial.println("D7");
+D7();
+delay(500);
+
+Serial.println("D6");
+D6();
+delay(500);
+
+
+Serial.println("D5");
+D5();
+delay(500);
+
+
+Serial.println("D4");
+D4();
+delay(500);
+
+Serial.println("D3");
+D3();
+delay(500);
+
+Serial.println("D2");
+D2();
+delay(500);
+
+Serial.println("D1");
+D1();
+delay(500);
+
+Serial.println("D8");
+D8();
+delay(1000);
+
+---------doğru dizilim ****************
+
+
+void D1(){
+    digitalWrite (wire1,HIGH);//A
+    digitalWrite (wire2,LOW);//A NOT
+    digitalWrite (wire3,LOW);// B
+    digitalWrite (wire4,LOW);// B NOT 
+  delay(speeddelay);
+}
+void D2(){
+    digitalWrite (wire1,HIGH);//A       3
+    digitalWrite (wire2,HIGH);//A NOT
+    digitalWrite (wire3,LOW);// B
+    digitalWrite (wire4,LOW);// B NOT 
+  delay(speeddelay);
+}
+
+void D3(){
+    digitalWrite (wire1,LOW);//A     2
+    digitalWrite (wire2,HIGH);//A NOT
+    digitalWrite (wire3,LOW);// B
+    digitalWrite (wire4,LOW);// B NOT
+  delay(speeddelay);
+}
+void D4(){
+  digitalWrite (wire1,LOW);//A     1
+  digitalWrite (wire2,HIGH);//A NOT
+  digitalWrite (wire3,HIGH);// B
+  digitalWrite (wire4,LOW);// B NOT
+  delay(speeddelay);
+}
+void D5(){
+      digitalWrite (wire1,LOW);//A        8
+    digitalWrite (wire2,LOW);//A NOT
+    digitalWrite (wire3,HIGH);// B
+    digitalWrite (wire4,LOW);// B NOT 
+  delay(speeddelay);
+}
+void D6(){
+    digitalWrite (wire1,LOW);//A
+    digitalWrite (wire2,LOW);//A NOT     7
+    digitalWrite (wire3,HIGH);// B
+    digitalWrite (wire4,HIGH);// B NOT 
+  delay(speeddelay);
+}
+void D7(){
+    digitalWrite (wire1,LOW);//A        6
+    digitalWrite (wire2,LOW);//A NOT
+    digitalWrite (wire3,LOW);// B
+    digitalWrite (wire4,HIGH);// B NOT 
+  delay(speeddelay);
+}
+void D8(){
+    digitalWrite (wire1,HIGH);//A        5
+    digitalWrite (wire2,LOW);//A NOT
+    digitalWrite (wire3,LOW);// B
+    digitalWrite (wire4,HIGH);// B NOT 
+  delay(speeddelay);
+}
+
+
+
+
+bipolar eski dizilim
+
+void D1(){
+     digitalWrite (wire1,HIGH);//A
+    digitalWrite (wire2,LOW);//A NOT
+    digitalWrite (wire3,HIGH);// B
+    digitalWrite (wire4,LOW);// B NOT
+  delay(speeddelay);
+}
+void D2(){
+   digitalWrite (wire1,HIGH);//A
+    digitalWrite (wire2,LOW);//A NOT
+    digitalWrite (wire3,HIGH);// B
+    digitalWrite (wire4,HIGH);// B NOT
+  delay(speeddelay);
+}
+void D3(){
+   digitalWrite (wire1,HIGH);//A
+    digitalWrite (wire2,LOW);//A NOT
+    digitalWrite (wire3,LOW);// B
+    digitalWrite (wire4,HIGH);// B NOT 
+  delay(speeddelay);
+}
+void D4(){
+  digitalWrite (wire1,HIGH);//A
+    digitalWrite (wire2,HIGH);//A NOT
+    digitalWrite (wire3,LOW);// B
+    digitalWrite (wire4,HIGH);// B NOT 
+    
+  delay(speeddelay);
+}
+
+void D5(){
+    digitalWrite (wire1,LOW);//A
+    digitalWrite (wire2,HIGH);//A NOT
+    digitalWrite (wire3,LOW);// B
+    digitalWrite (wire4,HIGH);// B NOT
+  delay(speeddelay);
+}
+
+
+void D6(){
+    digitalWrite (wire1,LOW);//A
+    digitalWrite (wire2,HIGH);//A NOT
+    digitalWrite (wire3,HIGH);// B
+    digitalWrite (wire4,HIGH);// B NOT
+  delay(speeddelay);
+}
+
+
+void D7(){
+digitalWrite (wire1,LOW);//A
+    digitalWrite (wire2,HIGH);//A NOT
+    digitalWrite (wire3,HIGH);// B
+    digitalWrite (wire4,LOW);// B NOT
+  delay(speeddelay);
+}
+
+
+void D8(){
+      digitalWrite (wire1,HIGH);//A
+    digitalWrite (wire2,HIGH);//A NOT
+    digitalWrite (wire3,HIGH);// B
+    digitalWrite (wire4,LOW);// B NOT
+  delay(speeddelay);
+}
