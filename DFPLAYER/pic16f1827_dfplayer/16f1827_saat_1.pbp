@@ -1,0 +1,550 @@
+'****************************************************************
+'*  Name    : UNTITLED.BAS                                      *
+'*  Author  : [select VIEW...EDITOR OPTIONS]                    *
+'*  Notice  : Copyright (c) 2013 [select VIEW...EDITOR OPTIONS] *
+'*          : All Rights Reserved                               *
+'*  Date    : 29.07.2013                                        *
+'*  Version : 1.0                                               *
+'*  Notes   :                                                   *
+'*          :                                                   *
+'****************************************************************
+
+#config
+  __config _CONFIG1, _FOSC_INTOSC & _WDTE_OFF & _PWRTE_ON & _MCLRE_OFF & _CP_ON & _CPD_ON & _BOREN_OFF & _CLKOUTEN_OFF & _IESO_OFF & _FCMEN_OFF
+  __config _CONFIG2, _WRT_ALL & _PLLEN_OFF & _STVREN_OFF & _LVP_OFF & _BORV_LO & _LVP_OFF
+#ENDCONFIG
+
+
+; 8mhz OSC  _________________________
+DEFINE OSC 8
+OSCCON= %01110000 
+;_______________________________________
+
+
+ANSELA=0
+ANSELB=0
+APFCON1=%00000000    
+ APFCON0=%00000000
+WPUB=255
+WPUA=255
+
+adcon0=0
+adcon1=0
+OPTION_REG.7=0
+
+ TRISA=%00000000
+TRISB=%11011000     
+ 
+ ; orjinal
+; ********  8 mhz de   9600 baud 8 N 1 ****************
+DEFINE HSER_RCSTA 90h ; Enable serial port & continuous receive
+DEFINE HSER_TXSTA 20h ;' Enable transmit, BRGH = 0
+DEFINE HSER_CLROERR 1 ;' Clear overflow automatically
+DEFINE HSER_SPBRGH 0
+DEFINE HSER_SPBRG 51         ;++++++++++++  SPBRG  L olmalý +++++++++++++++++++++
+
+BAUDCON= %01001000         ' Enable 16 bit baudrate generator
+
+ 
+'________________________________saat deðiþkenleri________________________________________________ 
+SCL var PORTB.1
+SDA var PORTB.0
+gossaat var byte
+gosdak var byte
+
+saatbak var byte
+dakbak var byte
+saat1d  var byte
+saat2d  var byte
+dak1d   var byte
+dak2d   var byte
+checktopla  var word
+ch      var     byte
+cl      var     byte
+degeryaz    var byte
+ bakchk    var byte
+
+gosgun var byte
+gosay var byte
+GOSYIL VAR BYTE
+
+TEMP VAR BYTE
+
+saat var byte
+dak var byte
+sn var byte 
+GUN VAR BYTE
+AY VAR BYTE
+YIL VAR BYTE
+HAFGUN VAR BYTE
+
+
+yon var byte
+den var byte  
+yer var byte
+gosden var byte
+yilarti var byte
+hesap var byte
+k var byte
+
+bos var byte
+SENSSAY VAR BYTE
+datesay var byte
+
+;clear 
+   bakchk=1:degeryaz=0   ; bir kereye mahsus dfplayer'a reset atar
+   if bakchk=1 then
+checktopla=(65535-($FF+$06+$0C+$00+$00+degeryaz)+1)
+ CH=checktopla.highbyte
+CL=checktopla.lowbyte
+ hserout [$7E,$FF,$06,$0C,$00,$00,degeryaz,ch,cl,$EF]
+ 
+  bakchk=0
+ pause 500
+endif
+ 
+pause 100
+SEROUT2 PORTB.5,84,["LCDDD"]
+ pause 100
+ SEROUT2 PORTB.5,84,["LCDDD"]
+ pause 100
+ SEROUT2 PORTB.5,84,["LCDBO"]
+ pause 25
+ SEROUT2 PORTB.5,84,["LCDBL 6"]
+ pause 250
+;hserout [$7E,$FF,$06,$06,$01,$0,$14,$FE,$E0,$EF]
+; PAUSE 200
+; hserout [$7E,$FF,$06,$06,$01,$0,$14,$FE,$E0,$EF]
+; PAUSE 200
+; hserout [$7E,$FF,$06,$11,$01,$0,$01,$FE,$E8,$EF] ;7EFF611101FEE8EF
+; PAUSE 200
+; hserout [$7E,$FF,$06,$18,$01,$0,$0,$FE,$E2,$EF]  ; 7EFF618100FEE2EF
+;  PAUSE 200
+'--------------------------ANA PROGRAM--------------------------------------
+ I2CWrite SDA,SCL,$D0,$07,[%00010000]
+
+AYAR:
+  SEROUT2 PORTB.5,84,["LCDCH"]
+  pause 25
+  while PORTB.6=0
+wend
+AYAR1:   
+
+ 
+    GOSUB saatoku
+    
+
+  IF PORTB.6 =0 THEN 
+  goto SAATAYAR1
+endif   
+
+     PAUSE 100
+ '   i=0  :  Q=0
+    GOTO AYAR1
+'-------------------------GÖSTERGE AYAR KODLARI---------------------------------
+SAATAYAR1 :
+SEROUT2 PORTB.5,84,["LCDCB"]
+
+pause 25
+ SEROUT2 PORTB.5,84,["LCDWR 1,7-"]
+While PORTB.6=0
+wend
+pause 25
+
+
+saatayar:
+temp=saat
+
+yer=1
+
+bak:  
+if PORTB.6=0 then goto dakayar
+if PORTB.3=0 then yon=1:goto saatayar2
+if PORTB.4=0 then yon=2:goto saatayar2
+goto bak
+
+saatayar2:
+if yon=2 then goto asagi
+if temp>22 then 
+temp=0
+goto yazdir
+else
+temp=temp+1
+goto yazdir
+endif
+goto bak 
+
+asagi:
+if temp=0 then temp=23:goto yazdir
+
+if temp<2 then 
+temp=0
+goto yazdir
+else 
+temp=temp-1
+goto yazdir
+endif
+GOTO BAK
+'_______________________ saat ayarý sonu _______________
+
+yazdir:
+select case yer
+case 1
+den=7   ;$86
+saat=temp
+case 2
+den=10  ;$89
+dak=temp
+case 3
+den=7   ;$c6                  ; burada 2. satýr için düzenleme yap c6 dediði yer 2. satýr olacak.*****************
+gun=temp
+case 4
+den=10  ;$c9
+ay=temp
+case 5
+den=15  ;$Ce
+yil=temp
+end select
+
+
+if yer<3 then 
+SEROUT2 PORTB.5,84,["LCDWR 1,",dec2 DEN,"-",DEC2 TEMP]
+pause 100
+SEROUT2 PORTB.5,84,["LCDWR 1,",dec2 DEN,"-"]
+pause 100    ;200
+endif
+
+
+
+if yer>2 then 
+SEROUT2 PORTB.5,84,["LCDWR 2,",dec2 DEN,"-",DEC2 TEMP]
+pause 100
+SEROUT2 PORTB.5,84,["LCDWR 2,",dec2 DEN,"-"]
+pause 100    ;200
+endif
+
+if yer=1 then goto bak
+if yer=2 then goto bakdak
+if yer=3 then goto gundak
+if yer=4 then goto aydak
+if yer=5 then goto yildak
+
+
+'------------------- dakika ayar -----------------
+
+dakayar:
+yer=2
+temp=dak
+
+SEROUT2 PORTB.5,84,["LCDWR 1,10-"]
+pause 25
+While PORTB.6=0
+wend
+
+
+bakdak:
+if PORTB.6=0 then goto yilayar
+if PORTB.3=0 then yon=1:goto dakayar2
+if PORTB.4=0 then yon=2:goto dakayar2
+goto bakdak
+
+dakayar2:
+if yon=2 then goto dakasa
+if temp>58 then 
+temp=0
+goto yazdir
+else
+temp=temp+1
+goto yazdir
+endif
+ 
+
+dakasa:
+if temp=0 then temp=59:goto yazdir
+if temp<2 then 
+temp=0
+goto yazdir
+else 
+temp=temp-1
+goto yazdir
+endif
+
+
+'----------------------- dakika ayar sonu __________________
+
+'------------------- GUN ayar baþlangýcý-----------------
+gunayar:
+yer=3
+temp=gun
+                
+SEROUT2 PORTB.5,84,["LCDWR 2,7-"] 
+               
+While PORTB.6=0
+wend
+
+ gundak:
+if PORTB.6=0 then 
+gosub zaman_yaz
+
+goto ayar
+endif 
+
+if PORTB.3=0 then yon=1:goto gunayar2
+if PORTB.4=0 then yon=2:goto gunayar2
+goto gundak
+
+gunayar2:
+if ay=1 or ay=3 or ay=5 or ay=7 or ay=8 or ay=10 or ay=12 then 
+gosden=31
+else
+gosden=30
+endif
+if yon=2 then goto gunasa
+if temp>gosden-1  then 
+temp=1
+goto yazdir
+else
+temp=temp+1
+goto yazdir
+endif
+
+gunasa:
+if temp<2 then 
+temp=gosden
+goto yazdir
+else 
+temp=temp-1
+goto yazdir
+endif
+
+
+'----------------------- GUN ayar sonu __________________
+'------------------- AY ayar Baþlangýcý-----------------
+ayayar:
+yer=4
+temp=ay
+                  
+SEROUT2 PORTB.5,84,["LCDWR 2,10-"]                    
+pause 25
+while PORTB.6=0
+wend
+
+
+
+aydak:
+if PORTB.6=0 then goto gunayar
+if PORTB.3=0 then yon=1:goto ayayar2
+if PORTB.4=0 then yon=2:goto ayayar2
+goto aydak
+
+ayayar2:
+if yon=2 then goto ayasa
+if temp>11  then 
+temp=1
+goto yazdir
+else
+temp=temp+1
+goto yazdir
+endif
+
+ayasa:
+if temp<2 then 
+temp=12
+goto yazdir
+else 
+temp=temp-1
+goto yazdir
+endif
+
+
+'----------------------- AY ayar sonu __________________
+'------------------- YIL ayar Baþlangýcý-----------------
+yilayar:
+yer=5
+temp=yil
+                                ;lcdout $fe,$ce
+SEROUT2 PORTB.5,84,["LCDWR 2,15-"] 
+pause 25
+while PORTB.6=0
+wend
+                               
+
+ yildak:
+
+if PORTB.6=0 then goto ayayar
+if PORTB.3=0 then yon=1:goto yilayar2
+if PORTB.4=0 then yon=2:goto yilayar2
+goto yildak
+
+yilayar2:
+if yon=2 then goto yilasa
+if temp>98  then 
+temp=0
+yilarti=30
+                        ;lcdout $fe,$cb,dec2 yilarti
+goto yazdir
+else
+temp=temp+1
+goto yazdir
+endif
+
+
+yilasa:
+if yilarti=30 and temp=0 then 
+yilarti=20
+temp=99
+                        ;lcdout $fe,$cb,dec2 yilarti
+goto yazdir
+endif
+if temp<2 then 
+temp=0
+goto yazdir
+else 
+temp=temp-1
+goto yazdir
+endif
+
+
+
+'---------------------------------SAAT OKU--------------------------------------
+SAATOKU:
+
+    I2CRead SDA, SCL,$D1,$00,[SN,DAK,SAAT,HAFGUN,GUN,AY,YIL,TEMP]
+         BOS=((sn>>4) & $0F)*10+(SN & $0F):sn=BOS
+         BOS=((DAK>>4) & $0F)*10+(DAK & $0F):DAK=BOS
+         BOS=((SAAT>>4) & $0F)*10+(Saat & $0F):SAAT=BOS
+         BOS=((GUN>>4) & $0F)*10+(GUN & $0F):GUN=BOS
+         BOS=((AY>>4) & $0F)*10+(AY & $0F)  :AY=BOS
+         BOS=((YIL>>4) & $0F)*10+(YIL & $0F):YIL=BOS
+
+if bakchk=dak then 
+else
+call seslendir
+bakchk=dak
+endif
+
+
+
+ atlaoku:
+SEROUT2 PORTB.5,84,["LCDWR 1,1-","Hour:"," ",DEC2 saat,":",DEC2 dak,":",DEC2 sn ]
+
+PAUSE 25
+datesay=datesay+1:if datesay>5 then 
+datesay=0
+
+SEROUT2 PORTB.5,84,["LCDWR 2,1-","Date:"," ",DEC2 gun,".",DEC2 ay,".20",DEC2 YIL ]
+
+PAUSE 25
+endif
+  RETURN
+
+ZAMAN_YAZ:
+hesap=YIL/4
+k=status.0
+if k=1 AND AY=2 AND GUN>28 then
+GUN=28
+ELSE
+
+ if k=0 and ay=2 and gun>28 then 
+    gun=29
+    else
+    endif
+endif
+;baslayaz: sn=00:dak=10:saat=13:gun=25:ay=6:YIL=17
+        TEMP=(SN DIG 1)<<4+SN DIG 0:SN=TEMP
+        TEMP=(DAK DIG 1)<<4+DAK DIG 0:DAK=TEMP
+        TEMP=(SAAT DIG 1)<<4+SAAT DIG 0:SAAT=TEMP
+        TEMP=(GUN DIG 1)<<4+GUN DIG 0:GUN=TEMP
+        TEMP=(AY DIG 1)<<4+AY DIG 0:AY=TEMP
+        TEMP=(YIL DIG 1)<<4+YIL DIG 0:YIL=TEMP
+
+        I2CWrite SDA, SCL,$D1,$00,[SN,DAK,SAAT,HAFGUN,GUN,AY,YIL]
+        PAUSE 10 
+
+        return 
+        
+saatayir:
+
+seslendir:
+ 
+    saat1d=51:goto atlases
+
+ atlases:
+degeryaz=saat1d 
+call checksum
+pause 1000
+saatbak=saat : temp=saat mod 10:saat2d=temp:temp=saat-temp:saat1d=temp
+
+dakbak= dak  : temp=dak mod 10:dak2d=temp:temp=dak-temp:dak1d=temp
+
+if saat1d=0 then 
+    saat1d=53:goto atlases1
+else 
+    goto atlases1
+endif
+ atlases1:
+degeryaz=saat1d 
+call checksum
+pause 700
+
+
+
+
+if saat2d=0 then 
+    saat2d=56:goto atlases2
+else 
+    goto atlases2
+endif
+ atlases2:
+degeryaz=saat2d 
+call checksum
+pause 700
+
+
+
+if dak1d=0 then 
+    dak1d=53:goto atlases3
+else
+    goto atlases3
+endif
+
+atlases3:
+degeryaz=dak1d 
+call checksum
+pause 700
+
+
+if dak2d=0 then 
+    dak2d=56:goto atlases4
+else 
+    goto atlases4 
+endif
+
+atlases4:
+degeryaz=dak2d 
+call checksum
+pause 700
+degeryaz=56
+
+
+return
+
+checksum:
+checktopla=(65535-($FF+$06+$0F+$00+$02+degeryaz)+1)
+
+CH=checktopla.highbyte
+CL=checktopla.lowbyte
+ hserout [$7E,$FF,$06,$0F,$00,$02,degeryaz,ch,cl,$EF]
+
+return
+
+
+      
+        
+        
+        
+        
+end
+
+
+

@@ -1,0 +1,83 @@
+DFPLAYER birimi klas”r PATH listesi
+Birim Seri Numaras ECFE-86CF
+E:.
+ÃÄÄÄmp3
+³   ³   0001_Self Control.mp3
+³   ³   0002Abba - Chiquitita.mp3
+³   ³   0003Alphaville - Big In Japan [LYRICS].mp3
+³   ³   0004Art Company - Suzanna.mp3
+³   ³   0005a-ha - Take On Me (Official Video).mp3
+³   ³   
+³   ÃÄÄÄ15
+³   ³       001_Baris Manco - Bal Sultan.mp3
+³   ³       002_Baris Manco - Aynali Kemer.mp3
+³   ³       
+³   ÀÄÄÄ01
+³           001.mp3
+³           002.mp3
+³           
+ÃÄÄÄyedek
+³   ³   ac.wav
+³   ³   DATALOG.TXT
+³   ³   engel.wav
+³   ³   HATA.LOG
+³   ³   kapat.wav
+³   ³   ses_call.wav
+³   ³   tekrar.wav
+³   ³   1.wav
+³   ³   2.wav
+³   ³   3.wav
+³   ³   4.wav
+³   ³   5.wav
+³   ³   6.wav
+³   ³   7.wav
+³   ³   
+³   ÀÄÄÄden
+³           ses_call.wav
+³           
+ÃÄÄÄ01
+³       001.mp3
+³       002.mp3
+³       
+ÃÄÄÄ14
+³       001_Baris Manco - Alla Beni Pulla Beni.mp3
+³       002_Baris Manco - Ali Yazar Veli Bozar.mp3
+³       
+ÃÄÄÄ02
+³       001_Ses 020.wav
+³       002_Ses 025.wav
+³       003_Ses 024.wav
+³       004_Ses 007.wav
+³       005_Ses 008.wav
+³       006_Ses 009.wav
+³       007_Ses 011.wav
+³       008_Ses 022.wav
+³       009_Ses 014.wav
+³       010_Ses 015.wav
+³       020_Ses 016.wav
+³       030_Ses 017.wav
+³       040_Ses 018.wav
+³       050_Ses 019.wav
+³       051_saat_Ses 027.wav
+³       052_tarih_Ses 030.wav
+³       053_sifir_Ses 032.wav
+³       
+ÀÄÄÄ04
+        001_Ses 020.mp3
+        002_Ses 025.mp3
+        003_Ses 024.mp3
+        004_Ses 007.mp3
+        005_Ses 008.mp3
+        006_Ses 009.mp3
+        007_Ses 011.mp3
+        008_Ses 022.mp3
+        009_Ses 014.mp3
+        010_Ses 015.mp3
+        020_Ses 016.mp3
+        030_Ses 017.mp3
+        040_Ses 018.mp3
+        050_Ses 019.mp3
+        051_saat_Ses 027.mp3
+        052_tarih_Ses 030.mp3
+        053_sifir_Ses 032.mp3
+        
