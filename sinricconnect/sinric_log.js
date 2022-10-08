@@ -1,7 +1,7 @@
 var request = require("request");
 var options = { 
   method: 'GET',
-  url: 'https://api.sinric.pro/api/v1/activitylogs/device/5c5e726095bd1817e07ab3ac',
+  url: 'https://api.sinric.pro/api/v1/activitylogs/device/63304fab36b44d06d4c4ff0d',
   headers: 
   {   'Authorization': 'Bearer <TOKEN HERE>',
       'Content-Type': 'application/x-www-form-urlencoded' 
