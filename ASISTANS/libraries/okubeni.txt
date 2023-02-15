@@ -1,0 +1,25 @@
+Bu kütüphaneleri Belgelerim/arduino/libraries dizinine çıkarın
+Arduino sinricpro programları bunlar olmadan çalışmaz. 
+
+Alındığı github dizinleri aşağıdadır. 
+
+https://github.com/Links2004/arduinoWebSockets
+
+https://github.com/bblanchon/ArduinoJson
+
+https://github.com/sinricpro/esp8266-esp32-sdk/blob/master/README.md
+
+buralardan son sürümlerini alabilirsiniz. 
+
+Benim yazıda çalıştırdıklarım için çalışan kütüphaneleri buraya kopyaladım. 
+Bunları kullanabilirsiniz. 
+
+Özellikle resimlerdeki gibi Arduino menülerinden esp8266 3.00 versiyonunu seçin bazılarında 
+sorun olabilir. 
+Tüm şartlar aynı ise çalışması gerekir. 
+
+Arduino IDE versiyonu 1.8.19 dur. 
+
+Bazen bazı kütüphaneler değişebiliyor ve uyumsuzluk yaratabiliyor. 
+
+Kolay gelsin. 

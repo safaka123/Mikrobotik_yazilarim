@@ -1,0 +1,85 @@
+bu dizin içindeki, libraries dizinindeki Kütüphaneleri Belgelerim/arduino/libraries dizinine çıkarın.
+Arduino sinricpro programları bunlar olmadan çalışmaz. 
+
+Alındığı github dizinleri aşağıdadır. 
+
+https://github.com/Links2004/arduinoWebSockets
+
+https://github.com/bblanchon/ArduinoJson
+
+https://github.com/sinricpro/esp8266-esp32-sdk/blob/master/README.md
+
+buralardan son sürümlerini alabilirsiniz. 
+
+Benim yazıda çalıştırdıklarım için çalışan kütüphaneleri buraya kopyaladım. 
+Bunları kullanabilirsiniz. 
+
+Özellikle resimlerdeki gibi Arduino menülerinden esp8266 3.00 versiyonunu seçin bazılarında 
+sorun olabilir. 
+Tüm şartlar aynı ise çalışması gerekir. 
+
+Arduino IDE versiyonu 1.8.19 dur. 
+
+Bazen bazı kütüphaneler değişebiliyor ve uyumsuzluk yaratabiliyor. 
+
+
+Bu dizindeki (esp01_http_client_alexa_php) esp01 programı orjinal örnekler menüsünden alındı. 
+Burada istediğiniz bir link'i internet ortamına gönderebiliyorsunuz. 
+
+Ben firebase ile yapılan home otomasyon programına ulaşmak için PHP dosyaları yaptım.
+Aşağıda dökümü vardır. 
+
+
+Bunun sebebi ise firebase güvenli bağlantı kullanıyor. Bu program ile https sayfalarına güvenli bağlantı ile ulaşılamıyor. 
+Bu program değil ama bir başka program kullanarak, https ile bağlantı kurabiliyorsunuz. 
+Burada esp8266 security gibi bir kütüphane kullanmanız gerekiyor. 
+
+Ben basit olsun diye bir php dosyası yaptım oraya http ile bağlanabiliyorum. Güvenliği ise PHP dosyası
+aşıyor. Bağlantıyı kuruyor. 
+
+PHP programını da dizin içerisinde bulabilirsiniz. 
+
+PHP Programı içerisinde bir kaç alt program var.Bunlardan biri read, write, ve alarm. 
+Bunlar için 3 tane link kullanıyorum. 
+
+http://mikrobotikradyo.tk/api/firebasechange.php?deger="40"   deger değişkenini 40 yapıyor. 
+
+http://mikrobotikradyo.tk/api/alexa_littlenodes.php   alexa ya bildirim gönderen littlenodes sitesine bağlanmak için PHP yi ayarlıyor.
+
+http://mikrobotikradyo.tk/api/firebase_read1.php   // bu ise BOOL değişkenini okuyor. ALEXA bu değişkenin değerini ayarlıyor 
+bu şekilde esp ile son değeri okuyoruz. 
+
+yukarıdakilr ile php dosyasına komut yollayınca PHP dosyası firebase ile iletişime geçiyor. 
+
+PHP dosyalar dizin içerisinde mevcuttur. Ben 000webhost içinde bedava bir web sitem vardı. Bunun alt dizinine yerleştirdim
+
+Siz hangi dizine yerleştirdiyseniz Benim verdiğim linkleri DÜZENLEYİN. 
+
+alexa_littlenodes.php
+
+firebasechange.php   // bu değişiklik yapar. hangi datayı isterseniz PHP den ayarlayın 
+
+firebase_read1.php	// bu datayı okur. Hangi datayı isterseniz. PHP den ayarlayın. 
+
+isterseniz PHP dosyasını kendinize göre geliştirip birden fazla değişkene işlem uygulayabilirsiniz. 
+
+Not: 
+PHP dosyalarını kendim yapmadım. POSTMAN programı ile başarılı link gönderdiğimde yan tarafındaki CODE 
+kısmından PHP CURL seçeneğini seçerek kodu php programı olarak kopyaladım. Sadece bu kopyalamadan sonra
+PHP komutunu tamamlamak ve kapatmak için ?> işaretlerini ekledim. 
+Aynı arduinodaki } kapatma işareti gibi bu 2 işaretinde kullanılması zorunludur
+
+=====================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
