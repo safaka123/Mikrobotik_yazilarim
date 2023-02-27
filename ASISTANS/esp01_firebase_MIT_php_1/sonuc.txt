@@ -1,0 +1,8 @@
+http://mikrobotikradyo.tk/api/firebase_read_MIT.php
+veriler= {"mutfak":{"lamba 1":"close","lamba 2":"close"},"oturma":{"lamba 1":"close","lamba 2":false}}
+
+veriler= {"mutfak":{"lamba 1":true,"lamba 2":true},"oturma":{"lamba 1":true,"lamba 2":false}}<br>null
+
+veriler= {"mutfak":{"lamba 1":"true","lamba 2":"false"},"oturma":{"lamba 1":"true","lamba 2":"true"}}<br>null
+
+
