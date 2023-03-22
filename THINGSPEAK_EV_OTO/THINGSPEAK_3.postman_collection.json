@@ -1,0 +1,655 @@
+{
+	"info": {
+		"_postman_id": "62f78d5f-97a5-49d8-b70a-ea9bba100915",
+		"name": "THINGSPEAK_3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4910258"
+	},
+	"item": [
+		{
+			"name": "THINGTWEET",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "api_key",
+							"value": "11PKAXAGR9V0H7MG",
+							"type": "text"
+						},
+						{
+							"key": "status",
+							"value": "deneme mesajı seviye 11 kanalı @safakAgustoslu ya  ALARM seviyesi yükseldi. kontrol et.  @mikrobotik   %%channel_2052259_field_1%%+at+%%datetime%% ",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://api.thingspeak.com/apps/thingtweet/1/statuses/update",
+					"protocol": "https",
+					"host": [
+						"api",
+						"thingspeak",
+						"com"
+					],
+					"path": [
+						"apps",
+						"thingtweet",
+						"1",
+						"statuses",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "OKU_kanal_STATUS_outputs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.thingspeak.com/channels/507490/status.json?api_key=WK44E76YPNVIA7B6",
+					"protocol": "https",
+					"host": [
+						"api",
+						"thingspeak",
+						"com"
+					],
+					"path": [
+						"channels",
+						"507490",
+						"status.json"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "WK44E76YPNVIA7B6"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "THING_STATUS_YAZMA_outputs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.thingspeak.com/update?api_key=7Z4I8Q9QOJHGPQE9&status=false",
+					"protocol": "https",
+					"host": [
+						"api",
+						"thingspeak",
+						"com"
+					],
+					"path": [
+						"update"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "7Z4I8Q9QOJHGPQE9"
+						},
+						{
+							"key": "status",
+							"value": "false"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "THING_KANAL_KAYIT_OUTPUTS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.thingspeak.com/update?api_key=7Z4I8Q9QOJHGPQE9&field1=15&field2=25",
+					"protocol": "https",
+					"host": [
+						"api",
+						"thingspeak",
+						"com"
+					],
+					"path": [
+						"update"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "7Z4I8Q9QOJHGPQE9"
+						},
+						{
+							"key": "field1",
+							"value": "15"
+						},
+						{
+							"key": "field2",
+							"value": "25"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "THING_KANAL_GEÇMİŞİ_OUTPUTS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.thingspeak.com/channels/2053404/feeds.json?api_key=LQLK5X78VS3YEY63&results=2",
+					"protocol": "https",
+					"host": [
+						"api",
+						"thingspeak",
+						"com"
+					],
+					"path": [
+						"channels",
+						"2053404",
+						"feeds.json"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "LQLK5X78VS3YEY63"
+						},
+						{
+							"key": "results",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "THING_KANAL_LIST",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.thingspeak.com/channels.json?api_key=UR8WIEQ8FTYTRPO9",
+					"protocol": "https",
+					"host": [
+						"api",
+						"thingspeak",
+						"com"
+					],
+					"path": [
+						"channels.json"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "UR8WIEQ8FTYTRPO9"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "KANAL_FIELD 2_OKU",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.thingspeak.com/channels/507490/fields/2.json?api_key=WK44E76YPNVIA7B6&results=2",
+					"protocol": "https",
+					"host": [
+						"api",
+						"thingspeak",
+						"com"
+					],
+					"path": [
+						"channels",
+						"507490",
+						"fields",
+						"2.json"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "WK44E76YPNVIA7B6"
+						},
+						{
+							"key": "results",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "REACT_TETİKLEME  react_500den büyükse tetiklenir. ayrıca react 2 de mail gönderir. php ile",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.thingspeak.com/update?api_key=ON1HRYC5NPRTX85Z&field1=51",
+					"protocol": "https",
+					"host": [
+						"api",
+						"thingspeak",
+						"com"
+					],
+					"path": [
+						"update"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "ON1HRYC5NPRTX85Z"
+						},
+						{
+							"key": "field1",
+							"value": "51"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "THING_HTTP_FIREBASE_OKU",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.thingspeak.com/apps/thinghttp/send_request?api_key=I5BJASO5J1O9LJ67",
+					"protocol": "https",
+					"host": [
+						"api",
+						"thingspeak",
+						"com"
+					],
+					"path": [
+						"apps",
+						"thinghttp",
+						"send_request"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "I5BJASO5J1O9LJ67"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "OKU_TALKBACK_EXCUTE",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.thingspeak.com/talkbacks/48277/commands/execute.json?api_key=P1Z2R0FBGCZGC50F",
+					"protocol": "https",
+					"host": [
+						"api",
+						"thingspeak",
+						"com"
+					],
+					"path": [
+						"talkbacks",
+						"48277",
+						"commands",
+						"execute.json"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "P1Z2R0FBGCZGC50F"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "OKU_ALARM_KANAL_STATUS_UPDATE",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.thingspeak.com/channels/2052259/status.json?api_key=4ZYD6CNX0UMY2QM1",
+					"protocol": "https",
+					"host": [
+						"api",
+						"thingspeak",
+						"com"
+					],
+					"path": [
+						"channels",
+						"2052259",
+						"status.json"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "4ZYD6CNX0UMY2QM1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "YAZ_KANAL_INPUTS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.thingspeak.com/update?api_key=YP3I8CIVOENRW51U&field1=10&field2=11&field3=12&field4=13&field5=14&field6=15&field7=16&field8=17",
+					"protocol": "https",
+					"host": [
+						"api",
+						"thingspeak",
+						"com"
+					],
+					"path": [
+						"update"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "YP3I8CIVOENRW51U"
+						},
+						{
+							"key": "field1",
+							"value": "10"
+						},
+						{
+							"key": "field2",
+							"value": "11"
+						},
+						{
+							"key": "field3",
+							"value": "12"
+						},
+						{
+							"key": "field4",
+							"value": "13"
+						},
+						{
+							"key": "field5",
+							"value": "14"
+						},
+						{
+							"key": "field6",
+							"value": "15"
+						},
+						{
+							"key": "field7",
+							"value": "16"
+						},
+						{
+							"key": "field8",
+							"value": "17"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TALKBACK_COMMAND_YAZ",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.thingspeak.com/talkbacks/48277/commands.json?api_key=P1Z2R0FBGCZGC50F&command_string=125",
+					"protocol": "https",
+					"host": [
+						"api",
+						"thingspeak",
+						"com"
+					],
+					"path": [
+						"talkbacks",
+						"48277",
+						"commands.json"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "P1Z2R0FBGCZGC50F"
+						},
+						{
+							"key": "command_string",
+							"value": "125"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TALKBACK COMMAND OKU",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.thingspeak.com/talkbacks/48277/commands/execute.json?api_key=P1Z2R0FBGCZGC50F",
+					"protocol": "https",
+					"host": [
+						"api",
+						"thingspeak",
+						"com"
+					],
+					"path": [
+						"talkbacks",
+						"48277",
+						"commands",
+						"execute.json"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "P1Z2R0FBGCZGC50F"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "THING_ALERT_EMAIL",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Thingspeak-Alerts-API-Key",
+						"value": "TAKHLQFHpC1pHQWdPcz",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"subject\": \"ThingSpeak Alert email\",\r\n    \"body\": \"The water level has reached its limit\"\r\n}"
+				},
+				"url": {
+					"raw": "https://api.thingspeak.com/alerts/send",
+					"protocol": "https",
+					"host": [
+						"api",
+						"thingspeak",
+						"com"
+					],
+					"path": [
+						"alerts",
+						"send"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.thingspeak.com/update?api_key=7Z4I8Q9QOJHGPQE9&field1=1&field2=150&field3=2&field4=3&field5=4&field6=5&field7=6&field8=7",
+					"protocol": "https",
+					"host": [
+						"api",
+						"thingspeak",
+						"com"
+					],
+					"path": [
+						"update"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "7Z4I8Q9QOJHGPQE9"
+						},
+						{
+							"key": "field1",
+							"value": "1"
+						},
+						{
+							"key": "field2",
+							"value": "150"
+						},
+						{
+							"key": "field3",
+							"value": "2"
+						},
+						{
+							"key": "field4",
+							"value": "3"
+						},
+						{
+							"key": "field5",
+							"value": "4"
+						},
+						{
+							"key": "field6",
+							"value": "5"
+						},
+						{
+							"key": "field7",
+							"value": "6"
+						},
+						{
+							"key": "field8",
+							"value": "7"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FIREBASE_YAZ_THING",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.thingspeak.com/apps/thinghttp/send_request?api_key=TY5JJSCH4H3MDL0N&VALUE=21",
+					"protocol": "https",
+					"host": [
+						"api",
+						"thingspeak",
+						"com"
+					],
+					"path": [
+						"apps",
+						"thinghttp",
+						"send_request"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "TY5JJSCH4H3MDL0N"
+						},
+						{
+							"key": "VALUE",
+							"value": "21"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FIREBASE_YAZ_GERCEK",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\"98\""
+				},
+				"url": {
+					"raw": "https://esp8266-4140a.firebaseio.com/LED1.json?auth=2NaRXXwRefCCxTx9KBarrDm957KKDJsN4nJj1Dqq",
+					"protocol": "https",
+					"host": [
+						"esp8266-4140a",
+						"firebaseio",
+						"com"
+					],
+					"path": [
+						"LED1.json"
+					],
+					"query": [
+						{
+							"key": "auth",
+							"value": "2NaRXXwRefCCxTx9KBarrDm957KKDJsN4nJj1Dqq"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ALARMKANAL_GÜNCELLE",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.thingspeak.com/update?api_key=ON1HRYC5NPRTX85Z&field1=10",
+					"protocol": "https",
+					"host": [
+						"api",
+						"thingspeak",
+						"com"
+					],
+					"path": [
+						"update"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "ON1HRYC5NPRTX85Z"
+						},
+						{
+							"key": "field1",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
