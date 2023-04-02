@@ -1,0 +1,213 @@
+'****************************************************************
+'*  Name    : UNTITLED.BAS                                      *
+'*  Author  : [select VIEW...EDITOR OPTIONS]                    *
+'*  Notice  : Copyright (c) 2018 [select VIEW...EDITOR OPTIONS] *
+'*          : All Rights Reserved                               *
+'*  Date    : 29.03.2018                                        *
+'*  Version : 1.0                                               *
+'*  Notes   :                                                   *
+'*          :                                                   *
+'****************************************************************
+;********************** AYARLAR BAÞLANGICI ****************************** 
+#config
+ __CONFIG _CONFIG1, _FOSC_INTOSC & _WDTE_OFF & _PWRTE_OFF & _MCLRE_OFF & _CP_OFF & _CPD_OFF & _BOREN_OFF & _CLKOUTEN_OFF & _IESO_OFF & _FCMEN_OFF 
+ __CONFIG _CONFIG2, _WRT_OFF & _PLLEN_ON & _STVREN_OFF & _BORV_19 & _LVP_ON
+#ENDCONFIG
+
+DEFINE OSC 32
+;OSCILLATOR
+;OSCCON=%01111000   '%01101000=4 mHZ
+OSCCON=%11110000   ; 8*4=32mhz 16f1827 den   PLL enable ON olursa. 
+
+PORTA=%00000000     :  ;    TRISA=%000011
+ADCON0=%00000000    :      ADCON1=%00000000
+ANSELA=%00000000
+OPTION_REG=%00000000
+WPUA=%111111 ' This register consists of "6" bits .
+
+; **************** 4mhz 9600 baud 
+;RCSTA = $90   ' Enable serial port & continuous receive
+;TXSTA = $20   ' Enable transmit, BRGH = 0
+;SPBRGL = 25    ' 9600 Baud @ 4MHz, 0,16%
+;SPBRGH = 0
+;BAUDCON.3 = 1 ' Enable 16 bit baudrate generator
+;DEFINE HSER_CLROERR 1 ' Clear overflow automatically
+
+ ; *************** 32mhz 9600 baud **********************
+RCSTA = $90   ' Enable serial port & continuous receive
+TXSTA = $24   ' Enable transmit, BRGH = 1
+SPBRG = 64    ' 9600 Baud @ 0,04%
+SPBRGH = 3
+BAUDCON.3 = 1 ' Enable 16 bit baudrate generator
+DEFINE HSER_CLROERR 1 ' Clear overflow automatically
+
+; *************** 16mhz 9600 baud **********************
+;RCSTA = $90   ' Enable serial port & continuous receive
+;TXSTA = $24   ' Enable transmit, BRGH = 1
+;SPBRG = 160   ' 9600 Baud @ -0,08%
+;SPBRGH = 1
+;BAUDCON.3 = 1 ' Enable 16 bit baudrate generator
+;DEFINE HSER_CLROERR 1 ' Clear overflow automatically
+
+; Kesmeler için
+SYMBOL  GIE  =INTCON.7  
+SYMBOL  PEIE =INTCON.6  
+SYMBOL  RCIE =PIE1.5    
+SYMBOL  RCIF =PIR1.5
+
+CM1CON0=0                         
+CM1CON1=0 
+APFCON.7=1      ; RA5 RX tanýmlandý
+APFCON.2=1       ; RA4 TX olarak tanýmlandý
+APFCON.0=0
+CCP1CON=0
+ANSELA  =   0                   
+TRISA   =   %000101000  ; MCLR OFF fakat input olarak kullanýlabilir
+
+;************************** AYARLAR SONU *******************************
+;*****************  DEÐÝÞKENLERÝN TANIMLANMASI ********************        
+
+'***********Sensör Tanýmlamalarý***********
+
+Comm_Pin1   VAR	PortA.2
+Busy        VAR BIT
+HAM         VAR	WORD
+ISI         VAR WORD
+SIGN        VAR BYTE
+SIGN_BITI   VAR HAM.Bit11
+NEGAT_ISI   CON 1
+;TEMP        VAR BYTE
+Float       VAR WORD
+
+
+
+kar1    var byte
+kar2    var byte
+dd  var byte[10]
+temp1 var byte
+temp var byte
+clear
+PORTA   =   3
+Pause 200
+
+
+ 
+;*****************  DEÐÝÞKENLERÝN TANIMLANMASI  SONU ********************       
+
+;***************************   KESMELERÝN TANIMLANMASI 
+GIE=0   'tüm kesmeler kapalý 
+PEIE=1  'Çevre birim kesmesi aktif
+RCIE=1  'Usart alým kesmesi aktif
+RCIF=0
+GIE=1   'tüm kesmeler aktif  
+
+;***********************
+ 
+ON INTERRUPT GOTO KESME 
+
+ hserout ["AT",13,10]
+ pause 200
+ 
+ hserout ["AT+CWMODE=3",13,10]
+ pause 200
+ hserout ["AT+CIPMODE=0",13,10]
+  pause 200
+ hserout ["AT+CIPMUX=1",13,10]
+  pause 200
+ hserout ["AT+CWDHCP=2,0",13,10]
+  pause 200
+ hserout ["AT+CIPAP=",34,"192.168.4.1",34,13,10]
+   pause 200
+ hserout ["AT+CWSAP=",34,"ESP8266",34,",",34,"12345678",34,",6,4",13,10]
+    pause 200
+hserout ["AT+CIPSERVER=1,80",13,10]
+  pause 200    
+BASLA:
+
+ if kar1=1 and kar2=1 then call lightkontrol:kar1=0:kar2=0
+ if kar1=1 and kar2=0 then call htmlgonder:kar1=0:kar2=0
+ 
+
+GoTo basla
+
+htmlgonder:
+gosub sensoroku
+
+ hserout ["AT+CIPSEND=0,376",13,10]
+ pause 100
+ hserout ["<!DOCTYPE html><html><form action=",34,34," method=",34,"post",34,">",13,10]
+ hserout ["<input id=",34,"LIGHT1ON",34," type=",34,"submit",34," name=",34,"submit",34," value=",34,"LIGHT1 ON",34,">",13,10]
+ hserout ["<input id=",34,"LIGHT1OFF",34," type=",34,"submit",34," name=",34,"submit",34," value=",34,"LIGHT1 OFF",34,"><p>",13,10]
+ hserout ["<input id=",34,"LIGHT2ON",34," type=",34,"submit",34," name=",34,"submit",34," value=",34,"LIGHT2 ON",34,">",13,10]
+ hserout ["<input id=",34,"LIGHT2OFF",34," type=",34,"submit",34," name=",34,"submit",34," value=",34,"LIGHT2 OFF",34,"></p>",13,10]
+ hserout ["</form></html>",13,10]
+ hserout ["<?php",13,10]
+ hserout ["if (isset($_POST['action'])) {}?>",13,10]
+ 
+return
+
+lightkontrol:
+if  dd[5]="O" and dd[6]="N" then call ac
+if  dd[5]="O" and dd[6]="F" then call kapat
+return
+ac:
+if  dd[3]="1" then porta.0=0
+if  dd[3]="2" then porta.1=0
+return
+kapat:
+if  dd[3]="1" then porta.0=1
+if  dd[3]="2" then porta.1=1
+return
+
+
+disable
+KESME:  ; SERÝ PORT KESMESÝ
+GIE=0 :kar1=0:kar2=0
+HSERIN 5,atla2, [WAIT("IPD"),dd[1]]
+kar1=1
+  HSERIN 5,atla, [ dd[2]]
+HSERIN 5,atla2, [WAIT("LIGHT"),dd[3]]
+kar2=1
+  for temp1=4 to 10
+  HSERIN 5,atla, [ dd[temp1]] 
+  next temp1   
+ATLA:
+atla2:
+TEMP=RCREG
+GIE=1
+return
+enable
+
+; sensor ds18b20  okuma ve gonderme.
+ SENSOROKU: 
+           
+           OWOUT   Comm_Pin1, 1, [$CC, $44]' ISI deðerini oku
+           
+Bekle1:
+           OWIN    Comm_Pin1, 4, [Busy]    ' Busy deðerini oku
+           IF      Busy = 0 THEN Bekle1  ' hala meþgulmü? , evet ise goto Bekle..!
+           OWOUT   Comm_Pin1, 1, [$CC, $BE]' scratchpad memory oku
+           OWIN    Comm_Pin1, 2, [HAM.Lowbyte, HAM.Highbyte]' Ýki byte oku ve okumayý bitir.
+           GOSUB   Hesapla1
+           RETURN
+    
+Hesapla1:                 ; Ham deðerden Santigrat derece hesabý
+    Sign  = "+"
+    IF SIGN_BITI = NEGAT_ISI THEN
+       Sign   = "-"  
+       temp=($ffff-ham+1)*625
+       ISI  = DIV32 10 
+       GOTO GEC1   
+    endif
+    TEMP = 625 * (HAM+1)         
+    ISI = DIV32 10          ; Div32 hassas derece hesabý için 32 bit bölme yapýyoruz.
+GEC1:
+    FLOAT = (ISI //1000)/100
+    ISI=(ISI/1000)-1
+  
+  if ISI=64 then goto sensoroku  
+ RETURN    
+ 
+
+end
+
