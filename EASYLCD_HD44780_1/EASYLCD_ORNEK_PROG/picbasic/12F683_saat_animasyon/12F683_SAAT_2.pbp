@@ -1,0 +1,484 @@
+'****************************************************************
+'*  Name    : UNTITLED.BAS                                      *
+'*  Author  : [select VIEW...EDITOR OPTIONS]                    *
+'*  Notice  : Copyright (c) 2013 [select VIEW...EDITOR OPTIONS] *
+'*          : All Rights Reserved                               *
+'*  Date    : 29.07.2013                                        *
+'*  Version : 1.0                                               *
+'*  Notes   :                                                   *
+'*          :                                                   *
+'****************************************************************
+DEFINE OSC 8
+
+ 
+#config
+ __config _FCMEN_OFF & _IESO_OFF & _CP_OFF & _CPD_OFF & _BOD_OFF & _MCLRE_OFF & _WDT_OFF & _PWRTE_ON & _INTRC_OSC_NOCLKOUT
+#ENDCONFIG
+
+
+OSCCON=%01110101   ; Ýlk programa dönüþ için osccal deðerini kapat. 
+CMCON0 = 7
+ADCON0=%00000000
+ANSEL=0 ;ADC ler iptal
+
+
+;DEFINE LCD_DREG		PORTB	'LCD data bacaklarý PortB de baðlý
+;DEFINE LCD_DBIT			4		'LCD data bacaklarý 4. bitten baþlýyor
+;DEFINE LCD_EREG		PORTB	'LCD Enable Bacaðý PortB de baðlý
+;DEFINE LCD_EBIT			3		'LCD Enable Bacaðý 3. bite baðlý	
+;DEFINE LCD_RWREG    		PORTB	'LCD RW Bacaðý PortB de baðlý
+;DEFINE LCD_RWBIT     		2		'LCD RW Bacaðý  2. bite baðlý
+;DEFINE LCD_RSREG		PORTB	'LCD RS Bacaðý PortB de baðlý
+;DEFINE LCD_RSBIT		1		'LCD RS bacaðý 1. Bite baðlý		
+;DEFINE LCD_BITS			4		'LCD 4 bit  olarak baðlý
+;DEFINE LCD_LINES		2		'LCD 2 sýra olarak çalýþýyor.
+
+'@ DEVICE pic16F628a, INTRC_OSC_NOCLKOUT
+'@ DEVICE pic16F628a, MCLR_OFF
+
+'@ __config _XT_OSC & _WDT_ON & _MCLRE_ON & _LVP_OFF & _CP_OFF
+
+TRISIO=%00011100
+
+;TRISB=%00000000
+ 
+'________________________________saat deðiþkenleri________________________________________________ 
+SCL var GPIO.1
+SDA var GPIO.0
+gossaat var byte
+gosdak var byte
+gossn var byte
+'gosbasla var byte
+gosgun var byte
+gosay var byte
+GOSYIL VAR BYTE
+'GOSTEM VAR BYTE
+'GOSHAF VAR BYTE
+TEMP VAR BYTE
+
+saat var byte
+dak var byte
+sn var byte 
+GUN VAR BYTE
+AY VAR BYTE
+YIL VAR BYTE
+HAFGUN VAR BYTE
+'i var word
+'q var word
+'c var byte
+
+yon var byte
+den var byte  
+yer var byte
+gosden var byte
+yilarti var byte
+hesap var byte
+k var byte
+'lcdyaz var byte
+bos var byte
+SENSSAY VAR BYTE
+datesay var byte
+'____________________________________ýsý deðiþkenleri_________________________________________
+;Busy VAR BIT                                            ' Busy Status -Bit
+;HAM VAR WORD                                            ' Sensör HAM okuma degeri
+;ISI VAR WORD                                            ' Hesaplanmýs ISI degeri
+;ÝFloat VAR WORD                                          ' Holds remainder for + temp C display
+;ISARET_BITI VAR HAM.Bit11  
+;EKSI_ISI  CON 1                             ' +/- sýcaklýk saret biti, 1 = olursa eksi sýcaklýk                                         ' Sýfýr altýnda isaret biti=1 oluyor kontrol için                                          ' ° isareti
+;ISARET VAR BYTE                                         ' ISI degeri için +/- isaret
+ 
+'Y VAR BYTE   
+;SYMBOL COMM_PIN=GPIO.0  
+'high PORTA.7
+'high portb.7
+'SN=55: DAK=25: SAAT=16
+'GUN=8 :AY=9 : YIL=10 :GOTO YAZ
+clear 
+;GOSUB BASLAYAZ
+pause 100
+SEROUT2 GPIO.5,84,["LCDDD"]
+ pause 25
+ SEROUT2 GPIO.5,84,["LCDBO"]
+ pause 25
+ SEROUT2 GPIO.5,84,["LCDBL 6"]
+ pause 25
+; SEROUT2 GPIO.5,84,["LCDWR 1,1-","Hour:"]
+; pause 250
+; SEROUT2 GPIO.5,84,["LCDWR 2,1-","Date:"]
+'--------------------------ANA PROGRAM--------------------------------------
+ I2CWrite SDA,SCL,$D0,$07,[%00010000]
+ 'PAUSE 10      ' LCD nin kullanýma hazýr hale gelebilmesi için gerekli süre
+ 'LOW PORTB.2     		'RW bacaðý ekrana yazmaya imkan vermek için LOW yapýldý.
+AYAR:
+  SEROUT2 GPIO.5,84,["LCDCH"]
+  pause 25
+  while gpio.2=0
+wend
+AYAR1:   
+ ;  if porta.3 =0 then
+ ;   sensSAY=sensSAY+1
+ ;   ENDif
+ 
+    GOSUB saatoku
+    
+;    if senssay>30 then senssay=0:gosub sensoroku
+  IF GPIO.2 =0 THEN 
+  goto SAATAYAR1
+endif   
+
+     PAUSE 100
+ '   i=0  :  Q=0
+    GOTO AYAR1
+'-------------------------GÖSTERGE AYAR KODLARI---------------------------------
+SAATAYAR1 :
+SEROUT2 GPIO.5,84,["LCDCB"]
+;LCDOUT $FE,15
+;pause 20
+;lcdout $fe,$86
+pause 25
+ SEROUT2 GPIO.5,84,["LCDWR 1,7-"]
+While gpio.2=0
+wend
+pause 25
+;if GPIO.2=0 then goto saatayar1
+
+saatayar:
+temp=saat
+'lcdout $fe,$86
+'PAUSE 20
+yer=1
+'if temp=0 then
+'temp=1
+'goto yazdir
+'endif
+bak:
+if GPIO.2=0 then goto dakayar
+if GPIO.3=0 then yon=1:goto saatayar2
+if GPIO.4=0 then yon=2:goto saatayar2
+goto bak
+
+saatayar2:
+if yon=2 then goto asagi
+if temp>22 then 
+temp=0
+goto yazdir
+else
+temp=temp+1
+goto yazdir
+endif
+goto bak 
+
+asagi:
+if temp=0 then temp=23:goto yazdir
+
+if temp<2 then 
+temp=0
+goto yazdir
+else 
+temp=temp-1
+goto yazdir
+endif
+GOTO BAK
+'_______________________ saat ayarý sonu _______________
+
+yazdir:
+select case yer
+case 1
+den=7   ;$86
+saat=temp
+case 2
+den=10  ;$89
+dak=temp
+case 3
+den=7   ;$c6                  ; burada 2. satýr için düzenleme yap c6 dediði yer 2. satýr olacak.*****************
+gun=temp
+case 4
+den=10  ;$c9
+ay=temp
+case 5
+den=15  ;$Ce
+yil=temp
+end select
+
+;lcdout $fe,den,dec2 temp
+if yer<3 then 
+SEROUT2 GPIO.5,84,["LCDWR 1,",dec2 DEN,"-",DEC2 TEMP]
+pause 100
+SEROUT2 GPIO.5,84,["LCDWR 1,",dec2 DEN,"-"]
+pause 100    ;200
+endif
+
+;lcdout $fe,den
+
+
+if yer>2 then 
+SEROUT2 GPIO.5,84,["LCDWR 2,",dec2 DEN,"-",DEC2 TEMP]
+pause 100
+SEROUT2 GPIO.5,84,["LCDWR 2,",dec2 DEN,"-"]
+pause 100    ;200
+endif
+'lcdout $fe,$c0,dec yer,dec temp,hex den
+if yer=1 then goto bak
+if yer=2 then goto bakdak
+if yer=3 then goto gundak
+if yer=4 then goto aydak
+if yer=5 then goto yildak
+'goto bak
+
+'------------------- dakika ayar -----------------
+
+dakayar:
+yer=2
+temp=dak
+;lcdout $fe,$89
+SEROUT2 GPIO.5,84,["LCDWR 1,10-"]
+pause 25
+While gpio.2=0
+wend
+;if GPIO.2=0 then goto dakayar
+'if temp=0 then temp=1:goto yazdir
+
+bakdak:
+if GPIO.2=0 then goto yilayar
+if GPIO.3=0 then yon=1:goto dakayar2
+if GPIO.4=0 then yon=2:goto dakayar2
+goto bakdak
+
+dakayar2:
+if yon=2 then goto dakasa
+if temp>58 then 
+temp=0
+goto yazdir
+else
+temp=temp+1
+goto yazdir
+endif
+ 
+
+dakasa:
+if temp=0 then temp=59:goto yazdir
+if temp<2 then 
+temp=0
+goto yazdir
+else 
+temp=temp-1
+goto yazdir
+endif
+
+
+'----------------------- dakika ayar sonu __________________
+
+'------------------- GUN ayar baþlangýcý-----------------
+gunayar:
+yer=3
+temp=gun
+                ;lcdout $fe,$c6
+SEROUT2 GPIO.5,84,["LCDWR 2,7-"] 
+               
+While gpio.2=0
+wend
+;if GPIO.2=0 then goto gunayar
+'if temp=0 then temp=1:goto yazdir
+ gundak:
+if GPIO.2=0 then 
+gosub zaman_yaz
+
+goto ayar
+endif 
+'if GPIO.2=0 then goto ayayar
+if GPIO.3=0 then yon=1:goto gunayar2
+if GPIO.4=0 then yon=2:goto gunayar2
+goto gundak
+
+gunayar2:
+if ay=1 or ay=3 or ay=5 or ay=7 or ay=8 or ay=10 or ay=12 then 
+gosden=31
+else
+gosden=30
+endif
+if yon=2 then goto gunasa
+if temp>gosden-1  then 
+temp=1
+goto yazdir
+else
+temp=temp+1
+goto yazdir
+endif
+
+gunasa:
+if temp<2 then 
+temp=gosden
+goto yazdir
+else 
+temp=temp-1
+goto yazdir
+endif
+
+
+'----------------------- GUN ayar sonu __________________
+'------------------- AY ayar Baþlangýcý-----------------
+ayayar:
+yer=4
+temp=ay
+                    ;lcdout $fe,$c9
+SEROUT2 GPIO.5,84,["LCDWR 2,10-"]                    
+pause 25
+while gpio.2=0
+wend
+
+;if GPIO.2=0 then goto ayayar
+'if temp=0 then temp=1:goto yazdir
+
+aydak:
+if GPIO.2=0 then goto gunayar
+if GPIO.3=0 then yon=1:goto ayayar2
+if GPIO.4=0 then yon=2:goto ayayar2
+goto aydak
+
+ayayar2:
+if yon=2 then goto ayasa
+if temp>11  then 
+temp=1
+goto yazdir
+else
+temp=temp+1
+goto yazdir
+endif
+
+ayasa:
+if temp<2 then 
+temp=12
+goto yazdir
+else 
+temp=temp-1
+goto yazdir
+endif
+
+
+'----------------------- AY ayar sonu __________________
+'------------------- YIL ayar Baþlangýcý-----------------
+yilayar:
+yer=5
+temp=yil
+                                ;lcdout $fe,$ce
+SEROUT2 GPIO.5,84,["LCDWR 2,15-"] 
+pause 25
+while gpio.2=0
+wend
+                               
+;if GPIO.2=0 then goto yilayar
+'if temp=0 then temp=1:goto yazdir
+ yildak:
+'if GPIO.2=0 then 
+'gosub zaman_yaz
+'goto ayar
+'endif
+if GPIO.2=0 then goto ayayar
+if GPIO.3=0 then yon=1:goto yilayar2
+if GPIO.4=0 then yon=2:goto yilayar2
+goto yildak
+
+yilayar2:
+if yon=2 then goto yilasa
+if temp>98  then 
+temp=0
+yilarti=30
+                        ;lcdout $fe,$cb,dec2 yilarti
+goto yazdir
+else
+temp=temp+1
+goto yazdir
+endif
+
+
+yilasa:
+if yilarti=30 and temp=0 then 
+yilarti=20
+temp=99
+                        ;lcdout $fe,$cb,dec2 yilarti
+goto yazdir
+endif
+if temp<2 then 
+temp=0
+goto yazdir
+else 
+temp=temp-1
+goto yazdir
+endif
+
+
+'----------------------- YIL ayar sonu __________________
+'gosub zaman_yaz
+'goto ayar
+
+
+
+  '-------------------------SAAT KODLARI------------------------------
+'BASLA:
+ '   GOSUB  SAATOKU
+
+ '   RETURN
+
+
+'---------------------------------SAAT OKU--------------------------------------
+SAATOKU:
+'I2CREAD SDA,SCL,$D1,$00,[sn,dak,saat,hafgun,gun,ay,yil,TEM] 
+    I2CRead SDA, SCL,$D1,$00,[SN,DAK,SAAT,HAFGUN,GUN,AY,YIL,TEMP]
+         BOS=((sn>>4) & $0F)*10+(SN & $0F):sn=BOS
+         BOS=((DAK>>4) & $0F)*10+(DAK & $0F):DAK=BOS
+         BOS=((SAAT>>4) & $0F)*10+(Saat & $0F):SAAT=BOS
+         BOS=((GUN>>4) & $0F)*10+(GUN & $0F):GUN=BOS
+         BOS=((AY>>4) & $0F)*10+(AY & $0F)  :AY=BOS
+         BOS=((YIL>>4) & $0F)*10+(YIL & $0F):YIL=BOS
+'GOSBASLA=5
+'gossaat=saat
+'gosdak=dak
+'gossn=sn
+'GOSGUN=GUN
+ 'GOSAY=AY
+ 'GOSYIL=YIL
+'LCDOUT $FE,1             	'Önce Ekraný siliyoruz.
+
+;LCDOUT $FE,12
+;serin2 gpio.5,84,300,kesmeson,[wait("RGB"),redd,greend,blued]
+;SEROUT2 GPIO.5,84,["HOUR"]
+SEROUT2 GPIO.5,84,["LCDWR 1,1-","Hour:"," ",DEC2 saat,":",DEC2 dak,":",DEC2 sn ]
+;LCDOUT $FE,2,"Hour:"," ",DEC2 saat,":",DEC2 dak,":",DEC2 sn  'ilk sýra baþtan itibaren yazdýrýyoruz.
+PAUSE 25
+datesay=datesay+1:if datesay>5 then 
+datesay=0
+;LCDOUT $FE,$c0,"Date:"," ",DEC2 gun,".",DEC2 ay,".20",DEC2 YIL  'ilk sýra baþtan itibaren yazdýrýyoruz.
+SEROUT2 GPIO.5,84,["LCDWR 2,1-","Date:"," ",DEC2 gun,".",DEC2 ay,".20",DEC2 YIL ]
+'LCDOUT $FE,$80
+PAUSE 25
+endif
+  RETURN
+
+ZAMAN_YAZ:
+hesap=YIL/4
+k=status.0
+if k=1 AND AY=2 AND GUN>28 then
+GUN=28
+ELSE
+
+ if k=0 and ay=2 and gun>28 then 
+    gun=29
+    else
+    endif
+endif
+;baslayaz: sn=00:dak=10:saat=13:gun=25:ay=6:YIL=17
+        TEMP=(SN DIG 1)<<4+SN DIG 0:SN=TEMP
+        TEMP=(DAK DIG 1)<<4+DAK DIG 0:DAK=TEMP
+        TEMP=(SAAT DIG 1)<<4+SAAT DIG 0:SAAT=TEMP
+        TEMP=(GUN DIG 1)<<4+GUN DIG 0:GUN=TEMP
+        TEMP=(AY DIG 1)<<4+AY DIG 0:AY=TEMP
+        TEMP=(YIL DIG 1)<<4+YIL DIG 0:YIL=TEMP
+'        I2CWrite SDA,SCL,$D0,$07,[%00010000]
+        I2CWrite SDA, SCL,$D1,$00,[SN,DAK,SAAT,HAFGUN,GUN,AY,YIL]
+        PAUSE 10 
+'        I2CWrite SDA,SCL,$D0,$07,[%00010000]
+        return 
+'I2CWrite SDA,SCL,$D0,$07,[%00010000]
+
+
+
