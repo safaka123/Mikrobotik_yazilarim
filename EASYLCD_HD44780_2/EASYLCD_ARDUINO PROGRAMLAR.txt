@@ -1,0 +1,120 @@
+*******************    Program 1:
+ 
+ 
+ void setup() {
+   
+  Serial.begin(9600);  // 2400-115200 baud 
+  delay(20); // FOR READY of EASYLCD MODULE
+  
+  Serial.println("LCDWR 1,1-  HELLO WORLD   ");
+  delay(50);
+  Serial.println("LCDWR 2,1- MERHABA DUNYA  "); 
+}
+void loop() {
+  
+}
+
+
+
+*********** program 2: 
+   int temp=25;
+ 
+ void setup() {
+   
+  Serial.begin(9600);  // 2400-115200 baud 
+  
+  delay(20); // FOR READY of EASYLCD MODULE
+  
+  Serial.println("LCDWR 1,1-  HELLO WORLD   ");
+  delay(50);
+  Serial.println("LCDWR 2,1- MERHABA DUNYA  ");
+  delay(50);
+  Serial.println("LCDWR 3,1-tempreture: "+String(temp,DEC));
+  delay(50);
+  Serial.println("LCDWR 4,1-tempreture: "+String(temp,HEX));
+  delay(50);
+  for (int i=0; i <=17; i++){// FOR SEE tempreture information on 2*16 LCD
+      Serial.println("LCDSL"); // LCD DISPLAY SHIFT LEFT
+      delay(50);
+   }
+  Serial.println("LCDHO");  // LCD HOME SCREEN
+  
+}
+void loop() {
+  
+}
+
+
+
+***********        PROGRAM 3 :
+ String L1="LCDWR 1,1-";
+ String L2="LCDWR 2,1-";
+ String L3="LCDWR 3,";
+ 
+ void setup() {
+   
+  Serial.begin(9600);  // 2400-115200 baud 
+  
+  delay(20); // FOR READY of EASYLCD MODULE
+  
+  Serial.println(L1+"  HELLO WORLD   ");
+  delay(50);
+  Serial.println(L2+" MERHABA DUNYA  ");
+ delay(50);
+  Serial.println(L3+"3- MERHABA DUNYA  ");
+  delay(50);
+  Serial.println("LCDWR 4,4- MERHABA DUNYA  ");
+  
+}
+void loop() {
+  
+}
+
+
+
+***********************  PROGRAM REAL 4.
+int temp=25;
+ 
+ void setup() {
+   
+  Serial.begin(9600);  // 2400-115200 baud 
+  
+  delay(20); // FOR READY of EASYLCD MODULE
+  Serial.print("LCDDD");  // FOR DISPLAY DELETE(CLEAR)
+  delay(50);
+  Serial.print("LCDWR 1,1-  HELLO WORLD   ");
+  delay(50);
+  Serial.print("LCDWR 2,1- MERHABA DUNYA  ");
+  delay(50);
+  Serial.print("LCDWR 3,1-temp DEC : "+String(temp,DEC));
+  delay(50);
+  Serial.print("LCDWR 4,1-temp HEX : "+String(temp,HEX));
+  delay(1000);
+  for (int i=0; i <=17; i++){// FOR SEE tempreture information on 2*16 LCD
+      Serial.print("LCDSL"); // LCD DISPLAY SHIFT LEFT
+      delay(1000);// FOR THE SEE ANIMATION.
+   }
+   delay(1000);  // FOR THE SEE ANIMATION. DON'T NEED ANYTIME.
+  Serial.println("LCDHO");  // LCD HOME SCREEN
+  
+}
+void loop() {
+  
+}
+
+
+
+************    EKSTRALAR:
+String L1="LCDWR 1,1-";
+ String L2="LCDWR 2,1-";
+ String L3="LCDWR 3,";
+---------------------------------------------
+ Serial.println(L1+"  HELLO WORLD   ");
+  delay(50);
+  Serial.println(L2+" MERHABA DUNYA  ");
+ delay(50);
+  Serial.println(L3+"3- MERHABA DUNYA  ");
+  delay(50);
+  Serial.println("LCDWR 4,4- MERHABA DUNYA  ");
+-------------------------------------------------------
+ 
