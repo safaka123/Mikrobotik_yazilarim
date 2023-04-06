@@ -1,0 +1,54 @@
+﻿DS18B20 sensörleri için SEARCH ROM F0h algoritması
+
+
+Prensip olarak, tüm süreç detayları ile açıklanmıştır .
+ROM Arama Örneği 
+
+ROM araması 3 adımlı bir rutindir: bir bit oku, daha sonra bu bitin istenen değerini yazın. Veriyolu yöneticisi, ROM'un her bir bitindeki bu basit, 3 adımlı yordamı gerçekleştirir. Tam bir geçişten sonra, bus master, ROM'un içeriğini bir cihazda bilir. Kalan cihaz sayısı ve ROM kodları ek geçişler ile tanımlanabilir. 
+ROM arama işleminin aşağıdaki örneği, aynı 1-Telli veriyoluna dört farklı cihazın bağlı olduğunu varsayar. Dört cihazların ROM veri gösterilmiştir: 
+ROM 1 00.110.101 ... 
+ROM2 10.101.010 ... 
+ROM3 11.110.101 ... 
+ROM4 00.010.001 ... 
+
+aşağıdaki gibi ara işlemdir: 
+1. veri yolu ana bir çıkararak başlatma sekansı başlar nabzı sıfırla. Eşzamanlı mevcudiyet darbeleri vererek köle cihazları. 
+2. Bus master, 1-Telli veriyolunda Arama ROM komutunu yayınlayacaktır. 
+3. Bus master, 1-Telli veriyolundan biraz okur. Her cihaz birinci telli veriyolundaki ROM'un ilk bitine cevap verecektir.
+	 ROM1 ve ROM4, 1 Telli veriyoluna 0, yani düşük çekmeye yerleştirir. 
+	 ROM2 ve ROM3, hattın yüksek kalmasını sağlayarak 1-Telli veriyoluna 1 yerleştirecektir. 
+	 Bus master başka bir bit okuyor, bus master diğerini okuyor. 1-Telli otobüs: 1-Telli otobüsün ilk adımı. 
+	 ROM1 ve ROM4, hattın yüksek kalmasını sağlayarak 1 Tele 1 yerleştirir. ROM2 ve ROM3 1-Tel üzerine 0 yerleştirir, 
+	 böylece düşük çekilir. Bus master tekrar ilk kez bir ROM gözlemler. yolu ana birinci konumda bir 0 var ve diğerleri Bu bir 1. var 
+	 1-Wire otobüste bazı cihazlar vardır Yani belirlemiştir 
+
+ikisinden Elde tarih 3 aşamalı rutin okur var Yorumlama takiben: 
+00 Hala bağlı cihazlar var. 
+01 Hala bağlı olan tüm cihazların bu bit konumunda bir 0-bit vardır. 
+10 Hala bağlı olan tüm cihazların bu bit konumunda 1 bit vardır. 
+11 1 Telli veriyoluna bağlı aygıt yok. 
+
+4. Bus master 0 yazıyor. Bu, yolculuğun geri kalanı için ROM2 ve ROM3'ü seçerek sadece 
+1 telli veriyoluna bağlı ROM1 ve ROM4'ü bırakıyor . 
+5. Bus master, iki okuma daha yapar ve 0 bit ve ardından 1 bit çalışır. Bu, tüm cihazların ikinci veri yolu ROM veri biti olduğunu gösterir. 
+6. Bus master daha sonra ROM1 ve ROM4'ün her ikisini de bir arada tutmak için 0 yazıyor. 
+7. Bus master, iki okuma gerçekleştirir ve iki adet 0 bitten alındı. Bu, hem 1 bit hem de 0 bit olduğunu gösterir. 
+8. Bus master 0-bit yazıyor. Bu, ROM1'i ROM4'ten ayrılan cihazın hala bağlı olduğunu kaldırır. 
+9. Bus master, ROM4 için ROM bitlerinin kalanını okur ve istenirse parçaya erişmeye devam eder. Bu, ilk geçişi tamamlar ve 1-Telli veriyolunda bir parçayı benzersiz olarak tanımlar. 
+10. Bus master, 1'den 7'ye kadar olan adımları tekrarlayarak yeni bir ROM arama dizisi başlatır. 
+11. Bus master, bir 1-bit yazar. Bu, ROM1'i ayrıştırarak sadece ROM1'i birleştirir. 
+12. Bus master, ROM1 için ROM bitlerinin kalanını okur ve istenirse alttaki mantığa iletişim kurar. Bu, ROM'ların bir diğerinin bulunduğu ikinci ROM aramasını tamamlar. 
+13. Bus master, 1'den 3'e kadar olan adımları tekrar ederek yeni bir ROM araması başlatır. 
+14. Bus master, bir 1-bit yazar. Bu, ROM1 ve ROM4'ün ROM2 ve ROM3'ün geri kalanı için 
+sisteme bağlı olmasını kaldırır . 
+15. Bus master, iki okuma zaman aralığı ve makbuz iki sıfır çalıştırır. 
+16. Bus master 0-bit yazıyor. Bu ROM3'ü ayırır ve sadece ROM2'yi bırakır. 
+17. Bus master, ROM2 için ROM bitlerinin kalanını okur ve istenirse alttaki mantığa iletişim kurar. Bu, ROM'ların bir diğerinin bulunduğu üçüncü ROM araştırmasını tamamladı. 
+18. Bus master, 13 ile 15 arasındaki adımları tekrarlayarak yeni bir ROM araması başlatır. 
+19. Bus master, bir 1 bit yazar. Bu sadece ROM3'ü bırakarak ROM2'yi ayırır. 
+20. Bus master, ROM3 için ROM bitlerinin kalanını okur ve istenirse alttaki mantığa iletişim kurar. Bu, ROM'ların bir diğerinin bulunduğu dördüncü ROM araştırmasını tamamlar. 
+
+Aşağıdakilere dikkat edin: 
+Bus master, her ROM Arama işleminde bir 1-Telli cihazın benzersiz ID numarasını (ROM veri deseni) öğrenir. Benzersiz ROM kodunun türetilmesi için gereken süre:
+960 ms + (8 + 3 x 64) 61 ms = 13.16 ms 
+Otobüs veriyolu, saniyede 75 farklı 1-telli cihazı tanımlayabilmektedir.
