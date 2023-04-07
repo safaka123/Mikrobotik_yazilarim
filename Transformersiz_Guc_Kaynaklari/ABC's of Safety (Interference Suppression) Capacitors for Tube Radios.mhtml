@@ -1,0 +1,2827 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://www.justradios.com/safetytips.html
+Subject: ABC's of Safety (Interference Suppression) Capacitors for Tube Radios
+Date: Fri, 7 Apr 2023 08:52:44 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--aesJuOftfssbzktQSU8SDAO4ZyAssNXlHkc8XI3ICb----"
+
+
+------MultipartBoundary--aesJuOftfssbzktQSU8SDAO4ZyAssNXlHkc8XI3ICb----
+Content-Type: text/html
+Content-ID: <frame-B72784233F8E84AAAB42AE4C310F7EA4@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.justradios.com/safetytips.html
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Dwindows-1252">
+
+<meta name=3D"Generator" content=3D"Microsoft Word 97">
+<title>ABC's of Safety (Interference Suppression) Capacitors for Tube Radio=
+s</title>
+<meta name=3D"description" content=3D"
+ABC's of Safety Capacitors discusses the importance of using proper " acros=
+s-the-line"=3D"" and=3D"" "line-to-ground"=3D"" line=3D"" filter=3D"" capac=
+itors=3D"" in=3D"" tube=3D"" radios;=3D"" types=3D"" of=3D"" bypass=3D"" in=
+terference=3D"" suppression=3D"" capacitors;=3D"" classes=3D"" construction=
+=3D"" xy=3D"" safety=3D"" choosing=3D"" the=3D"" right=3D"" for=3D"" your=
+=3D"" electronics=3D"" repairs=3D"" restorations."=3D"">
+<meta name=3D"keywords" content=3D"Line filter safety capacitors vintage tu=
+be radio across-the-line-to-ground line filter capacitors TYPES line bypass=
+ interference suppression capacitors CLASSES type X X2 type Y2 X1Y2 restora=
+tions repair vintage tube TV vintage hi-fi audio guitar amplifiers tube tes=
+ters scopes test equipment">
+<meta name=3D"robots" content=3D"index,follow">
+</head>
+<body>
+<b><font size=3D"5" color=3D"#ff0000"><p>
+
+<img src=3D"https://justradios.com/justradios.jpg" alt=3D"schematic_diagram=
+s" height=3D"70" width=3D"115">
+
+ABC's of SAFETY (Interference Suppression) Capacitors for Tube Radios</p>
+
+</font></b><ul><b><font size=3D"5" color=3D"#ff0000">
+
+
+</font></b><font size=3D"3"><p><b>Line filter safety capacitors can improve=
+ the reliability, safety and performance (sound) of your vintage tube radio=
+. This page discusses in "non-technical" language: the importance of using =
+proper "across-the-line" and "line-to-ground" line filter capacitors; what =
+can happen when a line filter capacitor fails; the TYPES of line filter / l=
+ine bypass / interference suppression capacitors; the CLASSES of type X and=
+ type Y safety capacitors; the construction of safety capacitors; and how t=
+o choose the right safety capacitors for your tube radio restorations. Alth=
+ough this article is written from the perspective of tube radio enthusiast,=
+ the information should also be useful to those who repair vintage tube TVs=
+, vintage hi-fi's, tube based audio and guitar amplifiers, tube testers, sc=
+opes &amp; test equipment, etc. We hope you find this safety capacitor info=
+rmation useful and good luck with your vintage tube electronics repairs and=
+ restorations.</b>
+</p></font></ul>
+<p align=3D"center">
+<img src=3D"https://justradios.com/disccapacitors.jpg" alt=3D"high_voltage_=
+disc_capacitors" height=3D"80" width=3D"100">
+<img src=3D"https://justradios.com/symbols.gif" alt=3D"capacitor_safety_sym=
+bols" height=3D"30" width=3D"247">
+<img src=3D"https://justradios.com/X2.jpg" alt=3D"X2_safety_capacitors" hei=
+ght=3D"100" width=3D"100">
+
+</p>
+
+
+<div class=3D"Section1">
+
+<p class=3D"MsoNormal"><b style=3D"mso-bidi-font-weight:normal"><span style=
+=3D"color:red">The Importance of Line Filter Capacitors in Tube Radios:</sp=
+an></b><span style=3D"color:red"><o:p></o:p></span></p>
+
+<ul>
+
+<li>Your vintage tube radio needs proper <b style=3D"mso-bidi-font-weight:n=
+ormal">line filter</b> capacitors to sound good
+and to operate reliably and safely. These important capacitors are called <=
+b style=3D"mso-bidi-font-weight:normal">line</b> <b style=3D"mso-bidi-font-=
+weight:
+normal">filter</b> capacitors because they are used to <b style=3D"mso-bidi=
+-font-weight:
+normal">filter-out</b>/remove RF (radio frequency) <b style=3D"mso-bidi-fon=
+t-weight:
+normal">line</b> disturbance and interference picked up by your
+home <b style=3D"mso-bidi-font-weight:normal">power lines</b>.</li> <p></p>
+
+<li>Line filter capacitors also help to keep you
+safe from nasty (possible fatal) <b style=3D"mso-bidi-font-weight:normal">e=
+lectrical
+shocks</b>, by isolating the =93hot=94 side of your 120 volt power line fro=
+m your
+radios chassis.</li><p></p>
+
+<li>Noise interference is picked up in power lines
+from all kinds of household appliances such as washers &amp; dryers, electr=
+ic
+shavers, refrigerator motors, fans, air conditioners, light dimmers, lawn
+mowers, etc. <b style=3D"mso-bidi-font-weight:normal">Line filter capacitor=
+s pass
+noise interference ground</b> (rather than your ears).</li><p></p>
+
+<li>Back in the good old days (when you tube radio
+was made) there was a lot less interference as there were far fewer electri=
+cal
+appliances in a typical home. Also, safety standards were no where near as
+strict as they are today =85and, of course, safety capacitors had not been
+invented. If tube radios were manufactured today in 2004, AC rated line fil=
+ter <b style=3D"mso-bidi-font-weight:normal">safety capacitors would be req=
+uired</b>. </li><p></p>
+
+<li>The capacitors that filter out interference from
+the 110-120 volt AC (alternating current) power coming from your wall plug =
+go
+by a number of names. The <i style=3D"mso-bidi-font-style:normal">general</=
+i> term for these capacitors is=20
+AC<b style=3D"mso-bidi-font-weight:normal"> Line Filter Capacitor</b>
+or AC <b style=3D"mso-bidi-font-weight:normal">Interference</b> <b style=3D=
+"mso-bidi-font-weight:normal">Suppression Capacitor</b>.</li><p></p>
+
+<li>There are
+TWO basic types of Line Filter Capacitors=94, namely =93<b style=3D"mso-bid=
+i-font-weight:
+normal">across-the-line=94</b> capacitors and =93<b style=3D"mso-bidi-font-=
+weight:
+normal">line-to-ground</b>=94 (line by-pass) capacitors.</li><p></p>
+
+<li>In AC radios (radios with power transformers)
+where one side of the capacitor is connected to your 110-120 VAC power line=
+ and
+the other end of the capacitor connects to radio chassis/ground, that capac=
+itor
+is referred to as a <b style=3D"mso-bidi-font-weight:normal">line-to-ground=
+</b>
+capacitor.</li><p></p>
+
+<li>Other names for Line-to-Ground capacitor include
+<b style=3D"mso-bidi-font-weight:normal">line bypass capacitor </b>and<b st=
+yle=3D"mso-bidi-font-weight:normal"> line isolation</b> or <b style=3D"mso-=
+bidi-font-weight:
+normal">isolating capacitor</b>.</li><p></p>
+
+<li>In AC/DC (radios that do not use power
+transformers) radios where a line filter capacitor is connected between the
+=93hot=94 and =93ground=94 side of the power line, that capacitor is known =
+as an <b style=3D"mso-bidi-font-weight:normal">across-the-line</b> capacito=
+r. Across the
+line capacitors serve to keep RF noise disturbances from affecting the
+receiver. (AC/DC radios sometimes also utilize line bypass capacitors.)</li=
+><p></p>
+
+<li>Line filter capacitors are hard working
+capacitors and<b style=3D"mso-bidi-font-weight:normal"> operate under very =
+harsh
+conditions.<span style=3D"mso-spacerun:yes">&nbsp; </span></b>They can shor=
+t or
+explode if their dielectric breaks down. They have to handle 110-120 volts =
+on a
+steady and ongoing basis. Depending on where the on-off connection is locat=
+ed
+in the radio circuit, the line filter capacitor(s) may be working even with=
+ the
+radio is turned off. Yes, if the on-off connection is located after line fi=
+lter
+connection your filer caps will be working 24 hours a day, 365 days a year =
+(as
+long as your radio is plugged in). <i style=3D"mso-bidi-font-style:normal">=
+Keep
+your radio unplugged when not in use.</i></li><p></p>
+
+<li>Over and above the ongoing 110-120 VAC, there
+are lighting storms/strikes and power <b style=3D"mso-bidi-font-weight:norm=
+al">surges
+and spikes</b> in your power lines that can generate several kilovolts!<spa=
+n style=3D"mso-spacerun:yes">&nbsp; </span>A proper a line filter has to be=
+ able to
+withstand ongoing high voltages and voltage surges and spikes for years, an=
+d if
+it fails, it should not explode, catch fire or put people at risk of shock.=
+ AC
+rated safety capacitors are designed to safely handle these steady high AC
+voltages and surges. Should they ever fail, they are designed to fail in a
+=93safe way=94.</li><p></p>
+
+<li>In the vintage tube radio you are about to
+restore you will not find safety capacitors. If your radio was made before =
+WWII
+you will find that ordinary paper/wax capacitors were used. If your radio w=
+as
+made after WWII you will find either paper/wax condensers or ceramic disc
+capacitors. Once in a while you will even find that mica capacitors were us=
+ed.
+Theses non-safety certified paper, ceramic disc and mica capacitor are <b s=
+tyle=3D"mso-bidi-font-weight:normal">all subject to FAILURE</b>.</li><p></p=
+></ul>
+
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class=3D"MsoNormal"><b style=3D"mso-bidi-font-weight:normal"><span style=
+=3D"color:red">What Happens when your Line Filters Fail? </span></b></p>
+
+<ul><li>If a line filter capacitor fails (and they do) your
+radio will work poorly (or not at all) and you may be at <b style=3D"mso-bi=
+di-font-weight:
+normal">risk to electric shock</b> (possibly fatal) and/or fire.</li><p></p=
+>
+
+<li>If a line filter capacitor <b style=3D"mso-bidi-font-weight:
+normal">opens</b>, your radio will be subject to the <b style=3D"mso-bidi-f=
+ont-weight:
+normal">noise interference</b> that the capacitor would normally filter out=
+.</li><p></p>
+
+<li>If your AC radio does not have a true =93earth=94
+ground connected to it, it means your line-to-ground line filter capacitor =
+is
+your receiver=92s only connection to ground (i.e. coupled connection to the
+ground side of your 110-120VAC power line). <i style=3D"mso-bidi-font-style=
+:normal">This
+is why sometimes reversing the plug on an AC radio will improve performance=
+.</i>
+It is also why you will sometimes get a =93spark=94 when you connect a true=
+ earth
+ground to an old AC radio.</li><p></p>
+
+<li>If your
+radio uses a single line bypass capacitor (and no earth ground connection) =
+and
+your line-to ground bypass capacitor opens, your AC receiver has lost all
+ground contact. This loss of ground contact can cause a bad side effect kno=
+wn
+as =93<b style=3D"mso-bidi-font-weight:normal">modulation hum</b>=94.
+With =93modulation hum=94 there is no hum between channels, but as soon as =
+a radio
+station is tuned in you get a bad hum. <i style=3D"mso-bidi-font-style:norm=
+al">To
+see if an open line-to-ground capacitor is the cause of modulation hum, jus=
+t (connect
+in parallel) bridge it with a capacitor of the same capacitance.</i></li><p=
+></p>
+
+<li>An improvement in circuit design is where an AC
+radio has two line-to-ground capacitors (see below schematic) to filter bot=
+h sides of the line. This
+will give you better power line filtration and you don=92t have to worry ab=
+out
+polarity when you plug in your radio. However, let=92s not complexly knock =
+the
+single bypass design as some early AC tube radios used NO line filter capac=
+itors
+at all.</li><p></p>
+<p align=3D"center">
+<img src=3D"https://justradios.com/twobypass.jpg" alt=3D"two_line_to_ground=
+_capacitors" height=3D"160" width=3D"270">
+
+</p>
+
+<li>If a line bypass capacitor <b style=3D"mso-bidi-font-weight:
+normal">shorts-out or becomes leaky</b> (and all old paper capacitors
+eventually leak), you may be in <b style=3D"mso-bidi-font-weight:normal">DA=
+NGER
+of an electric shock</b> (possibly fatal).</li><p></p>
+
+<li>With some AC/DC radios often the only thing
+between the chassis your 110- 120 volt line cord is a lonely line bypass
+capacitor (sometimes in parallel with a resistor).<span style=3D"mso-spacer=
+un:yes">&nbsp; </span>What you end up with is known as a =93<b style=3D"mso=
+-bidi-font-weight:normal">floating ground</b>=94. If that by-pass cap
+becomes shorted or leaks badly, you could have a =93hot=94 chassis capable =
+of
+giving you a lethal 120V shock. </li><p></p>
+
+<li>As for AC receivers, the same thing can happen.
+If a line-to-ground capacitor shorts out, the chassis could be 120 volts =
+=93hot=94.</li><p></p>
+
+<li>In AC-DC radios, if the across-the-line
+capacitor (C2 in the below schematic) opens up, radio performance will suff=
+er from interference.</li><p></p>
+<p align=3D"center">
+<img src=3D"https://justradios.com/acrosstheline.jpg" alt=3D"across_the_lin=
+e" height=3D"150" width=3D"165">
+
+
+</p><li>The schematic below shows an AC/DC type power
+line circuit with just one line bypass line filter capacitor. When an AC-DC=
+ radio has
+just one line-to-ground (bypass) capacitor, that cap is only working effect=
+ively when
+connected to the =93hot=94 side (rather than the ground) of your 110-120 VA=
+C power
+cord. This is why some radios work/sound better is the plug is reversed. <i=
+ style=3D"mso-bidi-font-style:normal">If your radio is picking up a lot of
+interference, try reversing the plug.</i></li><p></p>
+
+
+<p align=3D"center">
+
+<img src=3D"https://justradios.com/lessnoise.jpg" alt=3D"less_noise" height=
+=3D"115" width=3D"260">
+
+
+</p>
+<li>
+
+
+It is a good idea to use a Ground Fault Interrupter (GFI) in every electron=
+ics workshop. This little device is inexpensive and looks almost identical =
+to a regular 120-volt outlet. It is designed to shut the power off if abnor=
+mal current to ground is detected (as a ground leak through you body can ki=
+ll you). If you use old test equipment such as a tube tester or an oscillos=
+cope, you may find that the GFI switches your power off for no known reason=
+. The likely cause of this is leaky line filter capacitor(s) i.e. too much =
+electrical current is flowing through them. <i>If you are using old test eq=
+uipment, be sure to replace the old line filter capacitors with new safety =
+approved capacitors</i></li>.  </ul>
+
+<p></p>
+
+
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class=3D"MsoNormal"><b style=3D"mso-bidi-font-weight:normal"><span style=
+=3D"color:red">To the Rescue - The Advent of Safety Capacitors:</span></b><=
+/p>
+
+<p class=3D"MsoNormal"><b style=3D"mso-bidi-font-weight:normal"><span style=
+=3D"color:red">Types of Safety Capacitors: <o:p></o:p></span></b></p>
+
+<ul style=3D"margin-top:0in" type=3D"disc">
+ <li>There
+     are <b style=3D"mso-bidi-font-weight:normal">two major types</b> of
+     interference-suppression / AC line filter safety capacitors; namely, t=
+ype
+     X and type Y. The purpose of these capacitors is to reduce radio frequ=
+ency
+     interference and to ensure safety from shock and fire.</li><p>
+ </p><li>In
+     addition to helping to block out noise interference from being receive=
+d,
+     they are also used in electrical devices and appliances to help preven=
+t
+     noise interference <b style=3D"mso-bidi-font-weight:normal">from being=
+ sent
+     out</b>. Below is a schematic of a modern day =93line filter circuit=
+=94 which
+     shows the safety capacitor(s) C1 and C2. Capacitor C1 would be a type =
+X
+     =93across the line=94 capacitor and the two C2s would be type Y =93lin=
+e to
+     ground=94 safety capacitors.</li><p>
+</p><p align=3D"center">
+<img src=3D"https://justradios.com/source.gif" alt=3D"source" height=3D"114=
+" width=3D"300">
+
+
+</p>
+ <li>Class X capacitors are used in =93<b style=3D"mso-bidi-font-weight:nor=
+mal">across-the-line</b>=94 applications where
+     their failure <b style=3D"mso-bidi-font-weight:normal"><i style=3D"mso=
+-bidi-font-style:
+     normal">would not lead to electric shock</i></b>. Class X safety caps =
+are
+     used between the =93live=94 wires carrying the incoming AC current. In=
+ this
+     position, a capacitor failure should not cause any electrical shock
+     hazards, rather, a capacitor failure =93between-the-lines=94 would usu=
+ally
+     cause a fuse or circuit breaker to open.</li><p>
+ </p><li>Class
+     Y capacitors are used in =93<b style=3D"mso-bidi-font-weight:normal">l=
+ine-to-ground</b>=94
+     (line bypass) applications where <b style=3D"mso-bidi-font-weight:norm=
+al"><i style=3D"mso-bidi-font-style:normal">their failure could lead to ele=
+ctric
+     shoc</i>k </b>if a proper ground connection were lost. The failure of =
+a
+     =93line-to-ground=94 capacitor would not open any safety fuse. <span s=
+tyle=3D"mso-spacerun:yes">&nbsp;</span>In other words, the failure of a lin=
+e
+     bypass capacitor could create a 120 volt =93hot=94 chassis that could =
+give you
+     a potentially fatal shock.</li><p>
+ </p><li>Because
+     the terms X and Y are pretty non-descript, it can be hard to remember
+     which type go where. To remember, just think of the X as being <b styl=
+e=3D"mso-bidi-font-weight:normal">A CROSS </b>on a <i style=3D"mso-bidi-fon=
+t-style:
+     normal">45 degree angle</i>, and there you have it =85.X is for =93<b =
+style=3D"mso-bidi-font-weight:normal">A CROSS</b> the line=94 applications.=
+</li><p>
+ </p><li>Most safety
+     capacitors have voltage ratings of 250 VAC and can be used in circuits=
+ <b style=3D"mso-bidi-font-weight:normal">up to</b> <b style=3D"mso-bidi-fo=
+nt-weight:
+     normal">250 VAC</b>.<span style=3D"mso-spacerun:yes">&nbsp; </span>Wit=
+h a 250V
+     voltage rating the capacitors can used in the USA and Canada where typ=
+ical
+     household voltage is 110-120 VAC as well as in Europe, Australia and o=
+ther
+     countries where 240 volts is used.</li></ul>
+
+
+
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class=3D"MsoNormal"><b style=3D"mso-bidi-font-weight:normal"><span style=
+=3D"color:red">Classes of Safety Capacitors:<o:p></o:p></span></b></p>
+
+
+<ul>
+<li>Safety capacitors are grouped into a number of
+different classes. For <b style=3D"mso-bidi-font-weight:normal">X Type</b> =
+capacitors
+there are class X1, X2 and X3. For Y Type capacitors there is class Y1, Y2,=
+ Y3
+and Y4.</li><p></p>
+
+<li>The only
+types you will probably see for sale are <b style=3D"mso-bidi-font-weight:n=
+ormal">X1</b>
+(impulse tested to 4000 Volts), <b style=3D"mso-bidi-font-weight:normal">X2=
+</b>
+(tested to 2500 V), <b style=3D"mso-bidi-font-weight:normal">Y1</b> (tested=
+ to
+8000 V) and <b style=3D"mso-bidi-font-weight:normal">Y2</b> (tested to 5000=
+ V).</li><p></p>
+
+<li>Of the above capacitors, <b style=3D"mso-bidi-font-weight:
+normal">type X2 and Y2 are the most popular</b> and the type that you will
+probably want to use. X2 and Y2 safety capacitors are used in appliances th=
+at <b style=3D"mso-bidi-font-weight:normal">plug into ordinary household wa=
+ll outlets</b>,
+while type X1 and Y1 are for heavy duty industrial use. For example, a type=
+ X1 capacitor
+would be used in an industrial computer or industrial lighting ballast that=
+ is connected
+to a 3-phase line (the main power truck lines within a building).</li><p></=
+p>
+
+<li>You could use type X1 and Y1 in your tube
+electronics if you wanted to, but all you require to meet safety standards =
+is
+the X2 and Y2. The type 1=92s will cost you more money and may be more diff=
+icult
+to install due to their larger size.</li><p></p>
+
+<li>Are X2
+and Y2 capacitors interchangeable? Yes and no! You can safely use an Y2
+capacitor in place of an X2 capacitor for an =93across-the line=94 applicat=
+ion, but
+you should not use an X2 capacitor in place of an Y2 capacitor for a =93lin=
+e to ground=94
+application. The X2 type would work and remove noise interference, but woul=
+d
+not meet line-to-ground safety standards. This is because Y2 capacitors are
+more robust, take higher test voltages and are designed to open, (rather th=
+an
+short) should a failure occur.</li><p></p>
+
+<li>What do Y2 safety capacitors have in common with
+your cars windshield? They are both built =93not to break=94 and if they do=
+ break,
+they are built to =93break safely=94.</li><p></p>
+
+<li>By now
+you are probably asking yourself=85if Y2 capacitors are so great and can be=
+ used
+for X2 purposes =85 why not just forget about X2 capacitors and use Y2 type=
+ all
+the <span class=3D"GramE">time?</span> There are two good reasons =85 cost =
+and size.
+Y2 safety capacitors are more expensive than X2 type and Y2 capacitors are
+larger (which can may make installation harder). Using Y2 type capacitors w=
+hen
+an X2 type is all that is required would be like re-capping your tube radio=
+s
+with 1600 volt capacitors rather than 630V caps. All you have done is spent
+more money that you had to.</li><p></p>
+
+<li>Once in a while you will see a safety capacitor
+that is a combination of X and Y classes. <span style=3D"mso-spacerun:yes">=
+&nbsp;</span>For example, an X1/Y2 ceramic disc safety
+capacitors. This simply means that the capacitor meets safety qualification=
+s as
+both an X1 capacitor and an Y2 capacitor. If I might use a car analogy agai=
+n,
+you might think of an X2 capacitor as a special summer tire, an Y2 as a rug=
+ged
+winter tire and an X1/Y2 as a versatile all-season tire.</li><p></p>
+
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</ul>
+
+<p class=3D"MsoNormal"><b style=3D"mso-bidi-font-weight:normal"><span style=
+=3D"color:red">Construction of Safety Capacitors: </span></b></p>
+<ul>
+
+<li>Safety capacitors are available in ceramic disc
+and metalized film or paper. The film type are made of self-healing metaliz=
+ed
+polyester, polypropylene or paper and usually come in a =93box=94 style cas=
+ing as
+the capacitor is encased is a flame retardant or flame-proof case.</li><p><=
+/p>
+
+<li>Ceramic
+disc safety capacitors have the advantage of being economically priced and
+compact in size (making installation easy). One limitation ceramic disc saf=
+ety
+caps have is that the largest uF capacitance size available is 0.01 uF (whi=
+ch
+is sometimes lower than what is needed per the schematic). If you require Y=
+2 safety capacitor that has a capacitance over 0.01uF you will need to use =
+Y2 capacitor made of Poly Film.</li><p></p>
+
+<li>Type X2 film capacitors are also very economical,
+are relatively compact and are available in a wide range of sizes.</li><p><=
+/p>
+
+<li>Y2 film capacitors are more expensive and larger that both disc
+capacitors and X2 film capacitors. </li><p></p>
+
+<li>All safety capacitors should have certifier=92s
+symbols on their casing. For example <i style=3D"mso-bidi-font-style:normal=
+">UL</i>
+(for <st1:country-region><st1:place>USA</st1:place></st1:country-region>), =
+<i style=3D"mso-bidi-font-style:normal">CSA</i> (for <st1:country-region><s=
+t1:place>Canada</st1:place></st1:country-region>),
+VDE (for <st1:country-region><st1:place>Germany</st1:place></st1:country-re=
+gion>),
+etc. <i style=3D"mso-bidi-font-style:normal">To ensure you are using proper=
+ly
+certified safety capacitors check that certification symbols (see below) ar=
+e on
+the cases.</i></li><p></p><p align=3D"center">
+<img src=3D"https://justradios.com/symbol.gif" alt=3D"safety_symbol" height=
+=3D"75" width=3D"140">
+
+
+</p>
+
+<li>There are also certain safety standards/certification
+tests that you want the capacitors to meet. For Radio, TV and certain other
+telecom use the requirement the standard that should be met is: UL1414 (USA=
+);
+CSA C22.2 No.1 (<st1:country-region><st1:place>Canada</st1:place></st1:coun=
+try-region>)
+and EN132400 (<st1:place>Europe</st1:place>). <span style=3D"mso-spacerun:y=
+es">&nbsp;</span><i style=3D"mso-bidi-font-style:normal">If you
+buy safety capacitors for your radio or TV, check with your vendor to be su=
+re
+the caps you are buying meet the above standards.<o:p></o:p></i></li><p></p=
+>
+
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</ul>
+
+
+<p class=3D"MsoNormal"><b style=3D"mso-bidi-font-weight:normal"><span style=
+=3D"color:red">Q &amp; A:</span></b></p>
+
+The two most common questions I receive regarding safety caps are noted bel=
+ow:
+
+<ul>
+ <li>Question: The old paper capacitor(s) currently being used as line capa=
+citor(s) are rated at 630 Volts. The safety caps are rated at just 250 Volt=
+s. Is it safe to use the lower voltage safety capacitors?<br>
+Answer: The old paper caps are standard capacitors and are rated at 630V <b=
+>DC</b>. The new safety caps are rated at 250V <b>AC</b>. The 250V <b>AC ra=
+ted</b> safety caps will take much more punishment that regular 630V <b>DC<=
+/b> capacitors.
+
+
+</li><p>
+ </p><li>Question: My old tube radio does not use line capacitors. If I wan=
+t to install line capacitor(s) .....what uF size should I use?<br>
+Answer: I do not know of any formula to determine what uF size should be us=
+ed... but an exact uF size is not critical. Since the most common size line=
+ capacitor(s) is 0.01uF you may want to start with that size. Since safety =
+caps are also "interference suppression" capacitors, the installation of li=
+ne capacitors "may" help to reduce interference.
+
+</li><p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p><p class=3D"MsoNormal"><b style=3D"mso-bidi-font-weight:normal"><span s=
+tyle=3D"color:red">Wrap-up:</span></b></p></ul>
+
+
+
+<ul>
+ <li>When
+     you restore a vintage tube radio it is standard practice to replace al=
+l
+     old paper/wax capacitors and electrolytic capacitors. This is known as
+     re-capping the radio. <b style=3D"mso-bidi-font-weight:normal">All lin=
+e
+     filter capacitors should be replaced with approved safety capacitors.<=
+/b></li><p>
+ </p><li>You
+     will need to determine which capacitors are =93across-the-line=94 and =
+which
+     are =93line-to-ground=94. You will be able to easily identify these ca=
+pacitors
+     with the help of a schematic. Don=92t guess =85. <span class=3D"GramE"=
+>use</span>
+     a schematic.</li><p>
+ </p><li>=93Across-the-line=94
+     capacitors should be replaced with type X2, X1/Y2 or Y2 safety capacit=
+ors.</li><p>
+ </p><li>=93Line-to-ground=94
+     line filter capacitors should be replaced with Y2 or X1/Y2 safety capa=
+citors. (do not use X2 type).</li><p>
+ </p><li>As a
+     general rule one does not replace disc or mica capacitors, but if they=
+ are
+     being used as line filter capacitors, it=92s time to break the general=
+ rule.
+     Non-safety rated ceramic disc and/or mica capacitors have a <b style=
+=3D"mso-bidi-font-weight:normal">high failure rate</b> when used as
+     line filter capacitors<b style=3D"mso-bidi-font-weight:normal">. Non-s=
+afety
+     certified disc and mica capacitors should be replaced </b>with a prope=
+r safety
+     capacitor. </li>
+</ul>
+
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class=3D"MsoNormal" align=3D"center" style=3D"margin-left:3.0pt;text-ali=
+gn:center"><b style=3D"mso-bidi-font-weight:normal"><span style=3D"color:re=
+d">JustRadios Services:</span></b></p>
+<ul>
+<li><span style=3D"color:red">Capacitors for Vintage
+Electronics:</span> We sell a full line of high voltage film, mica, electro=
+lytic and safety capacitors for vintage
+tube radios that include interference suppression / AC rated line filter sa=
+fety
+capacitors. All capacitors come with long leads for easy under chassis
+installation in tube electronics. We carry=20
+<a href=3D"https://www.justradios.com/X1Y2capacitors.html"><b>X1/Y2</b> Cer=
+amic Disc AC-Rated Safety Capacitors</a>,
+
+<a href=3D"https://www.justradios.com/Y2capacitors.html"><b>Y2</b> Metalize=
+d Polyester Safety/Interference Suppression Capacitors</a>
+
+
+ and=20
+
+<a href=3D"https://www.justradios.com/X2capacitors.html"><b>X2</b> Metalize=
+d Polypropylene Interference Suppression/Safety Capacitors</a>.
+
+All of our safety capacitors
+meet UL1414, CSA 22.1No.1 and EN132400 for use in televisions and radio
+receivers.<p></p>
+
+</li><li><span style=3D"color:red">Capacitor Kits for Tube Radios:</span> W=
+e carry a number of =20
+
+<a href=3D"https://www.justradios.com/capkits.html">capacitor kits </a>
+which offer savings over buying capacitors individually. These cap kits con=
+tain the sizes most often needed for tube radio repairs and restorations. O=
+ur <b>Safety Capacitor Kit</b> is Kit # 12.<p></p>
+
+<br>
+
+
+
+</li><li><span style=3D"color:red">Resistors for Tube Electronics
+:</span> JustRadios carries a complete line of =20
+
+<a href=3D"https://www.justradios.com/resistors.html">Resistors for Tube El=
+ectronics.  </a> For added safety all of our metal oxide, carbon film, meta=
+l glaze and power resistors are<b> "flame-proof"</b>.<br><br>
+
+
+
+</li><li><span style=3D"color:red">Resistors Kits for Tube Electronics
+:</span> JustRadios carries a nice selection of =20
+
+<a href=3D"https://www.justradios.com/reskits.html">Resistors Kits Tube Ele=
+ctronics.   </a> For added safety all of our 1 watt, 2 watt and 5 watt resi=
+stor kits are<b> "flame-proof"</b>.
+
+
+
+
+
+
+<p></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</li><li><span style=3D"color:red">Schematics and Service
+Data:</span> We carry=20
+
+<a href=3D"https://www.justradios.com/">schematics and service data </a>
+for vintage tube radios,
+televisions, hi-fi systems, audio and guitar amplifiers, CB radios, test
+equipment and more.<p></p>
+
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+
+</li></ul></div>
+
+<p>Dave and Babylyn Cantelon, 6 Ferncrest Gate, Scarborough, Ontario, Canad=
+a, M1W_1C2<br>E-mail:
+   =20
+<a href=3D"mailto:justradios@yahoo.com?subject=3DSafety%20Capacitor%20Email=
+">justradios@yahoo.com</a><br>
+<a href=3D"https://www.justradios.com/about.html">About JustRadios</a>
+</p>
+<b><font size=3D"3" color=3D"#ff0000">
+</font></b><font size=3D"3" color=3D"#ff0000"></font><p><font size=3D"3" co=
+lor=3D"#ff0000"><b>Capacitors for Tube Radios</b></font><font size=3D"3">: =
+ </font></p><font size=3D"3">
+<p>
+<font color=3D"#880000"><b>hot</b></font>
+<a href=3D"https://www.justradios.com/capkits.html"><b>Capacitor Kits</b> f=
+or Tube Radios</a><br>
+<a href=3D"https://www.justradios.com/PPTcapacitors.html">Metalized Polypro=
+pylene Capacitors</a> - 630 Volt <b>Axial</b> Tubulars<br>
+<a href=3D"https://www.justradios.com/METcapacitors.html">Metallized Polyes=
+ter Film Capacitors</a> - 630 Volt <b>Axial</b> Tubulars<br>
+<a href=3D"https://www.justradios.com/PPNcapacitors.html">Metal-Foil Polypr=
+opylene Capacitors</a>- 630 Volt <b><span style=3D"color:#FF6600">Orange Di=
+ps</span></b><br>
+<a href=3D"https://www.justradios.com/DMEcapacitors.html">Metallized Polyes=
+ter Film Capacitors</a> - 630 Volt<b> <span style=3D"color:#FF6600">Orange =
+Dips</span></b><br>
+<a href=3D"https://www.justradios.com/MPMcapacitors.html">Metallized Polypr=
+opylene Capacitors</a>- 1600 Volt <b><span style=3D"color:#FF6600">Orange D=
+ips</span></b><br>
+<a href=3D"https://www.justradios.com/mica.html"> Dipped Silver MICA Capaci=
+tors</a>- 500 Volts<br>
+
+<a href=3D"https://www.justradios.com/MYLARcapacitors.html"> Mylar Polyeste=
+r Film Capacitors</a> - "on sale by the 50"<br>
+<a href=3D"https://www.justradios.com/DISCcapacitors.html"> Ceramic Disc Ca=
+pacitors</a> - 1600 Volts<br>
+<a href=3D"https://www.justradios.com/radialelectrolytics.html">High Voltag=
+e Electrolytic Capacitors</a> - Radial Leads<br>
+<a href=3D"https://www.justradios.com/axialelectrolytics.html">High Voltage=
+ Electrolytic Capacitors</a> - Axial Leads<br>
+
+<img src=3D"https://justradios.com/new.gif" alt=3D"new_capacitors">
+<a href=3D"https://www.justradios.com/SINGLEsection.html">Single Section <b=
+>Can</b> Electrolytic Capacitors - 500 Volts</a><br>
+<img src=3D"https://justradios.com/new.gif" alt=3D"new_capacitors">
+<a href=3D"https://www.justradios.com/DUALsection.html">Dual Section <b>Can=
+</b> Electrolytic Capacitors - 500 Volts</a><br>
+<img src=3D"https://justradios.com/new.gif" alt=3D"new_capacitors">
+<a href=3D"https://www.justradios.com/clamps.html">Capacitor Clamps for Can=
+ Electrolytic Capacitors</a><br>
+
+
+
+
+
+
+
+
+<a href=3D"https://www.justradios.com/X1Y2capacitors.html"><b>X1/Y2</b> AC =
+Rated Disc Safety Capacitors</a>
+
+<br>
+
+<a href=3D"https://www.justradios.com/Y2capacitors.html"><b>Y2 Film </b>Saf=
+ety / Interference Suppression Capacitors</a><br>
+
+<a href=3D"https://www.justradios.com/X2capacitors.html"><b>X2 Film </b>Saf=
+ety / Interference Suppression Capacitors</a><br>
+
+
+
+
+<a href=3D"https://www.justradios.com/heatshrinktubing.html"><b>Heat Shrink=
+ Spaghetti Tubing</b> for Tube Electronics</a>
+
+<input type=3D"image" align=3D"absmiddle" <img=3D"" src=3D"https://justradi=
+os.com/woer.jpg" alt=3D"heat_shrink_tubing" height=3D"150" width=3D"150">
+</p></font>
+
+
+
+<p><a href=3D"https://www.justradios.com/">Antique Radio Schematics - JustR=
+adios </a><br>
+<a href=3D"https://www.justradios.com/uFnFpFSPACE.html">JustRadios uF-nF-pF=
+ Conversion Chart</a>
+
+
+
+</p><p>
+<b>Copyright Notice</b>: This website and its content/webpages is Copyright=
+ 2014 David Cantelon (JustRadios)=A9. All rights reserved. <br>
+Any redistribution or reproduction of part or all of the contents in any fo=
+rm is prohibited other than the following: you may print or download to a l=
+ocal hard disk extracts for your personal use only. You may not, except wit=
+h our express written permission, distribute or commercially exploit the co=
+ntent. Nor may you transmit it or <b>store it in any other website</b> or o=
+ther form of electronic retrieval system. <br>
+This page last updated in April 2021.
+
+
+
+
+
+</p>
+
+
+</body></html>
+------MultipartBoundary--aesJuOftfssbzktQSU8SDAO4ZyAssNXlHkc8XI3ICb----
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: https://justradios.com/justradios.jpg
+
+/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEP
+ERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4e
+Hh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCABfAJYDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD7Looo
+oAKinube3gae4mjhiQBmeRgoUH1z0rmfiT480LwH4TuNf1q6CRxEpHCozJO+cBEXIySR6ge9fF3x
+T+JniXx0k2p+JNRltdEUyPb6LbRkKAi5DSEHcf8AePHt0rOc+V8qV32N6VHn1bsj6p8SfH/4Y6Lf
+GxGtvqdwDhl0+EyqvuX4T8jVHTf2kvhXc3ptb7VL3SWyAJLu0YxEk45ki3qo92IHvXwn9mF8ltda
+nqSrZT/MsMZKLghVx8uMnr/jUWmNe20SWr321ixIhmbdHJgghcnBDcdc9ugrGVWae/y6nVGhRau0
+7dz9SNM1Gw1SyivtMvba+tJhmOe2lWSNxnGQynB/CrROMdefavzq8CeOte+HeojUPBmpbIpMvead
+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
+FVoPDFujZ2D8q6aigDl7nwvBI2dgorqKKAP/2Q==
+
+------MultipartBoundary--aesJuOftfssbzktQSU8SDAO4ZyAssNXlHkc8XI3ICb----
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: https://justradios.com/disccapacitors.jpg
+
+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
+
+------MultipartBoundary--aesJuOftfssbzktQSU8SDAO4ZyAssNXlHkc8XI3ICb----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://justradios.com/symbols.gif
+
+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
+Ow==
+
+------MultipartBoundary--aesJuOftfssbzktQSU8SDAO4ZyAssNXlHkc8XI3ICb----
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: https://justradios.com/X2.jpg
+
+/9j/4AAQSkZJRgABAgIAAAAAAAD/4QC8RXhpZgAASUkqAAgAAAAGABIBAwABAAAAAQAAABoBBQAB
+AAAAVgAAABsBBQABAAAAXgAAACgBAwABAAAAAgAAABMCAwABAAAAAQAAAGmHBAABAAAAZgAAAAAA
+AABIAAAAAQAAAEgAAAABAAAABgAAkAcABAAAADAyMDABkQcABAAAAAECAwAAoAcABAAAADAxMDEB
+oAMAAQAAAAEAAAACoAQAAQAAAJYAAAADoAQAAQAAAJcAAAAAAAAA//4AHkFDRCBTeXN0ZW1zIERp
+Z2l0YWwgSW1hZ2luZwD/2wCEAAcEBQYFBAcGBQYHBwcIChELCgkJChUPEAwRGRYaGhgWGBgcHygi
+HB0mHhgYIy8jJikqLS0tGyExNDErNCgsLSsBCwsLDw0PHhERHkArJCtAQEBAQEBAQEBAQEBAQEBA
+QEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQP/EAIMAAQACAwEBAQAAAAAAAAAAAAAE
+BQIDBgEHCBAAAQMDAwEGBQMDBQAAAAAAAQACAwQRIQUSMRMGIkFRYYEUMpGhsUJxwQcj8FLC0eHx
+AQEBAQADAAAAAAAAAAAAAAAAAQIDBAURAQEBAAEFAQEBAQAAAAAAAAABAgMEERIhMUFRIjL/wAAR
+CACXAJYDASIAAhEBAxEB/9oADAMBAAIRAxEAPwD9HoiICIiAiIgIiIIupVRpafc229xs26gQ6xKA
+OqxruLkFY65Nvqmsbf8Atgji+SFU1ETpox33MtY3GF5nUdRuclmb8dzi4s3Pt0cWrUzr7yY7ealx
+TRyi8b2u/YrjGb4qdzg8yu2mw5ufNIK2QyND2kO3fseObJjrtT/qLrpp+V2yLmaPV5QzuTbg21wR
+wp8Gt3A6ke4ebV2c9Xx6++nDrp9xboosWoU0hsH7Tx3hZSWua8XaQR6FdjO86+Vw3Nn16iItIIiI
+CIiAiIgIiICxkcGMc53AFyslA1yYx0mwXvJj2WOTXhm6aznysilmk3SOe8jLiSSVFfLBKOk4ghwa
+PFZV7S9mwOAdckXyOPFQWQzs2NMW8XaC5j/BeHrVtenmTs2OoXNAMcvyg4PldbhGWtc5zWukF7XP
+pxdaaqV7Gta7d8lznzKzhLmRPs5zs/vbGbLDQA18Tm7RHhpJGeFrj6DYS6B+4uGO9bx/KzikcMnc
+4d3cCsQNznXZbxvcG1zhCNsUswJ6lgBc5PopFDVvcLtJYQW8OUSKPZNv3WjJJbZ2OPEKXCAPluAS
+3IstS2X0zqRY0eryMqI453BzX4zyMq8a4OaCOCuMDi7UIg0HuAuJFjZdbQX+FZu5svV6PWtZt1XR
+55ma9N6Ii7bgEREBERAREQFx3ajtJSUmtPpKrezptAD7XGcldivnv9QOzrK3U55g4GSSMFrByXcD
+Plg/Rdfqc3WO0c/T3M3/AKSDrOmPpzM6qh6Yv3iRhZRfDVcjZqaoDiS35De6+ez9naxn9oUshIPI
+be/uoXweoaZJctngc3gi4zdebeGu/NY/K+oVFO6RvfYJGgAi7bEZXjodrrlmxoBIaBcccLg6LtLq
+tMW7pjK04tILq8o+3DHYq6Yt570biQuK4rfjfx0Id04w3p33HG5hyFqa1r43Fu4lwxYYyVqpe0Ol
+V5YGztjO7DXktKnwRxFrDC9paBwHeqzZWfc+oUzo3zFsTgS0lu3bY48lMo2dCAF3OCcY4UWqoZRI
++VhaSXPOwOIxb8rc4uhpGNftDgGg3Poql+N+jwdaUvtcyOAGLWA5/IXXRtDGBo8AqTs5ShjW4+Rt
+vrkq9XtcGPDEjzOTXlq0REXMwIiICIiAiIgLns1mqTutduAPHnj7flW+qSiKjfmxcLX8h4n6XUPR
+YO61xaG/qI4sTn7cLN93s3PWe7cNIpywXbla5tCpZIyzaLHwKtEWmHI6j2Ho5wS2JrHf6o+6ue1D
+sA5hd8LI5tzw4ce6+nrwgEWIBXHrhxr7G88m8fK+Jah2W1KmebQ9QAcsN7qHBLqOlzt2ulhc032m
+4B/dfc5aOCU95guq+s7P0tQxwLWuuLd4XXBrpJfldjPWbn324Cm7axgD42Ix8i7TdXWm6jBqs8cl
+O5zomnefYYVTq3ZaOOrlhp9r5bnb1DhoA735A+qtexukS0zpDK1oMjhtaDhoH/K62emvlO8cvJzY
+uL4/XY6REY6Rpdy7JUxYsaGMDRwAsl6jzxERAREQEREBEWMjxHG57uGi6Cp1iQSVkUNtwHIPj4n+
+B7lWFBHshBPJVXRNfU1kkj83eWg+Vufv+FdtFmgeSk/rWv49REVZEREBYTSNiidI/wCVgLj+wWag
+65M2Ghdv+U5P7DJ+tre6LJ3qi0mP47UZ6hxvnpjyvfc4/U29l00FPHC0bGgW8bKt7PUnQgY05c0d
+43/Ucn7kq3Uhq96IiKoIiICIiAiIgKv1yd0VIWRfO/A/A+5CsFS1jxWaiA3LYsi3new/k/RStZ/q
+XpFO2KIbRgCwPn6qetcDBHEGhbFWRERAREQFQ6+81FZFTtJ27xuxiw7x++0K8e4MYXONgBclc/RA
+1VY6YnnGDcZ7x/IHspWp8tXdDH04B6revGDa0DyXqrIiIgIiICIiAiIg01swp6dzyQDwLnxKq9Gg
+c4733u87znjy+y264TO5lOw2yC4kYF/+gfqFMoI9kV7cqfrV9RJREVZEREBERBD1iZsNG7dkOBBz
+4Wuf89VG0SJ2wOeM8k+pytesO61ayIjcwYIIuD+o/wC1WNBH04G+Z5U/Wr6iQiIqyIiICIiAiIgL
+F7gxjnONmtFyfRZKFrElqfpDmTkA2wOf4Huiyd6gwB89Y+U2s84Fs+v8BXTAGtAHgoGlROA3PsSM
+e/irBSQt70REVQREQF45wa0ucbAC5XqiarP0KRzub/8AqLPaup29bUpiR+q1/M8n+B7K7aLNAVdp
+MJD3OdtJ5JHiTyrJSFveiIiqCIiAlwi8sPIIPUREBQ6yi69VHO2WVrmNLdod3TfxI81MRBrp4hFG
+GrYiICIiAiIgKp1w9Sqp4Re19zrDwH+BWriGtLnGwAuVUQgVFa+SwNztBB9z9/wpVixomFsIJ5OS
+t68aLNA8l6qgiIgIiICIiAiIgIiICIiAiIgIiINNdE+ajljjfse5pAd5FQ9HpJIImCdzHPA7xbwX
+HJKsXfKVqg5KDciIgIiICIiAiIg//9k=
+
+------MultipartBoundary--aesJuOftfssbzktQSU8SDAO4ZyAssNXlHkc8XI3ICb----
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: https://justradios.com/twobypass.jpg
+
+/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
+HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCACgAQ4DASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDeHSik
+FLXYQFFIaSgBTQKSjjvQA6kbPak47UZxQAq47UtN30ZzQA6kNJnFGc0AFKKSigY6kNJRQO4opc4p
+tFAXHb6M5pucUZzQFx1FNzijfQFx1FNzmgffUjrnikwuct4wPzAYznTbv9TEP61Q1a6fS0m1eFEe
+e1129VIWzhtyEE8c8bP1q34rYtdCMfeXTZj+c0FQC7i0q5t9SuiwtIdX1JZWRN5DNu2/L36GkM1L
+bTdR1O1jvJvEV4DKN4TTykcajuOQWbHHWnWF5e22uLot7crellMiTqAsiKO0igDGex74NYsmlyah
+cG807wtPbxTEMQNTNs03+1sHrV/R9c8O6dOdL+zSaRdEnzIrtSWz6tKeo9KYHVB+Txj2oJyRVI6p
+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
+
+------MultipartBoundary--aesJuOftfssbzktQSU8SDAO4ZyAssNXlHkc8XI3ICb----
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: https://justradios.com/acrosstheline.jpg
+
+/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
+HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCACTAKUDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iii
+gAooooAKKKKACiiigDk7HV9e1i91VbJNOigsb57QGbeWbaqndxx/FV7Hiv8Av6P/AN8y1S8F/wDH
+z4o/7Dk3/ouOuroAwceK/wC/o/8A3zLXF+Lbv4i23inw7Dp0lgLa5uPLkERIViAWYOGOcbFY8enr
+XqVc54g/5GHwr/2EJf8A0mmoAlx4r/v6P/3zLRjxX/f0f/vmWt6igDz3x1deOrDwld3OmyaaLhNu
+TDuDhScHbu4zzWnof/CbnQrP+0jpS3vljzg+8kH3KnGfpWh40IXwjqJJAARck/7wrN1PWtR1fUn0
+PwxPEk8ARrzUGUOlsG5CrwQ0hHOOgBGetAGi7+J4xmSbRVH+0JB/WlU+J3XKS6Kw9QJD/WsW58Ae
+D4SLvxAq39y/DXOp3TNuPfaGbavrhQKij8E+GraGfUPCl6ukXUakm5s7otCMDP7yMsUI9cigDoMe
+K/7+j/8AfMtVpNT1zTtV0yC/SwkhvpzBmDeGQ7C2eeD92m+G/EFxcXL6LrOwarBGsizxcQ3sZ6SR
+HuB0Ydj7GpPE3/Ib8Mf9hBv/AEU9AHS0UUUAFFFFABRRRQAUUUUAFFFFAHKeC/8Aj58Uf9hyb/0X
+HXV1yngv/j58Uf8AYcm/9Fx11dABXOeIP+Rh8K/9hCX/ANJpq6Ouc8Qf8jD4V/7CEv8A6TTUAdHX
+Hz+NJtlwLLRp72e2V/PhhfcyOsyxhcBSTkFmzjohrsKxR4Y0tH1J4oXik1F1kuXjcqzMpyCCOhzQ
+Ay61K3vPBtzqTxRSQtZvM8ZO9eEJKnjnBBHTtXH+BtG1XSPCFjqulXCSm7Q3V5YXAAWVieCj9UIU
+Ac5HA4FdbrsFppngq/t0hb7Mlo8IjTqdw29++T1rlPA+jXOs+FYLTXb13WwZrOXTIPkjG042zcky
+ZGD2GD0NAHS6fdaL480hZp7FbiKKQgxzpuCSDg4PRu/I4rnIbC00z/hYlpZW8dvbpbKVijGFGbXJ
+4+tdNf8AiPTvD91DpMen3kjLCHSKyttyogOBwMACsGzjutVj8cXUVhdwrfwKluk8ex3It9nA+vFA
+GLf69oqaH4T1OG/CXmmSW4fCNnyX2rKvTHQfpXTajrWn6xr3h6PTpzO0V60kgVG+VfLcZOR6kfnV
+PWXkXQ/Cnhx4m+1X01uJU7rFEVaQn8MD8a9BoAZz6/nRS9+DRQA6iiigAooooAKKKKACiiigDlPB
+f/Hz4o/7Dk3/AKLjrq65TwX/AMfPij/sOTf+i466ugArnPEH/Iw+Ff8AsIS/+k01dHXOeIP+Rh8K
+/wDYQl/9JpqAOjooooAwfGX/ACKWof7i/wDoQrP1TQdQsdZbX/DghF3OFGoWkhwt4qDC4PRXAyAe
+M8Z6VpeLoZZvCuoRwxPJJ5YIRF3McEE4HfgVf03UbPVLJLmxnSeE/LuQ9COoPoR6UAcDZeONMbxx
+NNqkF7pEi6eIWiv7dl+YSHOGGVYe4ODWxcfEC0uJls9AsL/V7yQ7VaG3ZIIzj7zyuAoUd8ZPtVjX
+PDmsX2uJqelazbWJ+z+Q6XFh9oDDduyMuuK5rxbpnxD07wxdXNj4rsnaBfMZIdMWBto5OGLt/KgD
+qfD2gXVte3Ota1NHca1dKEZoyTHbxDO2OPPQckk45Jrp64DStH+Ib6VatdeL7FJ2jBdW0kSEH/eE
+gz9cCr39i+PP+hy07/wS/wD22gDsB9aK41tE8d4GPGGnHr10fH/tSigDs6KKrzXMMEkKSyxxvM/l
+xqzAF2wTgepwCcegNAFiiq6XdtLcyWyXEbTxgM8SuCyg9CR1FWKAPKtFn8VaRpNtrOuXk0ttPcwE
+wRlpZFT59xYbRt6qNoz0611Wm31/d+NJJBLM2kzaZHNCjR7AjlyCD6tgZ/GtnWdWh0LSZ9RuIppY
+oduUgTc7ZYKABnk5IqnpXirTtVfyStzYXZO0WuoQNbyt/uhvvD3XNAG9RRRQByngv/j58Uf9hyb/
+ANFx11dcp4L/AOPnxR/2HJv/AEXHXSzzxW0LzTypFEgLO7sFVQO5J6CgCauc8Qf8jD4V/wCwhL/6
+TTVej8RaJMEMWr6e+87U23KHceOBz7j8xVLxD/yMPhX/AK/5f/SaagDoq88m8bajF/a4jSN30rzL
+eVPKPzytJiJuOihFYn6ivQ6MCgDK8O376p4b02/mZTLcWsckhVSo3FRuwD0Gc1na7pFlBLJr0N8N
+Jvo4yXuOPLlwOBKv8YHsQfQ1o+INQl0rQbu9gVGlijygbpkkAZ9uao2PhlZLu31PW5hqOpwjMTsM
+RQf9c06A/wC197jrQBJ4X1q71rSBdXtg1tKDjcM+XMP78efm2nqARmpvFn/Ioax/15y/+gmtmsbx
+Z/yKGsf9ecv/AKCaANK0/wCPSD/rmv8AKp6gtP8Aj0g/65r/ACqegAooooAK5/xNpWo6iNLuNKmt
+Y7uwvPtK/alYow8qSMg7SD/Hn8K6CsjV9VfTr/RrdIkdb+8Ns7McbB5UkmR75QD8aAK+maEbLX7n
+VW8lZbu1ijnWIEBpVLFm57HIA+lX9VsbjULQQ2up3Wnybw3nWyxs2PT51YY/DtWZYa1f3Hiu+0ua
+zhFtAgdJoZi5GTwHGAAxHOBnAxWlqus2Wi26T303lRu+xTtLZOCe30oA47xP4f1Oz0GaefxXq15E
+ksJa3mjtwj/vU4JWIH8iK7HVNJstZszb3kO9eCrAlXRhyCrDkEH0rkPFPjDQ9S0CaztbwvPLLCEX
+ymGT5qHqRXoA6UAeeeHdK8R6jDepfeMNYiurO6e2cRxWu1sAMrDMR6hhW1/wiusf9Dxrn/fm0/8A
+jNZGi+NtDTUNbnuLpo/NvisY8piGVEVdwIHcg/lW1/wn/hv/AJ/z/wB+X/woAt+HvD6+HrW7jF9c
+3st1ctdSz3AQMzsFB+4oH8I7VZ1vTzq2j3ViHVGlX5WZdy5ByMjuMjkelLpOs2GuW0lxp9ws8cch
+jcgEbWABwQfYg/jWjQB5/deFtZYxzXlxpH2UTG4vYIrUxq6rgqoIy2ARuPOSVXtkGrrPxA8L3Gte
+H5odRZorW8kkmYWs2EUwSqD9z+8wH416M6742UMy5GNy9R7iuP1TTr2y1XRLaLxDq5jvrp4Zd0ke
+QohkcY+Tg5QfhmgDc0TxLpHiNJn0q7NwsJAkJidME9PvAelbFZ+nadJp6Or6heXm8g5umUlfptUV
+l/8ACWWjNMsNneTPBHK8qoq5Ty5AhBy3XOSPYGgCbxl/yKWof7i/+hCt1fuj6VnwPaa7ocUrw77W
+9gDmOQDJVhnB9+axEsdV8L7P7NVtR0dAxktJHzcQ9/3R6OP9lsH0PagDrKxvFn/Ioax/15y/+gmr
+Gk6xZa1Zi5sZQ6g7XU8NG3dWHYj0qv4s/wCRQ1j/AK85f/QTQBpWn/HpB/1zX+VT1StLqD9xaeav
+2jyFk8vPO3pn86u0AFFFFABWXrWgaV4itEtNXsYry3SQSLHKMgMARn8ifzrUooAxdL8LaLoty9zp
+unx20rjDFGbngDpnHQAfhW1RRQBgeMLW6u/C93DZW73NyTGyQoygvtkViAWIHQHqarSReItcRElT
++xrGQETIJQ90R6BlyqZ9QSR2wa6iigCva2sFlaxWttGsUEShERRgKB2qxRRQBzPhT/kKeK/+wwf/
+AEngrpq5nwp/yFPFf/YYP/pPBXTUAFc54g/5GHwr/wBhCX/0mmro65zxB/yMPhX/ALCEv/pNNQB0
+dYKeFNMil1SWD7TBLqciS3DxXDKdynIKkH5eeuOvet6igDLC2PhvQjwYbKziJJ5Y4HJ9ySfxJNZC
+PrniQRzKZdF0tyco64u5V6c/88ge2Du57Vd8Zf8AIpah/uL/AOhCt1fuj6UAZ+l6PYaNbfZtPtVh
+jJyx5LO395mPLH3JJrnvFGrX09nqekW+mxN5sLQpM99CnLL1Kk5HWuyrl/F2jaXJ4d1e8fTbN7r7
+LI3nNAhfIU4O7Gc0AYemabpt74vg1mfw5BHqexUN2t/FIQVAAbarZJwAPpXolcDrkth4bm0Q2lro
++mC73LJqE9qoWEhQQMjGC2T1PapvD3i641bxDZWgvbG7trnT2uC1vGyMsimP+FjuVSHz8w5yMdDQ
+B3FFFFABRRRQAUUUUAFFFZWseINM0GOJ9TuhAspIj+RmLEDJwFBPA5oA1ar3l5b2FpLdXUqxQRLu
+d2PAFZB8YaABJnUo/wB2sjMNrZAjxv4x2yPr2qrq2oW2v6ZqFro7Lf3On3MXn268ZZHVimWwM4U9
++oFAGZ4P120m1zWYXS4gbUdQNzZmeIoJoxDGuVJ90bj0rvK4TxFrY1C1sEWw1GCOG/tpbq5lgKLa
+hJVYhucnONuV3ABiScZruQQwBBBB5BFADq5zxB/yMPhX/sIS/wDpNNXR1zniD/kYfCv/AGEJf/Sa
+agDo6oy6pYQRiSW8gRChcMzgDaCAT9ASB+NXq4OTwlrEX9uywy6dLNM//EsE6llgRpfMcMNp5yAR
+gHlRQB02sWX9u+H7i1tp0X7TEDFNjcvYqeDyOlZ9r4jls57fTvEEC2V7J8qTRndbTHtsY8g9OGA/
+GtPQ7JtL0S0s5EjR4Iwr+WxZc9zkgHnr0rK1PWrfVludI0yxXV5WBhnDgfZosj/lox6jnou4+1AH
+UVjeLP8AkUNY/wCvOX/0E1F4X0W50HRksrm+e5I5VSSUhH9xCfm2joMkmpfFn/Ioax/15y/+gmgD
+QgjSWxhV0V1Ma8MMjpUoijVy4RQ5GNwHOPSmWn/HpB/1zX+VT0AFFFFABRRRQAUUUUAFc94m8Onx
+FBFH58aeXu+WWEOPmGMg8MrDqCCPfI4roaKAOGf4bWbX73QvpiXmhd1YAh1X76n/AH+9aAsIvCR1
+zWIVa4a+mjdbeNQvznCKo+pYc11NZeuac+qaVJaxTeRPuSSKXbu2OrBgSO4yMH2NAGI+ravE0Vv4
+k0uzj06/YWzPFNu8tpPlVHB67iQuRxk1PoZutF1FvD90XktQpfTblyWaROro57FCQB0ypHUg1mWL
+674q1B7PVotPt7LSL5FuRbu7vcTxhJUK5ACJlkODk8EZ713dABXOeIP+Rh8K/wDYQl/9Jpq6Ouc8
+Qf8AIw+Ff+whL/6TTUAdHRRUZlj4+deQSOeoHWgDF8YMy+E9RKsykxhSVODgsAensa1bKztrC1S3
+tLeK3hUfLHEgVR+Aqj4gsptW8O3lpaGPzpo/3Zc4UkEEZIzwcdag07xJBc3p0y9hew1NVBNvMRiT
+3jbo4/X2oA3qxvFn/Ioax/15y/8AoJrZrG8Wf8ihrH/XnL/6CaANK0/49IP+ua/yqeoLT/j0g/65
+r/Kp6ACiiigAooooAKKKKACiiigAooooA5nwp/yFPFf/AGGD/wCk8FdNXK+F5oo9V8VB5EU/2ueG
+YD/l3gq7pvi/QNZv7yx07VIZ7mzwJlXI259CRg9O2aAN2uc8Qf8AIw+Ff+whL/6TTVu/arf/AJ7x
+f99iuO8V+IdIsPFXhO3ur+GKZr52ClucNDLGD7Asyj8aAO3rg4/Bt3M/iBL0W7wzxyxaZtYgxpIx
+kZTx8o3BOB2Fdt9pt/8AnvF/32KPtNv/AM94v++xQBT0Gyl03w9pljPt862tIoX2nI3KgBx7ZFZH
+iDUdNu/M0sWA1jUEwy2kYGY27MZDxH65zkdgaZ488QWWi+EbyeXUltTIPJjkSTDbmPRccg4zyOmK
+0tBXQ4NLik0l7YW0yhxKjZMv+0zHlj7nmgCPwxp2radpjR6tqH2uZ23quS/kqf4PMPMmP7xAz6VL
+4s/5FDWP+vOX/wBBNaf2m3/57xf99iua8ea7pmk+DNUlvb2KJJYHhTncWdlIAAHNAHSWn/HpB/1z
+X+VT1l6Pq1hqOj2l3aXcUlvLEpRw3UY96vfarf8A57xf99igCaiq/wBpiPCzJ74YUUAWKKKKACii
+igAooooAKKKKAM2fQNIu5nnuNNtZZXOWd4wSfxrz7wR4V0JfGfjBf7KtisV2iRhk3BVKBiAD05JN
+FFAHd/8ACNaH/wBAiy/78L/hXG+L/B/h6XxNoEjaRa7hMB8q7QRuzyBwfxoooA7H/hGtD/6BFl/3
+4X/Cj/hGtD/6BFl/34X/AAoooA5vxx4R8P3fht0l0i1AEyEGNNhB57rg1taT4U0CHSLVE0ez2rGM
+ZiB/nRRQBa/4RrQ/+gRZf9+F/wAK5v4h+FtCPgLV3Gk2ivFCZEZYwpVh0IIoooA19C8K6BFoNii6
+RZ4EK9YgT09TV3/hGtD/AOgRZf8Afhf8KKKAHDw3oeT/AMSexP1t1P8ASiiigD//2Q==
+
+------MultipartBoundary--aesJuOftfssbzktQSU8SDAO4ZyAssNXlHkc8XI3ICb----
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: https://justradios.com/lessnoise.jpg
+
+/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
+HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCABzAQQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwC4BknN
+OAApKUdassWil7UlAhy0HqKFpaAsKOlLTaKBjqKQUtABRSGgUAKThTUUd1BLDFKk0bRynbG6sCHJ
+GcA9+ATUyYMg9f8A64H9a5O2IXQfD0AOwpqAjPbBXzVx+S07gb95qunadJGL26iiaThFfqQe9WvM
+QTC3MimXBYJuG7aMZOOuBkfnXPyeVc/8JOLnYW2IoVx/q4zCGBHp824fWlmmaPTNA1e4bBt0jEx6
+fupVwWY+gbBJ7baAOgSWNmdVkUsh2sAeVOM4PpwQfxp+4DuKyNFQnThdOuHvJXuef7rH5R+C4H4V
+pnBx7UAS5oyMZ7VEWNJuOeenegRN2z2pM+nNRFyMgDinx9KAuPyTRQOelLg4zg0DEoozSZHqKAFp
+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
+UUUFH//Z
+
+------MultipartBoundary--aesJuOftfssbzktQSU8SDAO4ZyAssNXlHkc8XI3ICb----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://justradios.com/source.gif
+
+R0lGODlhLAFyAPcAAAAAAA8PD/j4+P///wIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIA
+AgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIA
+AgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIA
+AgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIA
+AgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIA
+AgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIA
+AgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIA
+AgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIA
+AgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIA
+AgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIA
+AgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIA
+AgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIA
+AgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIA
+AgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAiH5BAEAAAIALAAAAAAsAXIA
+hwAAAA8PD/j4+P///wIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIA
+AgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIA
+AgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIA
+AgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIA
+AgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIA
+AgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIA
+AgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIA
+AgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIA
+AgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIA
+AgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIA
+AgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIA
+AgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIA
+AgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIA
+AgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgj+AAUIHEiwoMGDCBMqXMiwocOHECNKnEixosWL
+GDNq3Mixo8ePIEOKHEmypMmTKFOqXMmypcuXMGPKnEmzps2bOHPq3Mmzp8+fQIMKHUq0qNGjSJMq
+Xcq0qdOnUKNKnUrVJwCEVwVkJZgVgNevVcOKdbi1YFevXAWWHdt0rVmwWA1+hVvUrVq1aAd2ZQvV
+rl66cuXO9fvT716teu/ydUq4rFu0efGmrRsXsWXLgwkvBmo38l+uVz171qpZp2HFW8/O3Yy082PH
+oWG/JXr68uHSrIO6FgyadO/fQmunRp176e7ZihNLBq678nDMxZUeB742dXXcOIWDPhz96PTPeAf+
+gx+vOzNxs+EBdy+c0DH5z6KNZr4dmPTq9c0rJx8tOT7+/1aZ95douwkI4IEIJqjgggw26OCDCAVw
+kIQQVjgUhQMFoKGFHAKFIUEfdigiTiEKVOKIKMp04okpttjSii7GCBOMMkqHnVM0tnhjT+KJpeGP
+GcZ4n3xD1rhZkbTNp+SSTDbp5JNKbnfdaEVCaeWVWGap5ZbqcYakSDtOBFlvBPqmXJgUoQmSmgp9
+GRybF8EJUWf6MReSnBzhWV9S/JGkZ0N0HvTdnTH9OdmIhi4U6J52rlmokXH+l2ikkFY0KZ+PVpqm
+pJlqKtGlrXVa0QAyguqdqBSRKiSnKj0pkar+Lpoqn4dAmqghrDqy2tOHEmLIYoeykjXfS8F+9KsA
+x1pYbHt92sfSsh0dm2yF0ArabJcmVbvRrwHgmqK27zELLrYluWoQixJ6i+K4bDabEbktYUejuohm
+226x8D7bEK/IDkSviOxG5GZHPbp0448UIjwthNrK6e6aD48E7oMNW1RtwfF6Kma5Fvs5MEoTl+dx
+kwUhDOKcOeWbockn55kgxi7xWytZPMEc5M0zaxSyl1yChC7KPJfcsokEYykWlxFX9PNDO2OkHr83
+b5Tl0R/XydHSNO9ks6059+sy01RvKizJUQsNdnZJe0102e8CXVXagjLt5NBmZ32Tymvnrbb+zm4v
+6LBCUO8NaMcSDxy44E73jZ+5gwOe88KHfrrz03RDfjZWc9cY8Jx4O111thp/aq/Ancf5OcdCGnh5
+4WLiC/dJ2A1bachwl+657VJnHnp7IN+Iu8Wne8Q4wL8nB/u1r39UfKvBAxyv7M/vnt9KURrctPSE
+r3d9RCwju+HsuvZO9t69sr3q4tTrLi346MNE2PqQbp8dqnTXbaT8d9Nvvt73h59xhBPS2MXiRkDk
+SEx/eitfWJLHtwMyKnLhUh4CuZaw7kGQSK3yUwHRwxsNuu9rfGpe2+4UGjLJxj8D/GDuGHg3pLnw
+hUuS0luoBBgY2vCGOLxSXXLIQy3J8IdfA4JND4dIxBfucHnYexMLbbLEJNLGiVCMohSnSMUqridH
+Vsyi4LqmRSpisYteDCAYrfjFMUaxjGZ0IhrTiL01snF3CtvfG+dIxzra8Y54zKMe98jHPvrxj4AM
+pCCTGBAAOw==
+
+------MultipartBoundary--aesJuOftfssbzktQSU8SDAO4ZyAssNXlHkc8XI3ICb----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://justradios.com/symbol.gif
+
+R0lGODlhjABLAPcAAJ6loPT5/lliWfL3/fH2+8vS0fz//+/1+g8SDuTq693j5PX3/nZ/d7/Hxy40
+Luju74GIgYyTjfD19ri/vEpTST5HPtTa2trg4MTKyOzy9PX5+e7z+K20sPP3+2lyauDm5wAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAAjABLAAAI/wA7CBxo
+wIIABQEGdjhwQKFDhg0HMnSY0KHAiBQVTlyoMGHEjRwtaryIUaLFihRRmjxgAAOFBwZGOixIQUFM
+kilFnnzYoaLKAEB1frRYkqfKoQuL6tTYEGhQpiwxCHiAEmTPnh8AJFApsyrOpUpFBvXINGRRq0sv
+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
+
+------MultipartBoundary--aesJuOftfssbzktQSU8SDAO4ZyAssNXlHkc8XI3ICb----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://justradios.com/new.gif
+
+R0lGODlhHAALAKEAAAAAAP/WAP///wAAACH5BAEAAAIALAAAAAAcAAsAAAJAlI+paxHnHorQqQAk
+jjzDTDWAt43m1jmeiGZgBMaqJLTl+Nj2l+Mv6+rRNkCOykWyNJQ1jOllrK0YRmYixMhqCwA7
+
+------MultipartBoundary--aesJuOftfssbzktQSU8SDAO4ZyAssNXlHkc8XI3ICb----
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: https://justradios.com/woer.jpg
+
+Qk0OCQEAAAAAADYAAAAoAAAAlgAAAJYAAAABABgAAAAAANgIAQAAAAAAAAAAAAAAAAAAAAAA////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////AAD/////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////8AAP//////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////wAA////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////AAD/////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////8AAP//////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////wAA////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////AAD/////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////8AAP//////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////wAA////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////AAD/////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////8AAP//////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////wAA////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+AAD/////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////8AAP//
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////wAA////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////AAD/////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////8AAP//////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////wAA////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////AAD/////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////8AAP//////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////wAA////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////AAD/////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////v////7////8/v/////+/f////7////+/v7/////////////////////
+///////////////////////////////////////////////////////9///9////////////////
+/////////f/9//z9/////////////v///////v////7//v////7/////////////////////////
+///////////9///9//7//v/7//7//v////////7///709/zc4PPr7Pr//v79//7//v/9//7//v//
+//////////////////////8AAP//////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////7+/v//
+//////////////z+/v///v/+/v///////v///////v7+/v////////////////////////7+/v//
+//////////////////7+/v////////////////////////////////////////3///////3//vn+
+/+nt6OHkzsrOpNDXsv/+//////////////7+/v/+/////v/+////////////////////////////
+///////////////+/////v/////+//f8/6Co42BoxkhIvqmw4vv////////9/////////v//////
+/////////////////wAA////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////v7+/////v7+
+/////P/9/f///////f////////7+//7//////////////////v7+////////////////////////
+/////////////////v7+/////f///v7+/////////f///f///f/////////+6+rcrrKJpK9wjpRC
+j5YXjY8Alpwr9vXx///+///////+//////7////+//7/////////////////////////////////
+/////f/////////+//////7/8vf6Y2/NRU2+QES7q7Tg/f////7//////P7/+//+////////////
+////////////AAD/////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////+/v7+/v7/////////
+/////v/////////+/f/9///9///8/v/////////////////+/v7////////////////+/v7/////
+///////+/v7////////////////////////////////////9///7///o6tSUmzKcojePkzqLkSaT
+mgmQlg/l5M////79///+/v7///7//////v/////////////////////////////////////9///9
+//////7//v/9///////2+PlpdNBKUcBBRrmqs9/8//3+//3//v//////////////////////////
+//////8AAP//////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////7+/v////7+/v////////////3/
+///+/v////3//////v//+/////////////7+/v////////////////3/////////////////////
+//////7+/v3///////////3//+/08/T09P////////3////+//r78qWpSZyeOpaeOYyQMZWdIYmS
+Bs3Qnv/+//3////+/////v////3///////////////////////////////////////////////7+
+/v/+//3///3///X0/WlyzExTwkFFu6qz3v/////+///////////+////////////////////////
+/wAA////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////+/P/9//7/
++v/+///+//7/+////////////v7+/////////v7+/f//+vz89ff3////////////////////////
+9/f3ra+vmKGek5qXfIWCX2hle4B//v7+/v7+/f/////+/v/9vsF8lJojl58tlJorl54rkpgjr7Vk
+/////v7+//7//////////f/+//////////////////////////////////////7//////f//////
+/v7+////8vP9Z2/MSU/AP0a7qbLd///+/////v7+//7/////////////////////////////AAD/
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////+/v7////+/v79///8/v70+fj///7////8/v//////
+///9//////z//v/////////////+/v7////y9PTo7ezr8O/////////////////////////19/df
+YWE2PzxLUE5SV1VHTktWW1rs7Oz////////9///9//7X2q2SmBuWnSSSmCOSmSaZnyqdoj/49+3/
+///////////+/v79//7////////////////////////////////////////9///9///+//3/////
+///w8vpjbspKTr8+Rbqqs9////79///9///9//z///7///////////////////////8AAP//////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////7+/v3//9vg346Uk2dtbN3i4/7+/v///P///u7x9dPM
+w7aejPj29f////////////////j6+unr6+zx8Ojt7PX39/////////7+/v////7+/v3//6KkpDpD
+QFFVUGNkYk5TUUdNTMLHxv///////////v/+/+vs0paZG5aeHIyVIYePHZmeJZebMuTl0f//////
+/////v///v3//////////////////////////////////////////v/+///+///+//3//P/+/e/x
++11oykdOvT1FvKqy4f/+//////7+/v/+///+/////////////////////////wAA////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////f/////8//////7/npybU15bXWVeUFFPhImK///++f79vreumYFvm3pgnXte
+08K1///+/////P7////+/f//6e7v7PDr3ubl7fTx//7+/f///f///////////v7+0tHTQkdGSVBN
+RVBOSlNQREtIhYeI///+/////////f///vz7qq0/kpcSjpUchowhlp0ekZknwsea///+/f//////
+/f///f/+/////////////////////////////////////////////f/////////////+7vD6XmfJ
+SU/AP0S+qbLe//7////////+////////////////////////////////AAD/////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////v////7b9PZTfYRFRkJbZmNYYV5PU1TCysr///+3o5Gid1yYeGWhf2eujHT3
+9PD////9/////v///v7y9vfs8fDg5uXk6ef5+fn9///////////////////7+/tjaWRARURZYF1Z
+XVhFTEleY2L4+vv//v///////v/////AxHmPlg2XmQqSlxaTmyaVmCSnrF3//f////7//v/+/f/9
+//////7//////////////////////////////////////v/9//////////////7s7vlcZMlHTb49
+QryrtOD///////////////////////////////////////////8AAP//////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+///////+//n7+6fq82bj+FvS4UVYW1RaVWxublBaVGttbfj5/evq4J9/YqJ/ZaKDaqN6Yc28r///
+//////z+/v////n7+97o6Ors7Ojr6e/08v7+/v///////////////////4yRlDY9OlBaVGRpYEdO
+S0BLSc3S1f/////+/////v/+/9ncpY+VCJSaC4mNFouTHpibJ5+iRvf58/////7+/v///P/+////
+///////////////////////////////////////+/////////////////+rs91lgx0ZMvTxBu7G5
+4f///////////////////////////////////////////wAA////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//7//Pz8gOTwVN71Zez/T6GtQEVDY2plW2JdSlFOp6us/f//u6mYn3pem3pmo4Bmropy9vDr/v7+
+///+/f/////+4u7w6fHw6ezq4unm+vr6/////////////P7+////xMXPOkJCQ05LV2JgTFJNOkE8
+lJeV//7//f////7////88vLgmp8elJkOjJEQiJEZlpwfkpgn3uHL/v3//f//////////////////
+//////////////////////////////////7/////////////////5+j2VV7GRku+PEG7tr3k////
+////////////////////////////////////////AAD/////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////9////
+///l9vNo4PNi4vdk5PlEZWhJT0pbZGFTWFZYXVvn7Ovo5t6dfmWjfGacgWejfV/Pu6r9/////v/+
+/f/9//7z+PnV5+bp7Orf6OXy9fP////////+/v79///////E1OA3SlFBRT9ETEtITk09RkNqcW76
+//7///7///////////+prkGLlgCLkwqEjRiWnBWOlhq9wY3//////v////7//v//////////////
+//////////////////////////7////////////////////m5/VTW8ZGS749Q7q9w+b/////////
+//////////////////////////////////8AAP//////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////v/+//z+
+/rHt81fh+Gbp/V7F1D1FRFNaVVpgW0xSUYWLiv/+/7uqlZ57Wp5+Z6aDaaaGafHs6f/9///+////
+//7+/t3s7unv7uDn5O3w7vr7+f////////7+/v////n+/1lzgTc+N0lRUFdcW0VLRkRJR9rc3f3/
+//3///z+/v79/7/Cco2SAZSWB4+VDpKZEI+WHa6yZ////v/+/////v///v/+////////////////
+/////////////////////v///////////////////+Xl9VJZxkVIuz1BuMXI5///////////////
+/////////////////////////////wAA////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////7///7/////+vv5
+feLxW+Hzau/9TIOMQENBaGxnVVxZTFVSwcXGn5uWlHRXqIJkn31lon5gxLCf///+/f//////////
+7/L24Ovp6u/u6e7s8vXz/////v7+////////////scTMMj44QUhFVVpYR09ON0A9qKqq///+//7/
+/P7+/f//3eCyj5QDlZcBho0OjJUJkZkcnKI99vbw/f///v/9//7//v7+////////////////////
+///////////////+/////////v7+/v7+////4eP1T1bDREe6PkK5y83r///+////////////////
+////////////////////////AAD/////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////7///7//v/////Y8fNf
+4PNj5fxl2epBVVZPVlFiZmBLVFFbYF5IUVVmWkingmaZe2CifWelg2br49z////////8/v7////f
+7Orq7+7e4+Hr8O77+/v////////////////3+fpPWVk7QD9WXVZIUkw/Rj91fHn//v/9///9////
+/f739eqUnR6PmAKPlwSNkAuWmxaOlRzZ3br9/////v///v39////////////////////////////
+//////////7////////////////////d3/FLUsFGRrpCQ7vO0e3///7////////////+/v7/////
+//////////////////8AAP//////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////3///////z//f//
+//3///3////+//////3////+/////v7+/v////3///////3//////v////v+/P3///7/+6Xn8lng
+9mjv/1aoszo8PE5ZVlFaV1BZVklRUVJeYph5YqF+ZJt+Y6N/Yb+mkv7//f///////////+3y8+ft
+7O/y8O/z7vDx9f////////////7+/v3//5eemzQ7NkNKR01YUEJJREZNSuPl5f/+/////v3////+
+/qirPY+VAo2TBIWOD5ObDo2VE8XIl/////3//////v/+////////////////////////////////
+///////////+//7//f///////9XV7UhNwEZHv0JDu9XV7f7//f//////////////////////////
+/////////////wAA////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////+///+////////////
+/////v7+///+/////////v7+//////7+/////v7+/////f///////v/9//7/////8/j3ct/0W+X4
+Zen6P210SEZFY2plVFtUUFdUcYGImImGoXdapIFnp4Fpo39h5drW/f////7//f///v7+5+zr5+zq
+2ODg8e/uub/WzdLn+v7///7///7/zM7PNz47QklGW2ZjQklGOT86u8C+//7//P7///7///7/wsOB
+jJIAkpcAh40Kj5YFjpYJrLRh///+///+//7//f//////////////////////////////////////
+/////////////////v7+y8rqREi+REe6QUK619bw///+////////////////////////////////
+////////AAD/////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////v///v/////9///9//7///7/
+///+/f/////8/v79//////7///7////9/////v7//v////77///+/v7+/v7///7F7fJU2+9j6v5a
+yNo6RERQV1JfY15RVlVncnClp7GKbFmngWOcfWSifWO3n4n+/v7//////v7////w8vPt8O7s8Ov1
++/BdXq9TV7D////////////x8vBOVk86QD9QWlpJVEw4PjmCiYT///7////////7//7g4cGMkwKQ
+mQOEiQ6NlAmUmBCUmyzu8ej///7//v/////////////////////////////////////+/v7////+
+/v7//v/////////Dv+hAQ71CRbhFRbvb2/P///////////////////7/////////////////////
+//8AAP//////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////v/+///+/////////v3//v79////
+///////////+//7+/v3//v3///j8/f3///v//v////7+/v3////////9///9+ozi7lff+2rv/UyN
+lUBEPlphXlFZWE1YUICQlpqOjpdxU5p6Y6GAZp58X97Uyvv///////////z9++Xt7eDl5ODm4cbH
+4S0uqM/X6P////3//v///4WKiTQ7NENMSUVMSUBHQk1VVPP29P/////////+//Pz55KZEpGWAI6Y
+CIuUCJWYDZGVGNzhxP///vz//f////////////////////////////////////////////7+/v//
+/////////7u65kA/vUFCuk9QwOXl9////////////////////////////////////////////wAA
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////f///////f///////v7+/f///////////f//
+/v7+6Nvj/Pr6/f/+//7+aHBwxszL///+/f///////f////7/////////6/L1aN7xXef5Y+P2P1lf
+Sk1LXWFbUllUV2BdnKKtim9bo35koH1jpIBispF9+/v7/////////P/75+zv7O7v6O7p8PTvS06w
+eXnH//7///////7/tru6MjozPEVCQ0hHQk1FO0I9vMXI//7////+/v3///7+qK1KjZMAjJUFgYgV
+kpcMjpMOvcOK/P7+/f////////////////////////////////////////7//////P7////+////
+//7/trbkPj29QD+9WFjC8fP7///+//////////////7/////////////////////////AAD/////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////9//////z//////////v/9//////79///////19/eS
+eIbt6uz9///p5OUrNznV29r////+/v7////8//3///////7+/v7///+y2+pV3/Zn7f9XtMM9QUJa
+YVxRW1VUVVNrfH+WkpGPbEulgGahf2KkeGDWybv//v/8/v/////19/fg6urt8ezz9e+nq9QxMqzn
+6PL//////v/y9/VLU1I3QD1CSENET0c7Qzlpen39///9//79///////GyYuJkwGOmAZ7hBaNlgqP
+lgWkqU7//v///v/////////////////////////////////////////////9//////7///////+v
+seE6O7s/Pr5gX8b4/P3///7//////////////v////////////////////////8AAP//////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+///////////////////////////////+//3///7/+/////79//////3///////////j4+Jp6i+3o
+6v///6ioqD9LTfv9/f///v3//////v////3//////////v/+/qSd2lCn4GDr/mTw/UqFjkFCQGVu
+ZFxgW1BXUoiYn4dwYJ14VpV2YaF/YqyOcfj38//+/v79//3//+bv8unu7dvh4OPo6Ts5qpOYz9TT
+1YKFiVdaXzE6NzlEPEtST05YUj5DQUBVVs/z8/7+/v/+//7//d7ivoySAJSZAISKDYiNDJKYA5Wb
+JvT17P3///z/+/////////////////////////////////7+/v////3//////////v///6iq4Do7
+uz09uWhnyfz//f/////////////////+/////////////////////////wAA////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////+///rbzcm6vP6ezx+/z////+/////f39lnqN5uHj////
+dHp5f4iL/f///v7+/P/9//7///////38+////v7+////jovTQU/HWtXvX+n8Yd7sQVlZTFFQV15b
+VFpVWWdmkZCZh2RDnn5hoX5koHhfz72s//////7/////8PX25fDu3uTj9PvukpLSKi+qIiU0HCQk
+RUhMY2hpO0RBQUxJWWNdPkVAOURCg8LK/f/+/v3////+8vPqlpwZkpcAipAJgocOkZgBjpUM2ty+
+//7//////////////////////////////////////////////f////7////+///+oqPfOju7PDuz
+b23N/////////////////////v7+////////////////////////AAD/////////////////////
+////////////////////////////////////////////////////////////////////////////
+//7//////////v////////7//////////////v/////////////9///9///////9//////7///7/
+/////v////7//v////7///7+/v7/+vxcfbw7V65ER7Tk5Pb///7//////v6bfZDj3uD//P5NUFix
+trf///79///////9///+/v7////8/v7///7///92eNBGR7+ezuZY4/Zl7f9VtL4/Q0RgY2FiY19T
+VlR1foeNem2Tb0umgWWmf2OmhWvw8Or//f/9///9///m8/Hq7+3b6eXW1+UyLa5ocqHc4d/////2
++/pHTks1PjtVXFlITUxAQThIhYnU/f///////v////+ztVWJkwCSlQOOlweRlwqJkwG6vX//////
+/////v///v/////7//////7//////v/9//////7+/f/+/v7///7//f////6Ymts6O7s5ObV1dsz/
+///+/v7////9//////7+/v7///////////////////////8AAP//////////////////////////
+///////////////////////////////////////////////////////////////////////+//79
+//3///////////////////////3///z+/v///////v/////////////////+//3//v////r8/OPi
+5Pn5+f/////////+/////P/+/2+Mvz1btENBueTr9P////3//////pp9jeDW3OXj4ygyMtLZ1v//
+/v/+//////////////////7+/v////j3+11bxUBNue3x8pTn9lPh+GPt/0d+hUJGQFphXlVcV1Be
+WoKKioRkR5p4Wpp8X6F3WsKvmv/+/////7WrsXFld+Ln6Nzo6vf98mxswFxcwP///v/+/////3h/
+fC82M1BeWlhfWDw+PkBnaZDn9/////////7//cnJiYmRAJKYA46XAZSWB4qUAqarT//+//////3/
+/////v/+/////v///////v3///////79//3//v///v3///z+//3//5GT2To5tzg3tX5+0v//////
+/////////////v///////////////////////////wAA////////////////////////////////
+///////////////////////////////////////////////////////////////////+///+////
+/////////f///f///f///////////v7+///+//////////7//////////f/////++/j6ytLS5efo
+//7///////7//v3/+///h47AQmCzSlS57vX4/f///////f//pIqc18zUxMbGNUNC6/Hw//7/////
+/////v7+/////////v7+////7Ov1TUXBR1iv+/338vr6ZN70XOT+Yd7sO1BRTFNQY2dhVVlUXmxr
+fnRth2ZFmXdan3tdnnth1dDNhXR/PSE4cl1s3ePi8vbx9/rxvb3bKiiqysvl////////wcTIMjk0
+PUlDQ01HPERDQEVDVLnP3/z//v7+////39/BipEIkpcAjZQDj5YAjpQAlp4i8/Pt/f///v7+////
+///+//7//f///v3////////+/v7+//7///7//P3////////+iYzWOjm5NTS0hoXV/v7+/////v7+
+///////+////////////////////////////AAD/////////////////////////////////////
+//////////////////////////////////////////////////////////////7//////v//////
+//7///7///7///7//////v///v///v///v/9///+/f/////8//3+/v79///8/v7b3tzV29r//v/9
+//7+/v7///z///+ttNU5X7Fac7v2/v3////9//////6kjprDub+lra1caGr////9///////////+
+/v7//////////v/////f3/E/Qb1WabT9/vr9///C6OxY3vZj7f9Psbs7PDpdZF9cYl1NWFVncHR8
+X0qWclSZeVygeFuNZl5JNEqfoqf7+/vq8vLn8O3t8ez09vBTUbVkZr7//v/////v7+9BSkc2PTpJ
+Uk9ESkU5OTNPlqSO3u/Kwb7KwMb++vmdoCyQlgOHjgOBiQ2RlwiIkQHa27P//v////////7///7/
+///9//7///7//v/+/v7///7///////77//7///7//v9+gdI7Oro1M7WQj9f/////////////////
+//////////////////////////////8AAP//////////////////////////////////////////
+///////////////////////////////////////////////////////+///+//3////////+/v//
+///+//z+//3///z+///+//////7+/vz//f3//v///vT5+OHo69je6c7c6MLL2NPV1dPb6NPh7drn
+7+Pq7fj7+cXP4T1ism2Fv/3//////v///v/+/62Yp6aSn4yQkW95ef///v3//v//////////////
+///////+/////9XW8Dw9vWiEwf////r//v7y8HLDyFXn/Wbu/0R8gUFAPFxoYldeV1ZeXWVjW4Fe
+PaB9XJx5WJRwUsW6tv3///3///j6+uHv6+vu7PD36qil1ikqqtLZ7f39/f///oGGhS82M0NQTkBJ
+Rjc+N0xyclfM4VNIOn5mWv///q+zU4qRAJCXAH2IDouVBYyVAKivdrG54aOs2Kiz2bG83KWx27O2
+47/G59nd8P7+/v/+//3////+//////////3//3Z20Dk4uDUyt5qa2v//////////////////////
+/////////////////////////wAA////////////////////////////////////////////////
+/////////////////////////////////////////////////////f/+///+//////7//f///P/9
+///+/f/+////////8vf20uXqstHgmLvVgqXGbJOzWYasV4SvUoGnXoen193cjaK9VYy5ZJfCaZa8
+dJ29cJW3QWevcorE+Pv///3//f/+////yL3Hl32Na3J1hZGR/v/9/////////////////////f//
+//7/////ztDuOjq8eYrD/v/9//7/+/n4lZKOX87WXOr/YNvpOVBSTlJNYmpgWF1bXGJhdFtBjGlH
+mnhamG9Pspd9/vz8//////7/7vPx6e7t3uPk5OnsOzmwcnjD///+/f//w8XFLjc0QEVDUVhTQUVA
+O0NCX8PcWYaJcVhE7/H50tSZiY8AkpUDho0HkJQFkZwAeH0yFySeFiOnOEy8aHvMKzm3GSSuHSmt
+KTSuSFe7d4DKzdPq///++//////+////bWzKODe3NDG2pKXd///+/v7+////////////////////
+////////////////////AAD/////////////////////////////////////////////////////
+/////////////////////////////////////////////v/////////9/////v////7///7+/f/x
+8/TD09+VudF1pcdll8FekrtfkrpdkbZei7BciqxcjbVdjrRQgaeqwMvOzNJikLJlmb5ol71ejbNY
+hatOcLZUerRwosCOrsvH2OX0+Pnr5eaTdINCSlGUoKD9//z+/f////7//v/////////9////////
+//7Hyes2OLqIj8b9/////v///f+hm5Zxjotd3/Bh7v9Sr746Pz1QV1RRXFlZY11aWk58WDqGZ06T
+cVSXcFDSxrr////7///09vbm7OvZ3d7t9+eOitEtL6yOlamwtrHAxMVGT0w3Pz5OVVBARkE8Ozda
+oa9ex9xiRznV0dba49mMlQmPlQCNkgeKjwSSlwCRlhE2Q40nNqo6R7FPYLY2PawuOasnNashL60a
+JqoTHqQtPafR2uj//////v/6/PxiXsg7Nrc0Mbaur+H9//7//////////v7/////////////////
+//////////////8AAP//////////////////////////////////////////////////////////
+//////////////////////////////////////3//////v////v////////+/djh6p24zW+dv2OU
+umKVvWKVvWaXvWeWvGmYvmiXvWWSuF+MsV+Nr2ONsliIrHqetuPj3XyXuV6RvGWZvmOSuF2Ir05v
+tEpprlmLr1iHrVKEqGqQrpatw4hsgDAyM6qwr/3//v/+///////+///////////////+/v///sTG
+6Tk5u4mXyP////3///r//pqZm4qHgn68xlrn/GPu/kd7gT89PVJZVlVcWVZeXWpYQX9cO4lrUJlz
+U6yKc9rY15eemVFaXZ+trPf79vHy7tPT4ywzsktUnZufmmdsajVANjdAPUdMSktWTjo+OUpnbGTa
+91lvbbunplxnt3+MIJOYAIqTBoKODI6XAJCZAmFscFBkk1ZljFJli1hli2dcfVJhpllspUxaojI/
+qTdIpczR4P///////vHw+k9UwT06uDUyt7e35f3//v//////////////////////////////////
+/////////wAA////////////////////////////////////////////////////////////////
+///////+/f///f/////+///////////+//7////+/f//////193ki6i9YY6zX5K6Y5e8ape8Z5i+
+aZi+Z5i+aZa7ZZm+Y5GzYJS5X4+zX4yyX46uX4yxVoWlxtLSt7rIX4yyaZm9ZZS6X4yyS2a2R2m1
+XYeyY5O1WoquVoOlTX2fdGV6MSYuq7W1/f///////f///v7+/f/////+//3///7//f/+xMHoNzm7
+j5jK///+/v3/tL3BeX59kJGP3tzbd9fkWu3/XeDuPVdXRUpJV2BdVl1aVVtWclc8fl5BkXNWnnha
+eWlckZya5Obm6u/u6u/t3ePi8PTubm7COzy2sL/CbHZlV19YOT8+PENAPERDPUU+QUZHZMrgVKi0
+pZKNYWnCa3s+lJkAkJYBhI0Hj5YAk5gAbnZOS15/UmR1VGiBXm6SbWd4YGWqa3+ieoGUa3iYfYq4
++/39//3///7/3t3xSEC8PTq4PTq4xc7p//7////+/f////////////7/////////////////////
+////AAD//////////////////////////////////////////////////////////////////v//
+//7//////v////////77///8/v/9//7///7t8fKYtMVdjKxYhapfj7Fil7hpmL5rl8Bkmb5nmb1o
+mLxllrxnlrxnl7tnlrxmk7hijK9fja9fi7BWg6mQrr/d3d1skrJglLxol71gkLJPabZJbbtbf7Vk
+lLhfjLFYiKxVhKprb4hOOERNeI3A1eT+//3///z+/v7//v////79//7///7////Fw+c4OrySlsn/
+///f4eKHjI+Ji4uEh4Xr7OrI2dxYxdNk7f1VtsA7PTdVXFldX1lNWFVcVEd7WjmCZEeedlmmf2P7
+9vP////4+vrk6ern6+bn7OO6vtssK7BBTozN1cvy9PVFUE03PTxKVE49R0E4PDdXn6tWzuubqq3M
+yeJyf2+RmAGPlgCMjwSJlACNmQF9hClSWmFYXmNYZ3decI9pZnxkZZdrd6F7hJGAh5bc5OT////9
+//7////R0u48O7k9ObdDQbzZ4PP///////79//////////////////////////////////////8A
+AP////////////////////////////////////////////////////////////////////3/////
+//////79/////v3//v/+/////8rW4nGau1aIsmGPsWCPrmGOsGCPtWeXu2qZv2qavmKWumeau2qZ
+v2eYvmaXvWaXvWWXu2OSuF6OsGCKr1+JrFuGp9DZ1q21xliJtWmZvWeWtlJpuUprulJ0sGKUuF6R
+sluHrFeHqWV9m2JETzxnglSIrIqtx+3z+P/////+//3///3///////3//sXH6Ts9v42WyP3///z7
+/eHl5rCtr4F+etvb25KUlTNBP1bP42Hz/0aBijo8Nl1kX05VUElTU2VTPINdPZVzVpRwUr+nk///
+/v/+/+Xr6ujv6Ofu6fHy7lhawD4/sezy9/v//3R5dy4zMUhTUEhWUDU5NElmbVzX83/F0v7+/qut
+oYiTAY+VAoOJDH6HCJGXAo2SDWdhWmdgY2ZpcWZvimJmfnFliWl0qIGIkYmKmOvr6/////3///7/
+/cLE5zo2vT04s0pJverw9/////////////////////3//v///////////////////////wAA////
+//////////////////////////////////////////////////////////////////////79+///
+/////f////7//P37pb3TYY6zYpO5Z5S5ZpO5ZI+wYo+wYY6wZJG2aJe9ZZa+X4+5XI64X466W5G6
+XZG5W5G6XY66XpC0WImvVoWrVYKoSnujkay629vbbI+xWo24XZG2TWa2R2G7Sm+tW4qwZJK7YI2v
+WoesYIGiblBjRmeBXo6yUIStaJe20d3n//7//////f/////////+ycrsO0DBjJfL/f////7+/f//
+19TWhX96wb+/f4mDQkBAWrXEX/D/XOHvPVVTRUlET1ZTSE9MTVFLdVc8fGBCl3VXm3RY6+Xe////
+9fj87vTz5Orl7vLspKXRJCKqho2+////srm2MzY0PkpER05LPT8/PExLXsjfaNTs9Pz8tbS4jJAS
+jZYAiJADdYMTjZYAkpcAb21VZmFjYGVmX2iNVWKQZGGIZG2mhI2ajZGW3uHl/P7+//7//f//tbLj
+OTO6PDi1UVLA9vj5/v7+//////////////7//f/+////////////////////////AAD/////////
+//////////////////////////////////////////////////////////79//////////79///+
+/v739PaNrMNZjrNklLhmlbtplrtklLhikbdij7BfjK5gja9ikrZ7p8SuwdCluM2ovM6pvNGrvM+o
+u9CoutGiuNGgtsigs8iYq7qRpLmSpbTf496wuceTrsOju898jcY/WLpKb7Nrk7ZnlLpijrddi61X
+had1WXBZbopbiK1ei61XiK5Zia21ytn+/v7//v7////////Pz+09Q8CHjcj+/v7////////w7/GP
+j4mlo6JreHZAPT9pV2hf2+1i8P9VucU2PzxOVVBLU0lFUVNZU0h7WjmLalCYclSyln77/vz39/ed
+qavr8O/f5uPi5elJS7s7QaTl7e3y9PVFTksyOzhIT0w/SUM6PDZSm6lX1vXJ+f+8tMWIizuSlgGL
+lACGjAWOlACSlwB5hlpOdYtddHZLWX1BTIVBT4BUYJp7gpuLjpbb3d3//v/////+/v6rqd0yMbY6
+N7VbXsb7/vz////9/////////////f////////////////////////////8AAP//////////////
+/////////////////////////////////////////////////////v/////+/////v///+rv8H+k
+wF+Ps2eXu2eUuWiWuGWUumWWvmWVuWKOs2GOsGCOsFqIsZi0zN/c1MzR0Nrb2dHS0MjIyNDRz9bU
+1NjY0tbW0MzPxtDQ0MnIxMTCwcvNzd7g4MPCxNDNyLCvzz5LuUhvuV+DsWaVtWCStmCNs1WCp2JY
+aW1vjlCHrFmJrWCNsluIrk59o6S9zf3///79/////9bZ7kNIwn6Fyv///v////////r8/KGhm4WA
+f09ZWTw/RMGpsa7a4VDb9WLy/keGijQ4M0tWTkhPTEhTUWZVO3ZYO5RyVJpvTsC1rYaNiGFwYu73
+9OTo6e/37Y+SySIjqYiWwP/+/m53dC40M0lVT0lPSjo5NUVydlnR9H3m+7a8yX6IWo6XAI2WAIGJ
+BoeNBo+WAISQNk6CmVt1fFpqlVRiqlhhoGFrm3uGpouOktbX2/7+/v/////+/5mX2TQwuDozuWhq
+yP////////z+/v///v///v/+/////////////////////////////wAA////////////////////
+/////////////////////////////////////////////////f7/////////5O71dZ/CXJC0Zpa6
+ZZW5Zpa6ZpW7Z5e7Z5a8aZa8ZZW5YZGzYI+vVoetla/H0tLMw8vL2NzdzNHQsLS1lqCgr7S1z9XQ
+0tTIvcG20tPRsLKzl5yfmqms3OPmwMHLqrS0rq29SkW4Rmq+SG2xXo6yZZK3YY6zXYu0V1pvdWiC
+VIaqW4WoXIuxXo2zVYWpR3GUobXH/////P7+4N/zSk7FbHbD+/78/////////v7+trWxfHd0QEdK
+YWpn+Pz9+fbxecvcVOX+XOHvOVFPOj45RkpERlFPT1NNc1c4gl9Fm3VXoX1lgIiH2+De7/T37vTv
+7fXq09TiOz25OkOd7vP2v8O+LTcxOUdDQkpKOj07QVBSUsfiXt77jbbFfoBqjJYDj5UAgYkHgYkH
+kZUAiZIZT3iHQ15sRExxQ06HVVyVW1yCanOYiY2OztHV////////////hH7VNi6xNjCzeXzN////
+//////////////////////7/////////////////////////AAD/////////////////////////
+///////////////////////////////////////////9//////zt8fZ1oMFbj7Rpl7lplrtmlbto
+lbpllblnlrxnlrxjl7xml79pk7ZjkLZZiauMrr7U0tHs5+bh4eFzen0sODxUY2axur7R2c/Pz7/O
+0sbb3tyusrdodHpif4OqsLXk6eeipK6AgX9VVa8+WrlOcrhYgqxhkbNkk7ldlbhNaHx1VWhXfZ9Y
+hatdi61ij7Fbh6xLd5xCaIqsvdD///7r6vRVVclaYLP4/Pf9/////v/////P1NJ/e3Y9REGGjIv/
+/v7//v/b3uJm1etd7/9UusYxNzZFTUZNU1JLVFFWUkd3WDeObUyfdlWakYjO2OL2+/rr8fDX29zs
+9Ol0db8kJ6eRob729fE5R0Y1PDk9SEU+RUA4OzJUnbFb4PtewNBeZGuIjxyNlgCIkwGHjgOLlgCL
+kgdTdW9DYG9FU3c/THpGVIRWV3FRWn9/gYzNz9D9//7//v////xua8c3MLYxLbSJitT///////7/
+/v////////////7///////////////////////////8AAP//////////////////////////////
+/////v3///3////+//7+/v3///79/////v////3///P3+H+mxluPtGmXuWWUummWvGiVu2eXu2aW
+umeXu2WXu2aYvGWWvGSVu2WSt1mKspWxwre8vcnBwdLRzZ6dn5SZnLK3utnX1tHOysjHw8HKwNXU
+1rC1uIqZm4aPk3qKkdbj4crK0HiDgWBvrTtCtUhtt1BvrF+RtV+Tt2OVv0RjemJMWGl1l1SHqFuI
+qVyJr1qHqFJ/oUhxkkVvksbU4P/8/mZozE5Wu+/z9P3////////+/+vt7oSBfDtDQoiNjP3///7/
+/f78+36ZiU7V613x/z+Ciy8zLVBXUE1RTEdRUWFTPXZZOpJyVZ95W5qmqN3p6+zz8Ojr6e747Lq9
+3DM3tDlFl+v3936AgCs0MUZUUkRQSjQ4Mkp7g1rX9l/f8lpyiHh+J46YAIyTAoOKAIiSApGWAGWA
+VTpYaUVSfkZVjTtLcFlZa1lcgnyAi8zLzf///v///vj3+VpQwjozuTQvtKeq1//+//z+////////
+/vz//f/+///+/////////////////////////wAA////////////////////////////////////
+/v7+/////v7+//7///7/+//+//7//f////79lrXOWoywaZW6ZpW7Ypa6Z5S6aJW6Zpa6Z5e7aJi8
+Zpa6Zpa6Zpe9aJe9Zpi8YI2zo7nEsba0tLC2t7m6sLKzqbS429zazs3JxcfIzszL08/Uz8/PyszM
+xcXFury9rbGywcbF5efntr3Ak5KyODmzQ2m3Sm+zXouwYo20Ype8UXqQU0tSb2iDVYGqWIOkXYmu
+W4esVH6jTHOTSnOUVHyf5O7uionZSEy85efx//3////+////+fz6hYaEPEJBi5CT//////7/2t3N
+hIZKo9rnTNz1W+D0NlRVPzw4RUxJRExLS05MbFQ4e11Eo3dYmId0r7zE5PDw7fPy6/Du7+/vX2S/
+Iyijl6bGxsbALTUuOkJBQUhFNz04O1BOU77aYOv+XKzFcnE3lJkCjJUAeIENf40Fj5YAeI1CSm2B
+QlJ3Qk97RVGBVVlsUld4dn2OxMPF/v3/////6er0SkS7OTW2OTa0yszu/////////////////f/+
+/v3/////////////////////////////AAD//////////////////////////////////v//////
+///+//3+/v7//v////79//////60zNhai7Nmk7VmlrpmlbtmlbtmlrhplrtolbpmlrpomLxnl7to
+l71ol71pmL5ol71hlLyjuMe3tbWlsbOfinR8XE88T1TQ1tXJy8yxsrbR0tDTz86+v8OztbWxsLSr
+qq6bmJqQk5fb3tzT1daboKFHRq46TKlIb7pRealkkbZik7tZgKAwODhyWG9agKBVgqdZg6ZZhqtW
+gKNRd5lQeZlIdJl8nbGRlttHR73S1uj//v/9//////7g2d50b3FDRUaKlpb+/v7///+qs4iksYX+
+/v6K1OBL5f5Qv88vNTRAS0NLVEpASkpTUUd1VjWRak6he1idnZ27ztXq9PTl5+fx+OudocosMrE9
+TZrT3txITk01Ojk7Q0I5Pz44OTVPprpe5f9bzOZXZliGkwKLlQKCjAOJkQSNlgCCjR9ObYJCUnY/
+SHpFT35TW2hWWXVweIm+wMH////8/v/b3PA/O7k4M7ZAPbjd4fP///7//////////v/9/////v//
+//////////////////////////8AAP/////////////////////////////////////+///+////
+//7//f7+/v/+/////t3o8GSTs2GRtWqVtmSUtmeUuWaVu2eXuWiVummWu2eXu2eXu2eXu2eWvGiX
+vWmYvmmawGeTvKW4xb/FxKCmrZKGgJ94WFBCPG+Fi7/AvqSoqauwr8DCw7e7vK6wsbGxt5+jqJqg
+pZKWm6y4uOTq6dDOzWFjsS4vqURrtkxwsGCQsl2OtGCNsi5BRmVVZ2p2klGDp1aDpVmHqVSBolJ7
+nFB5mVJ8n0t5mFxzt0xNx77F3v/////+///+/amUo2pZZDpHP4uYlv///////5ykaMvQtfv//vbx
+8nHM4U7r/0SLlTMwLEtRTENMSURLRltRP3RWO5RzUqKDbKCzu8bS1uvw7uPp5ODh5UxRtCYqoJWm
+x4eNiCkyL0NQTkZNSjE2LUJyeFfX9GPn/kh6kIWHC42WAImSBnuJDImUAI2TDE1iX0FQfj5MfUtS
+g2JpfF5ccnJ6i7/Bwv///v///87O7DgzuDk0t0pIv+vv9P///v7+/v/////+//3////+/////v//
+/////////////////////wAA///////////////////////////////////+//////7////////+
+/f///f//+/z/g6jEXo2zZ5S2YpS4ZJS2ZZW5ZpW7ZZS6aJW6ape8aJi8Z5e7Z5e7Z5e7Z5e7aJe9
+aJi6Y5S6qLjFys/Ow8DCl5qimoR4mnFYPUA+lqKmrKqqvcC+uru/rba5sry8s7e4n6apmKalsre6
+q7K1ztnW6OjikJa/NDC3OE+dRWuzV4SvYJC0YJS5O1JiTl1te2Z/VoSmV4KjVIGmU4ChUXugUHqd
+Un+hVH+aSmamSkzIm6jU//7////++fv7kXOGaExgPkVIj5qX//////7/jphW2ODV//7//f//5Ono
+XdLnVN/5OV9hNDgyQEdEPEhCSVBNZFA3fl5Bn3ZVoZiPm7O/4+rn7vHv+vvxg4XFMTGtSVSmn6il
+LjY1O0ZESFBJNDs2N0ZISrrYYez/Ta3Ld4ImjpcAiZIGdYERh5AEkJYBYXRJPlGEQVGAQEx2YW15
+aWRzb3WMvL6///7/////uLbgNSy4OTa0V1fD+vz9/////v7+///+/////f////7/////////////
+////////////////AAD////////////////////////////////+/v7///77/////////v//////
+//63zt5ajLBmk7Vnk7hklLhmlrhplrtpl7lplbpplrtolbpmlrpnl7tnl7tnl7tnl7tnl7tomb9k
+k7mvvMTBvbyvtLWssbKzt7ycgWaCXkxUYGbDx8jNzc3Jys7Kzs/O0NDRztDBx8avs7S/xMe3ur6t
+urjh7+vW1dlMUMEwNKQ+X6RMdK5jk7dik7lAXXIyUl1+bINleJlQgqZWgKNSf6BRe6BOe6BVhKBW
+f59Mb6FNVMdzesP////////p5uiFYnaKfYtAR0KDh4j////7+/uKlU/m6+n///7///////zP4udQ
+2vFMwtsxPDo5QTpNV0s9R0dNUEdyUzqMaEqjfV+To6rA0tnu8u3n7OrM0OJCR7opKqKCk7RUXFIz
+Oj05Qz04Pzw7ODRBmadf6P5My/JYgVuQlQCIlACBigSGjwKQmABufTk9UYFKV4tMWIhXZ3hpZXFq
+cIe2ub39//////+Wk9EyKbU2MbRoacT//////v/+/v7///7///7//////v//////////////////
+//////////8AAP///////////////////////////////////////vv///7//f/+///+//D0+W6a
+t2KRsWWSt2aSt2eUtWaUtmeUtmaWuGqUt2iVumWVuWaWumeXu2eXu2aWumeXu2iYvGqXuWiXvbDE
+ybe1u3uLkq+8vrrExIOJiKV9YWNORnaKj66zsqexuLbGxaW3uNvg3sbEw5Wcn6Gqrp2kp5edoqSx
+ufL07oyLyTk2uzJDlD5epVyNs2SVtVFzkCpARWR3knZng1GGq1eAoVJ8n015mFB9nlSCpFWCpFF4
+nlJexGFixPX7+vz+/8e8xoBacKyrr0BJRmRraPv6/Pj48oeWXPD0+f3//v///v3+/////rPZ5ULb
++kSSoy4tKU1RTEFLRTxISFlQQnFTOJRvTZ6KeZ2ywery8dri4u7y7GtvxzEztUJVpmJwbDA3NEJK
+ST9IRTQ1MThiaVHK3ljj/UeaooySA4qUAXyHCIKKB4qVAH6HJkpXi0xXkFBbj2JyiWRibmtyg7W2
+uv3//////3h1yzMuszIutZCR1f7+/v3///7+/v///////v/+////////////////////////////
+/////wAA/////////////////////////////////f/////+//7+/f/////+//7/sszaWoquZpO1
+ZJS2ZpS2Z5S2ZpO4ZpO4ZZW5ZZS6ZZW5Zpa6Zpa6Zpa6Z5e7Z5e7Zpa6Z5e7aJi8Y5u+uMfJpa2s
+lqeqqrW5o6eofo2WiIR5oHRVYFtYfouNnqivpaitoaWqjpmdm6WliZKVmp6jnKiqipaWbnl9zNjS
+5eXlW17GNTirMlOYTHKsaJW6XZCxO0lPU3uYfGZ+XH6cV4SlUn6dTnWbUnucV4SlV4erT32cUGO+
+U1PF5Ojt///+rJupe1lxwcDCPElHWmFa4+Pj7u/fi5xj+P3//f///v3///7//v/9//v6jtPiQdf2
+NWRoLzQrRElHQkpAPElHY1A7gl8+nXZWj5OUw9bb8vPv8/nut7ncOkG0MTOpV2qPOUM3NkE+PERD
+NDs4OkhGTMfbX+n/QLHMf5IZjZMAg40FgIsFiJQAjJEMUmB2Q1GLRlB/Y3GIZWRta2+BsbCy/v3/
+////ZGHIMy+wMy6xsbPj/////f/+//7//v7+///+//7/////////////////////////////////
+AAD////////////////////////////////////+/v7///7///7+/f/5+Pxtm7pij7Rlk7Vlk7Vm
+lLZmlLZnlLlnlLlllblmlrpnlLlolbpmlrpnl7tnl7tnl7tnl7tpmL5ol71nnb6vws/HyMyzvcSp
+tLi1vsK/wseyvMOji3eTa05nbmu1v8a2u76/wse/wMTCxMWztru7u8GvtbyhpaqYm6ClrrHy9uq5
+vNhCPr82T6U9XJtdjrZmm8A/UF04XXFyfZlzbIdUia5Wf59NdpZOeJtYg6Reiq9XhqFRZ7VLT8W2
+wd38/v6fiJd7YHDU2dhCSklXZFy3tbTk6dSRnGT9/////v/9//7///79///////3+PZ01u5AxuQx
+Pjw7QzxRVk09RkNITEZuVjiFY0WdfWabrLnw9fTo7unq7O1UXLY2OrE0Q586RkY2PDc0QDo1Pjsx
+OS9DlqVa4/1HyO9flVKOkQCGkAB7iAiIkgCLlQJdaWNCUItEUX9NYn5eXmx8eo6orK39///5+flV
+TcI3MrU5NrTIyun////////+/v7///////////////////////////////////////////8AAP//
+//////////////////////////////3///////7+/v3//////8rY5FuMrGaTtWWTtWWTtWWTtWWT
+tWaTuGSUuGWVuWWVuWiVumeXu2aWumeXu2eXu2iYvGiYvGmZvWyZv2uXwGmZvWyavGubv22dwWuZ
+u2yWu2iUuWCNrpODZo9rU1h2j2iVummWuHCbvG+bwHGYvmuYuWaWumiStWeRtFiCpYqru/v+74WA
+zzI/sz5gpkdspGufxEtxiSg6QV6LrXxjd16BolKDqVF3mUx1lVaAo1yKrFyLqlBvrExSyYiJzf3/
+/pt9kH5ndebr7kROTlpoZp+bmtXZwJOfXf3///////////////////////3//7e9uEG81j+gtCwv
+LUBLSUVNQztGQ01NP3NTPJBuSoqEfcbW3e3y8O727J6f0jY9sDE1rDQ/XTQ+MTtIRj9GQTA1LDpi
+blHS61Le/U2ehYuPAIqRAHmCDoKMA4yVAHN7ZFdntF1qqGh4nW1wf4B/iamqrv3//+zp+EZBujo0
+t0NAu97h8P////////7+/v///////////////////////////////////////////wAA////////
+/////////////////////////////////////f/////+i6vCWoywZpO0ZZO1ZZO1ZpS2ZpS2Z5W3
+Zpa6Zpa6Zpa6Zpa6Zpa6Zpa6Zpa6Z5e7aZm9aZm9aZm9ZZm+aJq+aZi+Zpq/Z5m9aJe9aJm/aZm9
+ZpW7YZW5XIigoYFdgGlaU4GjXY+zZJG3ZJW7Zpe9Zpi8ZZe7Y5fAZ5W+YY+xUX2mwdPa6ublVEzB
+OVq3QWGqXIeyZZq7LDk7S3qZb3qVd2qCV4uwUXueTXSUTnucW4iqW4uvVYCnVF/HaGjG+//8mnqL
+i3mG9fr4WGJiT2Bdl5KRs7WYlqFY/v7+//////7+//7//f////79///+sK6FbpFvUdv/OHSALy8p
+Q0lERk1GQEZFWUw8fVs9kW9Sm6207vPy5+7p2N3mRlC7PTu2MTiNMT80Mz48P0xKMzcyNUhLR77X
+U9z8RamuiY8CjJABfYYHg40Eh5IAeIJAWGWvXmapY3abbHCDgn+Ipaaq/f//0czrOja3NjKvT0y6
+8vL4/////////v7+////////////////////////////////////////////AAD/////////////
+/////////////////////////////v/////s8fRnkLBgjbJmk7Rlk7VmlLZmlLZmlLZnlbdmlLZn
+lLlnlLlnl7tnl7tnl7tnl7tomLxpmb1pmb1pmb1pmrpomLxqmr5pmL5pnL1mmbprmcJmmr9mmr5q
+lbxhkr5igZCkfVd/b2haia9gja9lkrdpmL5pmb1kmLxolbtnmL5llrxci7Fhiqvp8+e6tNc3P7tG
+bbhFZaZoocg8VmIxTl1fj7N9ZHhkgKJXh6lMdJdMdplWhKZcjLBciK1TZMFSVcLZ3+qcgpCZhZL/
+//9ze3o3Qj+Yk5KdnIeSmUj3+Pb8/v///////v/8/v////7//v+jroiztn+36f04x+IyTk44PDdC
+SURCR0ZASUZnUzqIY0GGdG3V5Ofl6Obv9OuAicw3P7gzN6c1QUczPTc9REEzPDkuLy1CkaRQ2flE
+wd1zkB2NkQB9iwN6gwqHkgCGjBtgaahYZqhgb51sb4SFgImjo6n///+qpdwwK641MrBxc8f+/f//
+///////+/v7///////////////////////////////////////////8AAP//////////////////
+/////////////////////v7+/v///77P3FuJq2iStWWStGaTtGaVtWeWtmaUtmaUtmaUtmeVt2mX
+uWeXu2eXu2eXu2eXu2iYvGmZvWmZvWmZvWeZvWiWv2eYvmiXvWmYvmWZvWqavmqavmqXwmiavmWa
+u2SVvWZ3eqt7V3Z3dVWMs1+Nr2WRumeVvmeYvmOXu2eau2aZumeXu1SCq4OlvPn/8IWByDZRuUhr
+r1OCrmCJqS08P1WJrWp5k3hkgVeNsFV+n0xzmVF/oVuLr2CPr1VvvEhLxaCl0qKIlaqUoP///4KL
+iDY8O4+Ri5KPh4iONfX06v3///7+/v3//////v3///3//6u3e7K4gf/+/4je9DmzyTA6ND9GQUhP
+SDpHRUdKQXZZOoNbPqeytuvx8Orv7cvI4jxItDc7uDI7bTY/Mi84NS04Ni8zLTlocFXj/ELS+1iW
+VImPAH+ICWp7DIePAoeRCGNqkVdmrlxpnWxshIiBiKGipv///o2M1jIrtDIutZOX0v//////////
+//7+/v///////////////////////////////////////////wAA////////////////////////
+/////////P7+/////////v/9krLJWYytZY+yZpO1ZZS0ZpW1ZpW1ZpS2Z5W3ZpS2aJa4aZa7Zpa6
+Z5e7aJi8Z5e7aJi8aZm9aZm9aZm9Z5jAape9aJi8apy6aJq+aJjCapq8a5i+aZm9aJq+bJy+aJnB
+WZC3Z21oqnxTbnd7WIuzYY6wYJO0Z5S5Zpe9ZZa8ape8Zpi8ZJO5Un+ktc/V7uzrWVW+Qmq9RWio
+YpW2NkZNQGd9XpO4d2F6aHeXU4msTHaZT3mcWIaoXY+tWYGyT1LMdnrIpYqUrZml///8j5qYOT8+
+l56bmZWUgII27O/W///+//7//////v3////+//7/sLp+sraC///+8/f4Z973O5CgLC4oSFBGTlJM
+OUJGU0w9gFs5dWZd5e3t5uzn8fbtaGzEOEC7MTaLND81Mzw5OURCLjgyMT89ScjdUuH/UZ19iYwB
+g40EaHcOgZAAhJEAX2Z5VWOvWGmaaGiGioOIn6Ck///+cXLKNS22Mi61sbLe/////////////v7+
+////////////////////////////////////////////AAD/////////////////////////////
+///9///////////7//92oL1dja9kkrRllLRlk7Vlk7Vlk7VmlLZmlLZnlbdnl7tmlrpklrpll7to
+mLxomLxomLxpmb1qmr5nmb1nmrtqmr5kmb5omLpqmr5ml71rmrpimr1mmLxpmbtomLxomb9smsNS
+gqRsZlmofltqeoFWi7Baia9fj7FllLppmL5llr5llrxomLxfkLZYhqje7ObNyN0/ULdKbb1Od65X
+e5M1Rkldl7tif553XXRYhadUg6NPd5pTgKFbi61biK1RX8VOU7qDbIKxmaX//v+dqKYvODWstLOm
+pKOFg1ve4sX////+/v7///7///z8/v7///+0u4intH7///7////d7/ZN1/Q2aXM3ODRHT0g/Rj88
+RERjUj92Tzmws7fk7+zj7ee0tdc7Qr0zOqkxO00tPDRIU1E1OjkwMCo6jqBR3fxJt7OEjAOFjgF3
+ggZ9jQCIjgBjbU8+TrJZZJ1raYeMhoudnaP09vddWcM1MLE5N7PM0uX+/f/////////+/v7/////
+//////////////////////////////////////8AAP//////////////////////////////////
+///+/////+vy9WmVtGKPsWKStmWUtGaUtmaUtmaUtmeVt2iVummZvW6ewm6ewmudwWqcwGudwWqc
+wGmbv2eZvWiavmeZvWibvGWZvmmZvWqavGiZv2mYvmibvGuZu2iYvGqavGicwWqcwGqavGyixUt2
+kXdpVqh/X2h4iFWJrluIql6OsGOSuGiWv2aYvGeWvGaYvFeJs3Cbtvv+76KfzDhetkptt1aDqDtJ
+T0hyhWGbxWlthXJjfliMsFF/oU98nlaGql+Nr1hzvUZJw2FPfq+Ql////6qysSo1MqyzsMzHyIaB
+eMrNt//+//z+/v/////+///+//3//7XBkZytbv/+///+/////67p+D7I5TVLSTs+NVRZVzlGPkNH
+QnBSN3FmYu3z8tTi3ujt7FNXwDhBtis1ZTQ6Lz1IRU1SUCcuKzFXWU7R8kC01XCSIImMAIOPAYOM
+AIKNAXZ9IjI9r1Rkn2togoyGi6Cio9jY6EY9tjcwr05Ouuvz8/////////////7+/v//////////
+/////////////////////////////////wAA////////////////////////////////////////
+////ytvkWoqsZpO0Z5G0ZJOzZZG2Y5K4ZZS0ZZW3bJ/AYYqjT3iPUnuRW4KYYomfZY6nZY6nbJu2
+cqO9bqPEcJ2/Z5e7aZm9aJi8apq+a5u/aJi8aZm9aZm9aJq+bp7AY46vV4epW46vYI+vaJ3IRmd7
+fG5YrH9eZ3aGVIiwXImrXo2tYpG3ZZa8ZJXBZ5i+ZZm+VIevk7TH/fvweIW9QWa6TG60SGx+NkNF
+Z5u/XZG2dV11Ym6QU4mqVXueU3+eWomlVn2xUlXPQEeMn4SO/f//vcLBLTU1f4WE6+3tko6Jr66k
+///+//////7///79/f/////+wsqhkJlg/f///////////P7+jub3OrPHMTg1RElHSk1LOEA/TEw+
+YkczprW35Ojp6/PomJ3OOTy8MDeHLjo6NkA6T1hVLDYwKDczRbPLSND0ZpRHiYwAfooCfYgEfosB
+gooOO0efQleib2mAjoiNpaOira7aMiuyNDCxbHPD///+//7//////////v7+////////////////
+////////////////////////////AAD//////////////////////////////////////v/+/v65
+zNlWiKxjkbNlkrRjkbNik7NklLZmlLZom7w4UWETHhwJFxUOGxkOHBgTHx8YISQXIiAcKCgjMTAn
+Q0plka5rncFmmLxpmb1rm79pmb1pmb1pmb1rm79soMRTeppRcY6wxtLO2uS6w9B+n7NooMM9V2N8
+bFymgF5nd4RUiLFWiapciK1ekLRjl7xsoMVwosxtnspekLq/2eX08vFZb7FEarxKdag2SElGbIRn
+oslgh614W2tWdplRgqJTeZtRf6FYhqhVZcY8PauAdof///7f3+U8RENZYWH9//+xs62blY77+/v/
+//////7///79///+/v7T2L2MmFD9/////v///v/9///0+Plp4Pk4jpouMCpBUUZDSkU2QT9QRTdv
+aGXt9/Hu8uzZ2+VGSbwzOaQtOUMxODMxPzs1OjgsLCY6dX5Q3P9bnnGEiwCAigFvfAl9iQGCjgBQ
+VIk9TqR0cIOPi5GkpKSOjc0yK7I0MLGOk9L//////v/////////+/v7/////////////////////
+//////////////////////8AAP/////////////////////////////////////+/////6rD01iI
+rGCQsmWStGSStGSStGWUtGSYwFRzjA8VFBYfIhQhHxYhHxUiJBYjIRIgHxUfHxMgHhUfHwwREjFT
+WXKjyWeZvWqavnKixm2dwWmZvWiavmucwl+JrEFfeuDl5v/+//7+/v///v38/ouxz2OSuDtTWXxt
+WqqAXWpzgFeKslyLq1yJqmOVuVSAlzVPVig/RyZCSSxBSdLf193d401rpktzxjxXeSo5O2OZt2Se
+yGp8mW5XbUt5m053l013mlSBolRys0ZFw1hdjv38+P39/VlfXj1KSPT5+tnc2pONhtvZ2P/+////
+///+/////////uTl24eUSvv6/P///v/////9/v///9zx+VHZ8zlpbTM0MDtEQTtCPz1EQUlANrXD
+v/X08PT47X6GyTE2tyk1XTA7MzxKRkxSTSovLi5GREnQ8EursX2IAoOMAHaBBXuHAISRAFphWkFP
+qHhxfoyNkZ+ioGljwjYusTU0rLi/2v////3//v////////7+/v//////////////////////////
+/////////////////wAA///////////////////////////////////+///////+oLzNVoaoYJCy
+ZJGyZJGyZJC5Z5W3aZm7UG+GCxQREh4eFSEhFSIgFCEjFiAgGCIiEyEgFCEfGSUnEBsYHzY+aZ3C
+aJm/aZm9Z5e7Z5e7apq+Z5m9bJ3DSWiJna25//////7//f///v/7/f//s8bbYZfAYpK0OkxTdG1Z
+rn9fdHR6U4mqXI21R2yIDhUSEhoaDhsZERsVCRQSOUhK8PXzwsLORGasSm23Hy4+OlxpcaPNYpvC
+cm+JaVxySneZS3WSUHmZUXugTlfGP0Gg5uvq////c3d4JzU0yNHU//7+n6Gbp6Oe/f///f//////
+/v7+///+7e7qiZRQ9PXz///+///+/f39/f/////+vOv5PcrlN0pNMDc0NEI8NkE+MjUzcHt56vLx
+3ufdycfdOj+6LzeKLjg4LTcxRUtKNT08KCwnOpuvTdLtdIsXg4oDfocBeocDgo4AaHE+R12feXWA
+kJGViomZQzy1ODKvRke36+/0///+/f///////////v7+////////////////////////////////
+////////////AAD///////////////////////////////////7////+//2Zt8pXh6ljkbNkkbJl
+krNikrRmk7Vmk7hnnbwzRk4OGBgOGRYPFxYSGBcPFxYQGBcQFhUQGBcPGhgHFRFIcINtnsRnmb1q
+mr5snMBrm71qmr5mmLxmmLxLbYvX5uj///7//v78/v7//////v+yyNpckLhrn8RdjKw/TUtuZVir
+f1pzcnZckLksQk4IFhITHx8XICMVHx8WJiUHFRRZbGn///+fprVBYqtHZqseLzJRgpxsoMlhmsF3
+YntjZX1IeJxHc5JVfpR9g8Y1NbGYobX//v+TlJgeKiqVoaP///7BxcaPiYLc29f////+//v///7/
+///09vaHk1Hp69///////v////7+/f/9//79//+P5vo6scYvNi89REFDTEk3PjkwPD7K1dLZ3t3v
+9OtqasQtL6woN0ArNzE/TEo9QTsrLyo1ZWtG1/dyjjWDiwB5hAV4gAR+iwF0giJcaY+FfYeVl5d+
+fKA5M7Y0MK1hZb79///////9///////////+/v7/////////////////////////////////////
+//////8AAP///////////////////////////////////////////5SzyFeKq2SStGSStGSRtmWT
+tWSUtmaTtGWYuWqcumCPq1V9j0p0gE10fUVud0FjcD1aaDlVXDpXYFR/kGuawGaXvWeZvWiYvGqa
+vmqavmaWumeZvWqcwFd9m9jX2f3////////////+/////4GpxmGRu2WXu2yfx2WOpztJSGhhUqmB
+Xn17ejVacAUPCQ8ZGQwZFxEcGhYiJBcjJQcXFn+Sj/3//oiSpEBmrkBblCtBTWOUtGqdxWWUunFa
+cGJti0R2mkhth8zP3lJXykhNmPb69cvKzDA5NnB8fP3//+/x8ZGRi6ukof/8/v////////////3+
+/4KMXdvdyf////////79//7+/v/+/f/+//r5+2vf9jiRnDEsK0dOSTtFPygzMISSkfDz8e/z566w
+zzEruiYvYTA4LTM5OEFHQigzMC01NEG431+ldoKGAH2KAH2HAH+IAn6GCl5haWtvepmgmW5sqDUw
+szIurJqh0v///v////////////////7+/v//////////////////////////////////////////
+/wAA/////////////////////////////////v7+/f//////lLPIWIquZJK0ZZO1Y5O3Y5S0Y5K4
+Y5S0ZZK4Y5S8aJi8Zpq+bZ7EbZ7EbqLHbKHGcqLGb6DIbaLHbJ7CZ5e7Z5e7aJi8aJi8Zpa6ZZe7
+Zpi8ZZe7Z5i+YJS5p7/L/f/////7///+//39pbvUYI+1ZZa+Zpe9ZpW7aZ3FXIWcPElLXFlLqoNd
+hHlrM01bHzg8Jjo7IC8xFCAiFB4eER0XCRgama+0//z3d4WhQWe5PFWHOVtyZ5S5ZZzBYIyxb1Zq
+VWeERXGO7/LwjYvNKCikn6m7/P37RU5LR1NT8/j5////s7eyh4N+1tHS//7//v7+/////v3/kJZ/
+vL+f/v7+//7///7+//7///79/f7////+5fL6Vd31NnB2Ly4qO0RBND06OkhH3OPe2uDb7u/lU1O3
+KSqaKDMxLDQzNEI+Lzg1KywjM4WeT8HBgIUAgIoBaHgJd4UBg4oBaHBIXmt5lZqbVFCwNjKzOzis
+0tfs//7///////7//////////v7+////////////////////////////////////////////AAD/
+///////////////////////////////////9//7///+ZtstXi69lkrNkkbZjk7dklbVklLZnk7hn
+lbdllLpklrpllbdllLpmk7lmlrpll7tnlLljl7xmmblolrhklrpmlrppmb1ll7tmmLxmmLxnmL5m
+l71omb9nmrtjmL2Rs9Cwyd2sxd+CqMpakbhllrxnmb1kmLxnmMBnl7tqn8pag5w7SEpQTkajgF+U
+gXJkkKhnn7xekrZWgJ1PfZVXg5tZhZxSgpq/0dj49fBxfqQ/ZrU5VolGbopij7VnnMFmiKxtUWVm
+dIr9///Iwc48OLVGTZb0+PNsdHQpNDjHzcz9/v/d4uGBhn2dmZT5+vj//////v////6/w7idpXD/
+/v///v////78/v7//v/7/f3//////v/H8PlG0uk4UVU1NjRAR0IrMzKYpqXu8e/s8+ykpsgqKa8o
+MFguNy0zQj5DTEkkLycwTFNEvM94jRN+iAB3gwV5hQN7hgCDiEqUnauRladDPbI4NrFUVbfz9/j/
+/v/+//3///7////////+/v7///////////////////////////////////////////8AAP//////
+//////////////////////////7+/v3//////6S+zlmJrWORs2GRs2SStGOTtWOTtWSUuGWVt2WV
+t2WVt2eVt2eVt2OWt2WVt2WVt2aWumeXu2aWumWVuWeXuWaWuGWWvGeWvGaXv2eXu2aXvWaYvGWZ
+vWeXu2aYvF+Sul6RuVuPuF2RuWSXv2aXv2SYvWeYvmaav2iZv2qZv2ugy1iDnj1KSEFIQZp7XJl3
+X1d2lVWJslmJq1aHr12JrmKTuWWZwWGPscbZ3vXy6mZ2oD9nskFekUx4lV2MrGaXv2GHp2tRaNPM
+0fr47mVWkyUoqKOkvru8uCcvLpWdnP///vf5+YqVk4J/e8vGw/////////3//+fl5YqXYf3+/P/+
+//7+/v/////+/////v7+/v///////qrq/EG70S86ODE8NDk/OklWWOLs5tjd3uzw5V9guyIljS02
+LCw1MjY/PCgwLysyLzmet2qTMYGGAXN/B3J9CX6HAX2MO5Kkr4SDrzo3sjY0q5OU0P3//v3/////
+//////////////7+/v///////////////////////////////////////////wAA////////////
+///////////////////////+/////v3/q8baVYmuYo+0ZZO1YpK0ZZO1ZZO1ZpS2ZZW3ZZW3ZZW3
+ZZW3ZJS2ZJS4ZJS4ZZW5ZZW5Zpa6Zpa6Zpa6Z5e7Zpa6Z5a8Z5e7Z5e5Z5e7Z5e5aJa/aJe9ZZa8
+Y5e8aZfAZ5i+aJi8ZJi9Zpe9Z5m9aJm/YpnAZZjAZpq/aJq+Ypa+aaHKWIKZQElMOEI8iXZbo35k
+X3OMToavWYmrVoWrVISoXImuYJG3YJK21OHj7e3nXnSeQmKuSWeiUHaWVoWlXZG6eI6qhWRzvbi6
+nIiUQjiwOkCZx83MOEBAW2Ni+vv////+s7m0cXhrj4mE8fLw/f/////++fv8hIhk4eXS/v/9////
+///+//7//v/9/////////////v7+h+j8QKa5Li8tOUU/Nz47pbOy4+bk5u7kv8jSMjGvLDFQJjMr
+N0VBPUJBJyslLG2CWJZue4MAfIQBa34HeYYCeIUZlqOlXVyyOjyyOjutyMro///////+/v7+////
+/////////v7+////////////////////////////////////////////AAD/////////////////
+//////////////////7///////+2zN5Wiq5kkbZlk7VkkrRllLRmlLZmlLZklLZjk7VklLhklLhl
+lblmlrpmlrpmlrpmlrpmlrpmlrpmlrpmlrpll7tomLpnmrtmlrpml71ol71nmL5llr5nl7tlmb1k
+mLxml79lmrtllrxqmb9omLxqmb9qmr5omb9kl79nm8BpmL5lmMBsostdiKNGTk4zQUB4dleqgFZr
+cHNUg6lWiKxbiatbhapZhqdci7Fhj7HY5uXu6+ZXbpQ8YatDZqVMdJFJeZuduMbw6+yLdIKCaHVp
+ToYpKK53fKN0eHMkMi7b3d7//v/y8e1tdml8fXSrqKT+/v7//v/+/v6yuJ+xt47///////7///7/
+/v/9/f3///////////////76/P126P86j54sKikvOzVaZ2Xr8O7b4dzq8ueAhsklJn4rNCovOjc1
+QD0pMC0uQ0tJlo59hAB6hQBqeAh6hQF8hQCGkoxKR7s5Pa1dYbn0+Pn///7////8/v7//v//////
+///+/v7///////////////////////////////////////////8AAP//////////////////////
+/////////////////v///tPc5luJq2SStGOSsmSStGWTtWaUtmaUtmSUuGOTtWWVt2SUuGOTt2SU
+tmWVt2WVt2aWumeXu2aWumaWumaWuGWWvGSVu2WXu2WWvGWWvGqavGaYvGeau2WXu2eYvmecvWmZ
+vWeYvmiZv2aavmiZv2qbu2iavmaav2iZv2eYvmqcwGuawGebv26iyl2LqkVQVDVDQmlvWK6EX4Bv
+ZlB7oleJrVeHqVaGqFaDpFaErWKNrtbl5+jn411vlD5frkNmpTxihay5u//9//n39pKEj2tMU1FB
+nzQxpWFsdC41Lp2lpf3//v79/6ium1xoXH95etbU1P///v///t7i3IeQXvz6+f////////7+/v//
+///////////////+/////uv7+mrl/zh3fy8sKDhFQ7PAvtvi3+Ll47TG0UpMsCcxQygzKzA6Oio2
+MCoxLDtsdGl8DX6IAHB/BniDBIKLAF9odUBBuT1ArKCf0f3///3//v/+///+/////v////////7+
+/v///////////////////////////////////////////wAA////////////////////////////
+/////f/////////+8/L2apW2YJC0Y5KyZZK0ZpS2ZJS2ZJS4ZZW5Y5O1ZZW3Z5W3ZpS2ZZW5ZZW5
+ZZW5Zpa6Zpa6ZZW5ZZW5ZZW5Zpa6Z5e7Z5e7aJi6ZI+6XYi7YYq7Yo+6Z5q7Y5C7XIq6ZZm9Z5O8
+ZJO/Xo+7ZZW/Y5HAaJm/Zpe/aZrCZ5vAZZm+Y5i9aJq+ZJjAaaDHYpOzRFZdOEJCVGlgpIhml3Nb
+WHOISoGsW4itWYepVoSmU3+kXImu1Obt7/DnYneSO1yhPluln6m7//////7/////r56nZkRiNjSw
+KzeJNkE3VVxf/Pz8////9/j0Y29TcHJsi4aD9vX3/////P7/lp93ytC5//7//////v7+///////+
+/v7+/////////v7+///+5/r/XN/yM19mIiMhbnx67vHv4+LewtvfUZLFNzR8KzMpMTw6O0RBJS4r
+MUVKUm0kd4ABdH4GbnsIfowAWWNTPke2Tliw5Of2///+/f/+////////+//+/////////v7+////
+////////////////////////////////////////AAD////////////////////////////////8
+/v7+/v7//////v59ob9cjbNlkrNkkrRklLZllblllblmlrpklLZllbdnlbdpl7ljlblllblllblm
+lrpmlbtmlbtmlbtmlrpnl7tkl7hmlrhpnL1SdblMb7lIZrdbhbpcgbtGZrlfir1Ka7pUeb1FaLha
+gb9Xg7hFZbhRcLtLarlmmr5mmr9omcFpm79llsJomb9kmL1onMVjm75NX2o6QkFAX2CMiW2ne1Zw
+b3FLfaFVha9biKlWh6dPfKJZhqfR4uX09exfa4MrS5JIaLGGlbXt8ez//v/08fOIZHRVQG0sMK0z
+P1cxOTLJzND7//7////DxrdTXkR2dXGrpqf//////v/R18SKl2v//fz////+/f////////7/////
+//////////78/v7+//3W9/9T0+gxS1EnMC3CzMzX3Nrn5N9vucs2cbkpMD8sMy40PDstNzEkMDRH
+WRxlcwNxfQdyfwx7hwVxdDZLUao4Rqyep9L//v3//v/+/v7////9///////////+/v7/////////
+//////////////////////////////////8AAP////////////////////////////////////7+
+/v/+/v3//6G2y1qMsGSRs2OTtWSUtmSUtmWVuWWVuWaWumWVt2WVuWaWumOVuWWVuWaWumaWumeX
+u2eWvGWWvGeXu2OWvmSYvWWXu2SUvkBftFV7vEZku16MvE1tuE51umSTv0FatlZ/vkNcvF2IuWWW
+xEZhvEJbuV2OwGufw2iZwWOawWmZw2aav2aavmqavmeXwWaYwmqixU5vfz5EQz1XXXGEgaWFYpFw
+XFh3jk+DrFiFq1mFqlOAoU99nMPW3vz59G91jCJAez1gqlhvob/H1P/+/8Oyu3BNV2hknzE/kik3
+LGVtbf///////v3//4SOY2FsWHdycczMzP////z+/omUbszQvf////////////////7+/v///vz/
+/f/+/////v///////8X5/0vD2Sk3Nmdzc+Tv59/i4Lu5uUWhujlklyctIjZBPzhCQiovMjhBJ1xs
+AWNzBHF7F3yGFHyCI1Rgli8/qnN9vf///////v79//7+/v///v////////7+/v//////////////
+/////////////////////////////wAA/////////////////////////////////////f//////
+/v/92+HsW46uY5GzYJC0ZJK0ZpS2ZJS2ZJS4ZZW5ZZW5ZZW5Zpa6Y5W5ZZW5Zpa4Z5e5Z5e7aJi8
+Z5e7ZZe7ZZa8ZJa6aJu8XoW8UXe4WoG4WIC7WYO4YYy/VHq6UXi9WYe9T3C5SGm4TXW2Vn27Q164
+R2i3VXu7bp7AaJm/ZZm9aZnDZpu8ZpnBZpnBaJm/YJq+aJm/baTLVXyYQkdFQFJZV3yEk412o3VT
+cm50TnmgUoOpWIWnUoKmS3iarsnT+/v1j4qfITNuN12lQ2Khg5Su5uvpmHqHi2p5bHPCKDVPMDgu
+xMfL/////f//5ujiang+b3FrgX186uzs////1NfHgItl+/r8///+/v7+//7////////+/f////3+
+//7//////f/////+uvT/Q7fIJjo7wsbA19nZ6OXhZGtmQZ26L0NULDMuNUE7MTk4LTY6TVgSYG4A
+a3cvgYo5fog8OEONOUuotb3a///++/////7////+/////////////v7+////////////////////
+////////////////////////AAD////////////////////////////////////////9/////v76
+/P15nbthj7FikrRilLJklLhlk7xhk7dllbdllbljlblolrhllblllblnl7tomLxnl7tnl7tnl7tn
+mL5pmb1mmLxlmLlsmL1nnL1onb5qoL9rnr5omLxnkb5kjr1lkLthjL1lk7xkk79fkLxgibpcjLxn
+m8BpnLxnm8Bnm8Bomb9pm79mmr9jlr5nmL5omb9kmL1kmL1toMhaja5FU1k7Q0JBZHF1iouigVqO
+cFVhdIlKfKZShaVXhac9W27e4+L8//asrbcpMWwsSYw7YKpYc6uCh5x0S2CpmKZpdKgiMCw+QkOR
+gI3a2dv////BzKxkcjhwcHCXkpP8+/////+Nm2u1vqn//////f////7///7///7//v////7///7+
+/v7//f/8//3+/f+48v44pLZld3jh4dvc392spqcvS0w+gZAuNzQ8Q0BDSUg3Pz8/Rjk/UBA2QSA8
+SE5seq6UnNHN0uv9/////v///v/9///9//7//v7/////////////////////////////////////
+//////////////////8AAP/////////////////////////////////////+//7+/v///vz+/rrN
+3FmKsGeVtGaTuGGTt2eUuWaUtmKVtmOTt2iWuGWVuWWVuWOVuWWXu2WXu2WXu2WXu2WXu2eZvWmW
+u2eYvmaXvWWWvGeaumiavmCIvE5rtklntk9xt1J9vFd9vUtrt05rtV6GummhvmqevGqevGqZv2qZ
+v2SYvGebwGaXvWebwGaYvGSXv2SXv2aXvWaYvGaYvGeYvmyewmWfw1FvgD5FPjdMVFB9i4yMdKV3
+VX1uZVZ5m0VylHuQmPr9+/Lz8fP59MzNy0FDax8xeDxcpz5or1BUfYBWYcrH1mVncSs2M0ZHbXll
+cZN/i9LO2ZyrbWx3SXBvca2rq////uPn4nR/TfDt7/////3///3//////////v/+///////+////
+/////v////v//6nd6UGlsbjMx9rZ1d/h4VJRTTNLST5dWkRJR0ZOTUxQSkhJTTc7QAgSEn6Ej/n7
+/Pz+//////////7+/v////3///z+/v/+////////////////////////////////////////////
+/////////////wAA/////////////////////////////////f///v7+///////+/f//9ff4bpe4
+X5KzZZK3ZpS2Y5O1ZZa2ZJS2Zpa6ZZa2ZZW5ZZW3Zpa6ZJa6Y5W5ZJa6ZZe7ZJa6Zpi8ZJa6Y5a+
+aZfAaJy6aJe9TW25TmyzYY++baPBbJ+/aJ69a56/ap/AaJm/U3W7T2+6apvDap2+apq+aZy9Z5rC
+Z5vAaZrCZpq+apq+ZZa+Zpq/Zpq/Zpe9aJe9Z5i+ZZm9Zpq/ap3IW4qmRVRXOT49QGR2aoiTnIhp
+mXJSamlt1ODm/v7+//798vf18vXz6Ozmam6BFB1hLz2WP1qqWExokmp2iIaSMzw5LDhQcnu6vLm1
+jnuKfGt2e34oc3hYdHB1xL/B////rbeTi5ts/f///f////7+//7//////f///f////////7/////
+2ODgiJaoOkBjO11qh7Sx2+DX3ODbrbKzJywrODsyQUpHf4OEl5masK+xz8/V19zb/f/////////+
+/v7+/f///f/+//////7////////8////////////////////////////////////////////////
+////////AAD////////////////////////////////////////////+/v7//v////+1xtlUi7Bn
+lbdllLRklLhjk7VmlrhnlLlolbZhlrdklLhklLhmlrpmlrpmlrpomLxnl7tll7tmmLxll7tkmLxr
+m71IY7RXfb1tob9mnL9ZfrxpmL5rmcJrmsBnlb5djb1vocVdiLtNbLtrnr9onMBnm8Bnm8BnmsJo
+m7xnmMBnmL5pmsBomr5omr5ml71ml71ml71lmb1omLxjl7xnnMFkm8BWdYQ7Qzw4TFFLcoF8jYSZ
+dlSce2i7sKz19Pj//v77/vzx9/L2+PKfpKcqLVkbH3gzPppkSWNmRVpARlE1QDYoLnlqbsbk6u/f
+2Nuyr5qGjzhydl17dXbEwsLn5+10hlHCyLX///7//////////v/+//3///7y8/GvtcJ2fZhUT2RH
+OlReRVlgQHdKR52uwc7W1dHQ1M6Bh46go6fFycr//////////v/+//3//v////77/vz9///7/f3/
+///+/v7////////////9////////////////////////////////////////////////////////
+//8AAP///////////////////////////////////////v/////////+//z+//L1+XWbuV6St2KV
+tWWTtWSUuGWVt2aTuGiWuGSXuGWVuWWVuWSWumSWumSWumWXu2aYvGWXu2mYvmeZvWudu0ttuVeB
+vG+gwGeaumOUujpOs1eKvGmfvmyfwFZ1uklpvGqgwWuhwF2DvVR7wGugwWaavmmawGmcxGecvWmb
+v2mbv2aXvWiavmeYvmWZvmSYvGebwGWWvGaYvGeXu2iYvGqWv2mhymGVs01gaDxBPy1HTo6ZlrOZ
+iZdvU4puXbGpqujt8P/+//n9+Pf79tfb1WZpdxsjWCkug3FTcHdRYz1DQjE8OjAupUxJvICFsre+
+0Z+skn6JIXZ8a3x4d25mcFpLU1djKX5zb5J8jpN+jYp5hIp1hIhseWhTXE47TEw5VEo+ckg/lT0/
+qzQ3pBcjTUlUQJ+jpO3v8P////7//f/+//////////////3///7+/vv9/v/+/f/////////+//38
+/v3///3//v///v/+/////////////////////////////////////////////////////////wAA
+/////////////////////////////////////v7+//7////+/////f/////+yNHeV4iuYJK2ZZO1
+Z5S5Y5O3ZpS2ZJS2Z5W3ZZW5Y5W5ZJa6ZJa6Y5W5ZJa6Zpi8Zpi8Z5a8Zpq+Y428TXC5aZ6/aZm9
+Zp7BWHSqOkigSmu6caC/a5rAP1O4PFi3aZ/CaZrAa5/DTnC8Y4++a56/aJm/apvBZ5u/aJq+Z5u/
+apvBZpi8aJm/Y5e8Zpq+ZZm+Zpe9Z5m9Z5m9ZZm+ZJi9Z5a8Z5vEbKHGV4KXWF1eNz8+V2Nlk5eY
+pot9nXRehmZTqaCc1trb+P3/+v/+9vzxx8fBXGRxOUNhZ01fb1FeMT80MDZJOjy5ODC9MzSkMUWc
+TWRggI4ecnhfg4GAX15yMkBMKDcXJS1LJC9LLzlhKDFcIyJJJypdLzSPMjChLzOkNDWtLDGUEx4y
+JjoPanBX4+Hn///////////////+/f/+/P7////+//79///////+/P7//////////v7+////////
+//7//v3/////////////////////////////////////////////////////////////AAD/////
+///////////////////////////+/v7//v/+/f////7////////+//3//f+RqcFbi61lk7Vmk7Vg
+lLhjk7Vlk7VklLZklLZmlrpll7tmmLxmmLxmmLxmmLxnmb1kmbppncFPcLVei75onMBsnL5pmL5D
+WqVAV6dNbbhmm7xZgbwySLE8VLhfjrprncFonMBbg71XfrxtoMFpmsJpm79mmr9pm79mmcFonMFn
+mrtomb9nmsJmmr5omb9nmL5jmbxqm7tomLpkmLxmmLxqmMFciqyBoLf9/P64urthaWgoNjJHVll8
+gYKbi36deWeGZlObhn65tLPZ4eD2/Pvx+PXBxcZ9hoqHbX1WS1MvOy8wO1E7RKVHQsM/NsIzM69I
+TmF4hxR0ekmFgoRvbG5EUkAoOh0SJToaKFgiL3suMZMxNZ4yNKQ0NKouMZ4oKogPHDInMxdfaT/e
+4OH//v///////////v////7//v/9/////v/+/v78/v7//////v/////////////////+/v7////9
+//79//z///////////////////////////////////////////////////////8AAP//////////
+/////////////////////////v/+//3//v/////////9/////v3///Lx9WWOr1+QtmaVtWKVtmaU
+tmSUuGOTtWeVt2mWu2eXu2eXu2iYvGeXu2eXu2iYvGWXu2qavkxuumOYvWaXvWqdvVZ8tjVIo092
+tFl8u1SAu0NatjpRt1J4uVF5umqiv2ubv2SUvlR+wWugwWuZwmmbv2icwGqZv2aXvWWZvmebv2SY
+vWeYvmeau2eYvmWYwGeYwGSVu2iYvGaXv2aYvGGUtWKIpuXs7/////3////+/8jHyXR5eis3NzpI
+R11kZ42FfqKNeI9tVZByYZiDe6mnpuXm5Ojw8MfO0YaCjTpCQi42LCs2Si48bTY+i0E9uzgxyEBF
+oGx3M3J7Mn5/doB9f2trXUJNSicuWR4tbCMsbB0tbyktfCktgDQ0dBsrOyg0FldmM8LJzP/+////
+//7+/v/////////+///////////+//z+/v7+/v///////v79/////////v7+/v/+//79///+////
+/////////////////////////////////////////////////////////wAA////////////////
+//////////////////////////////////////////////////7/1NjjWYmtY5O1ZZO1ZJS4Z5S1
+Y5W5aZW6Z5e5ZZe7ZZe7aJa4aZa7Z5i+Y5e7ZJi8You4S2y7Zpy9Z5m9ZZnBQVuvOUukYJO7X429
+Qlm1Oku6RGa5aZW+TW+7aJ++Z5y9Z5fBUny/aJ7BapvBaZu/Zpq+aJnBZZm9Y5a+ZpnBZJi9ZZm+
+Z5i+aJq+Zpe9aJe9aZi+ZZa8Z5q7Z5i+WoajxdXc////////////////////////4OLinKGgSlBP
+MT8+PUlLW2Fglo+Gl4JtkHFYl3lmuaOX5OHZ8fPzzdLVY2hmJispKjIxPkxLVGFvQEl7RECqRj+4
+V2JwZ3cwc3dOe3x4fHl7bm12YWJwVFhwS1VmTFZgUVlZPEI3N0cXcoJN1dbU///+/f/+/v3////8
+//7//////////////////////////v7+////////////////////////////////////////////
+////////////////////////////////////////////////////AAD/////////////////////
+//////////////////////////////////////////////7//v+6yttYia9mk7Rgk7RmlLZmlrpk
+l7hml7dolbpmlbtkl7hnmLhmlrpomLxomr5gi7xObbhonr1rnr5bgLg2R6RMb69qoL9rnr9CW7k1
+S7Rdjb1qobxNbLtjkr5onMFlkr5Vf7ponr9pm79qmMFomr5pm79nmb1mmr9mmLxpm79lmb5mmr5l
+mb1mmr9qmrxnmb1lmb1om8NbjKy1yNX9///////////////+/v7////////9///9///6/PzT19iF
+jY1PW1s3Q0UwPD4+R0RqbGBoYU1vXkmTiIDKyMDZ3Np0dncqNC4wOTZeY2JmY18+Pz01NkAsMEw3
+QVlDUxNfZRRiazJtdE9vcllvclxqblVhZUhHTCVtdj2/wZ37+Pr//v///////v/+/f////7/////
+///////////////////////+/v7/////////////////////////////////////////////////
+//////////////////////////////////////////////8AAP//////////////////////////
+//////////////////////////////////////////3////+/6W+0lqLsWWWtmiUuWaXt2eXu2SX
+uGWYuWaYvGKXuGaYvGWUumeWvGaZumWZvk5tuGaav1+KvT5UrDBEqVF0uGqavlFxuDBDsjxTtmOV
+v2ifvkxqvVaAu26hwVmBvFR+uWqewmibvGuawGiZv2ibvGmYvmaXvWWZvWSYvGaXvWaYvGeZvWuY
+vmSZumebv2qZv1+MsanA0P///v////////////////////////7+/v////7+/v////////////3/
+/+Hn5q+1tImOj2hxdE9eYTM/Px8kJRoeHzE8OV9wbTpERCQuKCo6OXSJi6+8xKaxtX+HhmZsc1Vh
+bWFva4GLYI2ZX3iDO1ReC0dSClVkKrXBpfv9/f/+///+//7+/v/+//////3+/P///////////v//
+//////////////7+/v//////////////////////////////////////////////////////////
+/////////////////////////////////////////wAA////////////////////////////////
+/////////////////////////////////////v7+//////7/lrjPVouwaJW3aZi4Z5e7ZJa6ZZW5
+api6Z5e5Zpi8YZW5Ypa6ZZa8aZy9S2u3Woq6YZW6YYq7XIi9XIS5Y5G6WYG8WH+9V3u7Xoy8YZC8
+U3W7VX69b5/BSWq5YI+7apzAaJm/aJm/aJm/Zpe9ZJm6Y5a3Y5e7Y5e8Z5a8Zpi8ZZm9ZJi9Zpe9
+Z5u/X4yxo8DP//////7////+/f///////v7+/v7+/////////////v7+//////7/////////////
+/////////v/9///+4+no0dXWwsfGsri3oKeqpKuupqyrUVVWFyIgQlBMcX97o6uqv8TDwcbEtLu+
+hYqTWl5pIisvCxcXZnBw2Nnj//7///7////8///+//7////////+////////////////////////
+/////////v7+////////////////////////////////////////////////////////////////
+////////////////////////////////////AAD/////////////////////////////////////
+//////////////////////////////7///76//7//////f2butFakLNklbtml7dlmLlnl7lqmLpm
+lrhpl7lpl7ljlblklrpomrhhiLxJbLZnn7xmm7xpnL1qnMBmm7xmm8Brnr5pnr9nm8BpmsBuosBw
+pr9af71Rebponb5pm79rnr9onMBnm8BnmL5ll7tmlrpnmb1jl7xomLxpmbtnmb1mmr5ql7xcj7Ci
+vs///v/9//7+/f/+/v7//v////////////////////////////////////79//78/v7////////8
+/v79///////9/////v////7+/v7//v///v3//v/6+vq2uLhbXGAtMjMkLy0iLy0jLykiLCweKCg1
+PT15f37O0tP///////7//v////79/////v///v////7//////v///////v//////////////////
+///+/v7////////////+/v7/////////////////////////////////////////////////////
+//////////////////////////////8AAP//////////////////////////////////////////
+//////////////////////3///3//v/////////+/f/9/6a+1FyRsmKUuGSXuGiXt2eXuWKWumSW
+umaWuGGVumWYuWiXtmucvE5xtVR5t2yfv2WZvWWZvWWWvmWZvmmYvmSYvGKZvmWZvmmfvl6Juk1w
+umabvGebwGiavmGSumCRvV6QumibvGiZv2mWvGaXvWWZvmaYvGiavmicwWOTtWKOq7LG1//+//n/
+/v/+/////P3///3///7+/v////////7+/v////////////////3//////////////v7+/v//////
+/////////P///v3///////z+/v3///7//f3//////////ujq69HU2LvAwba7vs3P0OHj4/v6/P79
+/////v/+/////v7//f7//f////7/+//////+//////////7+/v7+/v///v////////////////7+
+/v////////////7+/v//////////////////////////////////////////////////////////
+/////////////////////////wAA////////////////////////////////////////////////
+//////////////////7//////v3////8/f///v7+/f/+uc3fZpS2YJK2Z5e7aZe5ZZe7Y5e7ZZW3
+Zpa4ZZe7aJW6ZJm6a5i9TGu2THC2Z5u/bZ+7Z5m9Z5q7Z5m9ap2+aZy9apvBV3+6T265aJm/Zpq/
+aZrAXIm8VYK7Woi4VHu5YJG9ZZu8Zpa6ZZe7Zpi8aJq+ZJjAXI6ydp63ytbo///+/P/9/P7/////
+///////+/f/////////////////////////////////////////////////////+/v7+////////
+//7///7//P7///7//////////f/////////+/////v3///////7+//////7///////7///7///7/
+//////7////////+/v3///7///7//v3//////////v7+///+/////////////////////////v7+
+/////////v7+////////////////////////////////////////////////////////////////
+////////////////////AAD/////////////////////////////////////////////////////
+//////////////7//v7//v/9//////////////79///V3+l7oLxaj7RkmbplmLlklbtllrxhlbll
+l7tmmLxmmbpnl7lkm7paf7lMaLVQdrdfjrplkr1jk71gi7xTdrpMc7dXgbxonb5lmb5nmL5nlrxT
+f7pQfrg/XbRZf7lekL5pnL1nmb1lmb1lmb1ilbZbiqqRsMXq8Pf9/////v7////////////9///+
+/f////7////////////////////////////////////+/v7+/v7////////////////+/v79////
+///+//3////////+/v7//v/////9///////9//7+/v7///7////9//z//v/////+//v+/v7+/f//
+///////+/v7///////7//v/////////+//3///7+/f///v/////////////////////+/v7/////
+///+/v7+/v7/////////////////////////////////////////////////////////////////
+//////////////8AAP//////////////////////////////////////////////////////////
+/////////////////////////////////////////vf2+qa6zGaSt2GTvWiYumaZuWSVvWeau2mX
+uWmZu2SYvWWXu2qdvmaXv1uGt1N6uE5zt1N6uFuFul6JvGiZwWufvWeau2eZvW2av2ycvl2Luk51
+uUVks092umSUvmibvG2bvWeWvF2NsXSassHS2/3//////v////////////////////7+/v//////
+//////////////////////////////////////////////////////////////////////7+/v//
+//////////7+/v////////////////////////////////////////////7+/v//////////////
+//////////////////////////////////////////////////////////////////////////7+
+/v//////////////////////////////////////////////////////////////////////////
+/////////wAA////////////////////////////////////////////////////////////////
+////////////////////////////////+////f/+///+197nj6rEYZG1XZG5ZJm6aJe9aZfAaJe9
+Zpm6aJi6apq+apq+a5u9aqC+Z5y9aZ++a5+9aJu8aJu8Z5q7Z5i+Z5m9aZm9apu7bZ2/YYu4WIO0
+YZW+ap/AZZS6Wo2ucJqxrMLN8vb3//////7//////////////////////////v7+////////////
+/////////////////////////////////////////////////////////////////v7+////////
+/////v7+/////////////////////v7+/v7+/v7+/////////////v7+////////////////////
+/////////////////////////////////////////////////////////////////////v7+////
+////////////////////////////////////////////////////////////////////////////
+////AAD/////////////////////////////////////////////////////////////////////
+/////////////////////////////////v////////z8//3T3uaatMxvmrtek7hkmL1omr5qmrxp
+nL1nm8Bomb9qmr5qmr5nmL5nmL5nmL5nmL5omr5omr5omr5rm79pm79nm8BonMBvn8FpncFgkbFi
+jKl5nbW3y9bt8/L///7////////////8/v/////////////////////+/v7/////////////////
+///////////////////////////////////////////////////////////+/v7/////////////
+///////////////////////////+/v7////////////////+/v7/////////////////////////
+///////////////////////////////////////////////////////////////+/v7/////////
+//////////////////////////////////////////////////////////////////////////8A
+AP//////////////////////////////////////////////////////////////////////////
+///////////////////////+///////+//79//3//////v///+Xt9LzM3YaqwmqYumOUumWZvWWa
+u2ufw2ygxGyfwGyfwG6ewm2dwW2dwWubv2mbv2aav2qZv2aYvGWWvF+Ss2eTsm6Xt5a0x87e5fX5
++v/////////+//3//////v7//f////////////////////////7+/v//////////////////////
+//////////////////////////////////////////////////////////////////7+/v//////
+//////////////////////////////////////////7+/v//////////////////////////////
+//////////////////////////////////////////////////////////7+/v//////////////
+/////////////////////////////////////////////////////////////////////wAA////
+/////////////////////////v7+/v7+/////////////////////////v7+////////////////
+/////////////////f///P/9/////////////f78///+/////f///v/97u/zzNflnLfLh6e+dpu1
+bp29aZe5ZJS4XpK2YJW2ZJa6ZJW1bZm2dZ6+eZ+3gqfBk7PKqsXP2eLm8fb5//////7+///+//7+
+/////P/9/f///////////v/9/////v7+////////////////////////////////////////////
+/////////////////////////////////////////////////////////////v7+////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////v7+////////////////////
+////////////////////////////////////////////////////////////////AAD/////////
+///////////////////+/v7/////////////////////////////////////////////////////
+///////////9/////v/+/v77///////+/v79///////////////8/v79//7///7//f/19vrp8PPX
+4OnG0d+6y9i60NzA0+DG1d7Y4eXs8PX19/j8/Pz////+/v7//////v7+/v79///+/f/9//7///7/
+///+/v79///8/v7//v/////+/v7/////////////////////////////////////////////////
+///////////////////////////////////////////////////////+/v7/////////////////
+///////////////////////////+/v7/////////////////////////////////////////////
+///////////////////////////////////////////////+/v7/////////////////////////
+//////////////////////////////////////////////////////////8AAP//////////////
+//////////////7+/v//////////////////////////////////////////////////////////
+///////+//z+///////////+/v7+/v///v///v////////////3///3///3///3/////////////
+//////////////////////7+/v///////v7+/v/+/////////v/////+/v////7+/vz+/v/+///+
+//////7//f////////7+/v//////////////////////////////////////////////////////
+//////////////////////////////////////7+/v//////////////////////////////////
+//////////////////////7+/v//////////////////////////////////////////////////
+//////////////////////////////////////////7+/v//////////////////////////////
+/////////////////////////////////////////////////////wAA////////////////////
+/////////v7+////////////////////////////////////////////////////////////////
+///+/////P7+///+///+/v3//f///v/9/f////////////////7+/////P7+//////7////+/v7+
+/v3///7+/////fz+///+///+//3//f/////+/f///////f////////////////////7+/////v/9
+//////7//////v7+////////////////////////////////////////////////////////////
+/////////////////////////////////v7+////////////////////////////////////////
+/////////////v7+/v7+/////v7+////////////////////////////////////////////////
+/////////////////////////////////////v7+////////////////////////////////////
+////////////////////////////////////////////////AAD/////////////////////////
+////////////////////////////////////////////////////////////////////////////
+///////////////////////+/v7////////////////////+/v7////////+/v7/////////////
+///////+/v7////////////////////////////////+/v7/////////////////////////////
+///////+/v7/////////////////////////////////////////////////////////////////
+///////////////////////////+/v7/////////////////////////////////////////////
+///////////+/v7////////////////////////////////////////////////////////////+
+/v7/////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////8AAP//////////////////////////////
+//////////////////////////////////////////////////////////////////7+/v7+/v//
+//////////////////7+/v////////////////////7+/v//////////////////////////////
+//7+/v////////////////////////////////7+/v//////////////////////////////////
+//7+/v//////////////////////////////////////////////////////////////////////
+//////////////////////7+/v////////////////////////////////////////////7+/v//
+//////7+/v////////////////////////////////////////////////////////////7+/v//
+//////////////////////7+/v//////////////////////////////////////////////////
+/////////////////////////////////////wAA////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/v7+/////////v7+/////////////////////v7+/////////////////////////////////v7+
+/////////v7+/////////////////////////////////////////////////////////////v7+
+////////////////////////////////////////////////////////////////////////////
+/////////////////v7+/////////////////////////////////////////////v7+////////
+/v7+////////////////////////////////////////////////////////////////////////
+/////////////////v7+////////////////////////////////////////////////////////
+////////////////////////////////AAD/////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////+/v7/
+///////////////////////////////+/v7/////////////////////////////////////////
+///+/v7////////////////////////////////////////////////////////////+/v7/////
+////////////////////////////////////////////////////////////////////////////
+///////////+/v7////////////////////////////////////////////+/v7////////+/v7/
+////////////////////////////////////////////////////////////////////////////
+///////////+/v7/////////////////////////////////////////////////////////////
+//////////////////////////8AAP//////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////7+/v//////
+//7+/v////////////////////7+/v////////////////////////////////////////////7+
+/v////////////////////////////////////////////////////////////7+/v//////////
+////////////////////////////////////////////////////////////////////////////
+//////7+/v////////////////////////////////////////////7+/v////////7+/v//////
+////////////////////////////////////////////////////////////////////////////
+//////7+/v//////////////////////////////////////////////////////////////////
+/////////////////////wAA////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////v7+////////////
+/////////////////////v7+/////////////////////////////////v7+/////////v7+////
+/////////////////////////////////////////////////////////v7+////////////////
+////////////////////////////////////////////////////////////////////////////
+/v7+/////////////////////////////////////////////v7+/////////v7+////////////
+////////////////////////////////////////////////////////////////////////////
+/v7+////////////////////////////////////////////////////////////////////////
+////////////////AAD/////////////////////////////////////////////////////////
+///////////////////////////////////////////////+/v7////+/v7/////////////////
+///////////////+/v7////////////////////////////////+/v7/////////////////////
+///////////+/v7////////////////////////////////////+/v7/////////////////////
+///////////////////////////////////////////////////////////////////////+/v7/
+///////////////////////////////////////////+/v7////////+/v7/////////////////
+///////////////////////////////////////////////////////////////////////+/v7/
+////////////////////////////////////////////////////////////////////////////
+//////////8AAP//////////////////////////////////////////////////////////////
+//////////////////////////////////////////7+/v////7+/v//////////////////////
+//////////7+/v////////////7+/v//////////////////////////////////////////////
+//////7+/v////////////////////////////////////7+/v//////////////////////////
+//////////////////////////////////////////////////////////////////7+/v//////
+//////////////////////////////////////////////////7+/v//////////////////////
+//////////////////////////////////////////////////////////////////7+/v//////
+////////////////////////////////////////////////////////////////////////////
+/////wAA/////////////////////////////////////////////////v7+////////////////
+/////////////////////////////////////////v7+/v7+////////////////////////////
+/////////////////////////////////////////////////////v7+/////////v7+////////
+/v7+/////////////////////////////////////v7+/////////v7+/////////////v7+////
+/////////////////////////////////////////////////////////////v7+////////////
+/////////////////////////////////////////////v7+////////////////////////////
+/////////////////////////////v7+/////////////////////////////v7+////////////
+////////////////////////////////////////////////////////////////////////////
+AAD////////////////////////////////////////////////+/v7/////////////////////
+///////////////////////////////////+/v7+/v7/////////////////////////////////
+///////////////////////////////////////////////+/v7/////////////////////////
+///////////////////////////////////+/v7////////+/v7////////////+/v7/////////
+///////////////////////////////////////////////////////+/v7/////////////////
+///////////////////////////////////////+/v7/////////////////////////////////
+///////////////////////////////////////////////////////+/v7/////////////////
+//////////////////////////////////////////////////////////////////////8AAP//
+//////////////////////////////////////////////////7+/v//////////////////////
+//////////////////////////////7+/v7+/v//////////////////////////////////////
+//////////////////////////////////////////7+/v//////////////////////////////
+//////////////////////////////7+/v////////////////////7+/v7+/v//////////////
+//////////////////////////////////////////////////7+/v//////////////////////
+//////////////////////////////////7+/v//////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////wAA////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////v7+/v7+////////////////////////////////////////////
+/////////////////////////////////////v7+////////////////////////////////////
+/////////////////////////v7+/////////////////////////v7+////////////////////
+/////////////////////////////////////////////v7+////////////////////////////
+/////////////////////////////v7+////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////AAD/////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////+/v7/////////////////////
+///////////////////+/v7////////+/v7/////////////////////////////////////////
+///////////////////////////////////////+/v7/////////////////////////////////
+///////////////////////+/v7////////////////////////////////////////////////+
+/v7+/v7/////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////8AAP//////////////////
+//////////////////////////7+/v//////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////7+/v//////////////////////////
+//////////////7+/v////////7+/v////////////////7+/v//////////////////////////
+//////////////////////////////////7+/v//////////////////////////////////////
+//////////////////7+/v////////////////////////////////////////////////7+/v7+
+/v//////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////wAA////////////////////////
+/////////////////////v7+////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////v7+/////////v7+/////////////////v7+////////////////////////////////
+/////////////////////////////v7+////////////////////////////////////////////
+/////////////v7+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////AAD/////////////////////////////
+///////////+/v7/////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+///////////////+/v7/////////////////////////////////////////////////////////
+///+/v7////////////////////+/v7////+/v7/////////////////////////////////////
+///////////////////////+/v7/////////////////////////////////////////////////
+///////+/v7/////////////////////////////////////////////////////////////////
+///////////////+/v7/////////////////////////////////////////////////////////
+//////////////////////////////////////8AAP//////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////7+/v7+/v////////7+/v////////////////////////////////////////////7+
+/v////////7+/v////////////////7+/v7+/v//////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//7+/v7+/v//////////////////////////////////////////////////////////////////
+//////////7+/v//////////////////////////////////////////////////////////////
+/////////////////////////////////wAA////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////v7+/////////////v7+/////////////////////////////////////////////v7+////
+/////v7+/////////////////v7+/v7+////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////v7+
+////////////////////////////////////////////////////////////////////////////
+/////v7+////////////////////////////////////////////////////////////////////
+////////////////////////////AAD/////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////+
+/v7////////////////////////////////////////////////////////////+/v7////////+
+/v7////////////////+/v7+/v7/////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////+/v7/////
+///////////////////////////////////////////////////////////////////////////+
+/v7/////////////////////////////////////////////////////////////////////////
+//////////////////////8AAP//////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////7+/v//
+//////////////////////////////////////////////////////////7+/v//////////////
+//////////////////7+/v//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////7+/v//////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////wAA////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////v7+////////
+////////////////////////////////////////////////////////////////////////////
+/////////////v7+////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////v7+////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////AAD/////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////+/v7/////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////+/v7/////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////8AAP//////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/wAA////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////AAD/
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////8AAP//////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////wAA////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////AAD/////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////8AAP//////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////wAA////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////AAD/////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////8AAP//////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////wAA
+
+------MultipartBoundary--aesJuOftfssbzktQSU8SDAO4ZyAssNXlHkc8XI3ICb------
