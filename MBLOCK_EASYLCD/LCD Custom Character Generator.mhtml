@@ -1,0 +1,342 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://maxpromer.github.io/LCD-Character-Creator/
+Subject: LCD Custom Character Generator
+Date: Fri, 7 Apr 2023 07:33:44 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--oXoGbbSfGU0Vf5sv1r1L4GslMcSWTFNlWUeeRFqwbO----"
+
+
+------MultipartBoundary--oXoGbbSfGU0Vf5sv1r1L4GslMcSWTFNlWUeeRFqwbO----
+Content-Type: text/html
+Content-ID: <frame-01CEEB4615378C058CF1BCEBBF4DD884@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://maxpromer.github.io/LCD-Character-Creator/
+
+<!DOCTYPE html><html><head><meta http-equiv=3D"Content-Type" content=3D"tex=
+t/html; charset=3DUTF-8">
+
+<title>LCD Custom Character Generator</title>
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0">
+<meta name=3D"description" content=3D"online character designer for Liquid =
+Crystal Display (LCD) and create code for arduino.">
+<meta name=3D"keywords" content=3D"lcd, lcd custom character, lcd character=
+ generator">
+<link rel=3D"stylesheet" href=3D"https://maxpromer.github.io/LCD-Character-=
+Creator/css/prism.css">
+<link rel=3D"stylesheet" href=3D"https://maxpromer.github.io/LCD-Character-=
+Creator/css/style.css">
+</head>
+
+<body>
+<article class=3D"content">
+  <h1>LCD Custom Character Generator</h1>
+  <h2>Support character lcd  and create code for Arduino.</h2>
+  <div class=3D"main-box">
+    <div class=3D"box-char-pic">
+      <div class=3D"box-char green">
+        <div class=3D"col">
+          <div class=3D"dot-px high" data-x=3D"0" data-y=3D"0"></div>
+          <div class=3D"dot-px high" data-x=3D"0" data-y=3D"1"></div>
+          <div class=3D"dot-px" data-x=3D"0" data-y=3D"2"></div>
+          <div class=3D"dot-px" data-x=3D"0" data-y=3D"3"></div>
+          <div class=3D"dot-px" data-x=3D"0" data-y=3D"4"></div>
+        </div>
+        <div class=3D"col">
+          <div class=3D"dot-px" data-x=3D"1" data-y=3D"0"></div>
+          <div class=3D"dot-px high" data-x=3D"1" data-y=3D"1"></div>
+          <div class=3D"dot-px" data-x=3D"1" data-y=3D"2"></div>
+          <div class=3D"dot-px" data-x=3D"1" data-y=3D"3"></div>
+          <div class=3D"dot-px" data-x=3D"1" data-y=3D"4"></div>
+        </div>
+        <div class=3D"col">
+          <div class=3D"dot-px" data-x=3D"2" data-y=3D"0"></div>
+          <div class=3D"dot-px" data-x=3D"2" data-y=3D"1"></div>
+          <div class=3D"dot-px high" data-x=3D"2" data-y=3D"2"></div>
+          <div class=3D"dot-px" data-x=3D"2" data-y=3D"3"></div>
+          <div class=3D"dot-px" data-x=3D"2" data-y=3D"4"></div>
+        </div>
+        <div class=3D"col">
+          <div class=3D"dot-px" data-x=3D"3" data-y=3D"0"></div>
+          <div class=3D"dot-px high" data-x=3D"3" data-y=3D"1"></div>
+          <div class=3D"dot-px high" data-x=3D"3" data-y=3D"2"></div>
+          <div class=3D"dot-px" data-x=3D"3" data-y=3D"3"></div>
+          <div class=3D"dot-px" data-x=3D"3" data-y=3D"4"></div>
+        </div>
+        <div class=3D"col">
+          <div class=3D"dot-px" data-x=3D"4" data-y=3D"0"></div>
+          <div class=3D"dot-px" data-x=3D"4" data-y=3D"1"></div>
+          <div class=3D"dot-px" data-x=3D"4" data-y=3D"2"></div>
+          <div class=3D"dot-px" data-x=3D"4" data-y=3D"3"></div>
+          <div class=3D"dot-px" data-x=3D"4" data-y=3D"4"></div>
+        </div>
+        <div class=3D"col">
+          <div class=3D"dot-px" data-x=3D"5" data-y=3D"0"></div>
+          <div class=3D"dot-px" data-x=3D"5" data-y=3D"1"></div>
+          <div class=3D"dot-px" data-x=3D"5" data-y=3D"2"></div>
+          <div class=3D"dot-px" data-x=3D"5" data-y=3D"3"></div>
+          <div class=3D"dot-px" data-x=3D"5" data-y=3D"4"></div>
+        </div>
+        <div class=3D"col">
+          <div class=3D"dot-px" data-x=3D"6" data-y=3D"0"></div>
+          <div class=3D"dot-px" data-x=3D"6" data-y=3D"1"></div>
+          <div class=3D"dot-px" data-x=3D"6" data-y=3D"2"></div>
+          <div class=3D"dot-px" data-x=3D"6" data-y=3D"3"></div>
+          <div class=3D"dot-px" data-x=3D"6" data-y=3D"4"></div>
+        </div>
+        <div class=3D"col">
+          <div class=3D"dot-px" data-x=3D"7" data-y=3D"0"></div>
+          <div class=3D"dot-px" data-x=3D"7" data-y=3D"1"></div>
+          <div class=3D"dot-px" data-x=3D"7" data-y=3D"2"></div>
+          <div class=3D"dot-px" data-x=3D"7" data-y=3D"3"></div>
+          <div class=3D"dot-px" data-x=3D"7" data-y=3D"4"></div>
+        </div>
+      </div>
+      <div class=3D"btn-group">
+        <button type=3D"button" id=3D"clear">Clear</button>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <button type=3D"button" id=3D"invert">Invert</button>
+      </div>
+      <strong>Link</strong>
+      <ul class=3D"link-list">
+        <li><a href=3D"https://maxpromer.github.io/LCD-Character-Creator/im=
+g/ArduinoUnoR3LCD.png" target=3D"_blank">Arduino LCD Circuit</a></li>
+        <li><a href=3D"https://maxpromer.github.io/LCD-Character-Creator/im=
+g/ArduinoUnoR3LCDI2C.png" target=3D"_blank">Arduino LCD I2C Circuit</a></li=
+>
+        <li><a href=3D"https://github.com/fdebrabander/Arduino-LiquidCrysta=
+l-I2C-library" target=3D"_blank">Arduino LCD I2C library</a></li>
+      </ul>
+    </div>
+    <div class=3D"config">
+      <form action=3D"https://maxpromer.github.io/LCD-Character-Creator/">
+        <div class=3D"inline">
+          <strong>Color</strong>
+          <label><input type=3D"radio" id=3D"color" name=3D"color" value=3D=
+"green" checked=3D""> Green</label>
+          <label><input type=3D"radio" id=3D"color" name=3D"color" value=3D=
+"blue"> Blue</label>
+        </div>
+        <div class=3D"inline">
+          <strong>Microcontroller</strong>
+          <label><input type=3D"radio" id=3D"mcu" name=3D"mcu" value=3D"Ard=
+uino" checked=3D""> Arduino</label>
+        </div>
+        <div class=3D"inline">
+          <strong>Interfacing</strong>
+          <label><input type=3D"radio" id=3D"interfacing" name=3D"interfaci=
+ng" value=3D"parallel" checked=3D""> Parallel</label>
+          <label><input type=3D"radio" id=3D"interfacing" name=3D"interfaci=
+ng" value=3D"i2c"> I2C</label>
+        </div>
+        <div class=3D"inline">
+          <strong>Data Type</strong>
+          <label><input type=3D"radio" id=3D"datatype" name=3D"datatype" va=
+lue=3D"bin" checked=3D""> Binary</label>
+          <label><input type=3D"radio" id=3D"datatype" name=3D"datatype" va=
+lue=3D"hex"> Hex</label>
+        </div>
+        <div class=3D"inline">
+          <strong>Code</strong>
+        </div>
+        <div class=3D"inline">
+          <pre class=3D"  language-cpp"><code class=3D"  language-cpp" id=
+=3D"code-box"><span class=3D"token macro property">#include <span class=3D"=
+token string">&lt;LiquidCrystal.h&gt;</span></span>
+
+LiquidCrystal <span class=3D"token function">lcd</span><span class=3D"token=
+ punctuation">(</span><span class=3D"token number">12</span><span class=3D"=
+token punctuation">,</span> <span class=3D"token number">11</span><span cla=
+ss=3D"token punctuation">,</span> <span class=3D"token number">5</span><spa=
+n class=3D"token punctuation">,</span> <span class=3D"token number">4</span=
+><span class=3D"token punctuation">,</span> <span class=3D"token number">3<=
+/span><span class=3D"token punctuation">,</span> <span class=3D"token numbe=
+r">2</span><span class=3D"token punctuation">)</span><span class=3D"token p=
+unctuation">;</span> <span class=3D"token comment" spellcheck=3D"true">// R=
+S, E, D4, D5, D6, D7</span>
+
+byte customChar<span class=3D"token punctuation">[</span><span class=3D"tok=
+en punctuation">]</span> <span class=3D"token operator">=3D</span> <span cl=
+ass=3D"token punctuation">{</span>
+  B11000<span class=3D"token punctuation">,</span>
+  B01000<span class=3D"token punctuation">,</span>
+  B00100<span class=3D"token punctuation">,</span>
+  B01100<span class=3D"token punctuation">,</span>
+  B00000<span class=3D"token punctuation">,</span>
+  B00000<span class=3D"token punctuation">,</span>
+  B00000<span class=3D"token punctuation">,</span>
+  B00000
+<span class=3D"token punctuation">}</span><span class=3D"token punctuation"=
+>;</span>
+
+<span class=3D"token keyword">void</span> <span class=3D"token function">se=
+tup</span><span class=3D"token punctuation">(</span><span class=3D"token pu=
+nctuation">)</span> <span class=3D"token punctuation">{</span>
+  lcd<span class=3D"token punctuation">.</span><span class=3D"token functio=
+n">begin</span><span class=3D"token punctuation">(</span><span class=3D"tok=
+en number">16</span><span class=3D"token punctuation">,</span> <span class=
+=3D"token number">2</span><span class=3D"token punctuation">)</span><span c=
+lass=3D"token punctuation">;</span>
+  lcd<span class=3D"token punctuation">.</span><span class=3D"token functio=
+n">createChar</span><span class=3D"token punctuation">(</span><span class=
+=3D"token number">0</span><span class=3D"token punctuation">,</span> custom=
+Char<span class=3D"token punctuation">)</span><span class=3D"token punctuat=
+ion">;</span>
+  lcd<span class=3D"token punctuation">.</span><span class=3D"token functio=
+n">home</span><span class=3D"token punctuation">(</span><span class=3D"toke=
+n punctuation">)</span><span class=3D"token punctuation">;</span>
+  lcd<span class=3D"token punctuation">.</span><span class=3D"token functio=
+n">write</span><span class=3D"token punctuation">(</span><span class=3D"tok=
+en number">0</span><span class=3D"token punctuation">)</span><span class=3D=
+"token punctuation">;</span>
+<span class=3D"token punctuation">}</span>
+
+<span class=3D"token keyword">void</span> <span class=3D"token function">lo=
+op</span><span class=3D"token punctuation">(</span><span class=3D"token pun=
+ctuation">)</span> <span class=3D"token punctuation">{</span> <span class=
+=3D"token punctuation">}</span></code></pre>
+        </div>
+      </form>
+    </div>
+  </div>
+</article>
+<footer>
+  Open Source web tool By <a href=3D"http://www.ioxhop.com/" target=3D"_bla=
+nk">IOXhop</a>
+</footer>
+
+
+
+
+
+
+
+</body></html>
+------MultipartBoundary--oXoGbbSfGU0Vf5sv1r1L4GslMcSWTFNlWUeeRFqwbO----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://maxpromer.github.io/LCD-Character-Creator/css/prism.css
+
+@charset "utf-8";
+
+code[class*=3D"language-"], pre[class*=3D"language-"] { color: black; text-=
+shadow: white 0px 1px; font-family: Consolas, Monaco, "Andale Mono", "Ubunt=
+u Mono", monospace; direction: ltr; text-align: left; white-space: pre; wor=
+d-spacing: normal; word-break: normal; overflow-wrap: normal; line-height: =
+1.5; tab-size: 4; hyphens: none; }
+
+pre[class*=3D"language-"]::selection, pre[class*=3D"language-"] ::selection=
+, code[class*=3D"language-"]::selection, code[class*=3D"language-"] ::selec=
+tion { text-shadow: none; background: rgb(179, 212, 252); }
+
+@media print {
+  code[class*=3D"language-"], pre[class*=3D"language-"] { text-shadow: none=
+; }
+}
+
+pre[class*=3D"language-"] { padding: 1em; margin: 0.5em 0px; overflow: auto=
+; }
+
+:not(pre) > code[class*=3D"language-"], pre[class*=3D"language-"] { backgro=
+und: rgb(245, 242, 240); }
+
+:not(pre) > code[class*=3D"language-"] { padding: 0.1em; border-radius: 0.3=
+em; }
+
+.token.comment, .token.prolog, .token.doctype, .token.cdata { color: slateg=
+ray; }
+
+.token.punctuation { color: rgb(153, 153, 153); }
+
+.namespace { opacity: 0.7; }
+
+.token.property, .token.tag, .token.boolean, .token.number, .token.constant=
+, .token.symbol, .token.deleted { color: rgb(153, 0, 85); }
+
+.token.selector, .token.attr-name, .token.string, .token.char, .token.built=
+in, .token.inserted { color: rgb(102, 153, 0); }
+
+.token.operator, .token.entity, .token.url, .language-css .token.string, .s=
+tyle .token.string { color: rgb(166, 127, 89); background: rgba(255, 255, 2=
+55, 0.5); }
+
+.token.atrule, .token.attr-value, .token.keyword { color: rgb(0, 119, 170);=
+ }
+
+.token.function { color: rgb(221, 74, 104); }
+
+.token.regex, .token.important, .token.variable { color: rgb(238, 153, 0); =
+}
+
+.token.important, .token.bold { font-weight: bold; }
+
+.token.italic { font-style: italic; }
+
+.token.entity { cursor: help; }
+------MultipartBoundary--oXoGbbSfGU0Vf5sv1r1L4GslMcSWTFNlWUeeRFqwbO----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://maxpromer.github.io/LCD-Character-Creator/css/style.css
+
+@charset "utf-8";
+
+body { font-family: Arial, Helvetica, sans-serif; padding: 0px; margin: 0px=
+; }
+
+a { color: rgb(255, 255, 255); }
+
+footer { text-align: center; padding: 20px; background: rgb(0, 105, 92); fo=
+nt-size: 12px; font-weight: bold; color: rgb(255, 255, 255); border-top: 3p=
+x solid rgb(0, 68, 61); }
+
+.content { max-width: 1024px; margin: auto; padding-top: 20px; }
+
+h1, h2 { margin: 0px 0px 15px; }
+
+h1 { font-size: 36px; color: rgb(51, 51, 51); }
+
+h2 { font-size: 24px; color: rgb(102, 102, 102); }
+
+.main-box { display: table; width: 100%; margin: 40px 0px; }
+
+.box-char-pic { float: left; }
+
+.box-char { padding: 20px 20px 15px; border-radius: 3px; margin-bottom: 15p=
+x; }
+
+.box-char.green { background: rgb(129, 199, 132); }
+
+.box-char.blue { background: rgb(33, 150, 243); }
+
+.dot-px { width: 32px; height: 32px; margin: 2px; border: 1px solid rgb(255=
+, 255, 255); display: inline-block; }
+
+.config { float: left; margin-left: 15px; }
+
+.config strong { width: 160px; display: inline-block; }
+
+.config .inline { margin-bottom: 8px; }
+
+.config label { width: 120px; display: inline-block; }
+
+.green .high { background: rgb(27, 94, 32); border-color: rgb(27, 94, 32); =
+}
+
+.blue .high { background: rgb(255, 255, 255); border-color: rgb(255, 255, 2=
+55); }
+
+.btn-group { margin-bottom: 15px; text-align: center; }
+
+.link-list a { color: rgb(0, 121, 107); text-decoration: none; }
+
+.link-list a:hover { color: rgb(0, 77, 64); }
+
+button { background: rgb(38, 166, 154); padding: 6px 12px; border: none; bo=
+rder-radius: 3px; color: rgb(255, 255, 255); outline: none; }
+
+button:hover { background: rgb(38, 166, 154); }
+
+button:active { background: rgb(0, 137, 123); }
+------MultipartBoundary--oXoGbbSfGU0Vf5sv1r1L4GslMcSWTFNlWUeeRFqwbO------
