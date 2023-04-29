@@ -9,4 +9,4 @@ Video : https://www.youtube.com/watch?v=Dw3yqgrBOGA
 Detaylar : https://www.mikrobotik.com/wp2/2023/04/29/sayisal-devre-tasarimi_1/
 
 
-[go](http://stackoverflow.com){:target="_blank" rel="noopener"}
+
