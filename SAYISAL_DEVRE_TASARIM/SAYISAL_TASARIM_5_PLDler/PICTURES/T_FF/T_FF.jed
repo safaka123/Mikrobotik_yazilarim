@@ -1,0 +1,23 @@
+
+CUPL(WM)        5.0a  Serial# 60008009
+Device          g16v8ms  Library DLIB-h-40-11
+Created         Thu Jun 22 20:08:11 2023
+Name            T_FF 
+Partno          00 
+Revision        01 
+Date            22.06.2023 
+Designer        Engineer 
+Company         mikrobotik 
+Assembly        None 
+Location        
+*QP20 
+*QF2194 
+*G0 
+*F0 
+*L00256 01111110111111111111111111111111
+*L02048 01000000001100000011000000100000
+*L02112 00000000101111111111111111111111
+*L02144 11111111111111111111111111111111
+*L02176 111111111111111101
+*C0C90
+*7608
