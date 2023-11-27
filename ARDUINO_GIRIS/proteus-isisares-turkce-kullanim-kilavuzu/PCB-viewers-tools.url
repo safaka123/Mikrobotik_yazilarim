@@ -1,0 +1,11 @@
+[DEFAULT]
+BASEURL=http://hyperelektronik.com/
+[InternetShortcut]
+URL=https://320volt.com/pcb-gerber-goruntuleme-araclar
+Modified=B04A5E87D1C0C70138
+IconFile=http://www.hyperelektronik.com/images/favicon.ico
+IconIndex=1
+HotKey=0
+IDList=
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,11
