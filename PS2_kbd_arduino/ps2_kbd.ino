@@ -5,7 +5,7 @@
  */
 
  // Lookup table (in: SHIFT state and PS2 scancode => out: desired ASCII code) change for your country
-// QWERTZ layout
+// QWERTY layout
 char ScancodeToASCII[2][128] = {// 2 farklı dizilim var 127 karakterden oluşur. 
                                 // birincisi SHIFT basılmadan. İkincisi ise SHIFT basıldığında okunur. 
   { 0,0,0,0,0,0,0,0,0,0,0,0,0,9,34,0,0,0,0,0,0,113,49,0,0,0,122,115,97,119,50,0,//31 kod
@@ -39,7 +39,7 @@ char ScancodeToASCII[2][128] = {// 2 farklı dizilim var 127 karakterden oluşur
 #include <ps2.h>
 
 /*
- * Pin 5 is the ps2 data pin, pin 6 is the clock pin
+ * Pin 5 ps2 data pin, pin 6 clock pin
  * Feel free to use whatever pins are convenient.
  */
 PS2 kbd(6, 5);
