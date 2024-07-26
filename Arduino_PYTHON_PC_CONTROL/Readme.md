@@ -7,3 +7,5 @@ PYTHON'u, SERi port üzerinden aldığı bilgilerle yönlendirmek.
 Arduino ile seri port üzerinden MOBİL uygulamalarla bluetooth SERi port controlü üzerinden 
 gelen bilgilerle PYTHON program vasıtasıyla PC yi kontrol etmek. 
 İsterseniz ESP8266 ve FT232RL seri çevirici üzerinden de bunları WIFI kullanarak da yapabilirsiniz. 
+
+Detaylar: https://www.mikrobotik.com/wp2/
