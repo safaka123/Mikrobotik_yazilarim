@@ -8,4 +8,4 @@ Arduino ile seri port üzerinden MOBİL uygulamalarla bluetooth SERi port contro
 gelen bilgilerle PYTHON program vasıtasıyla PC yi kontrol etmek. 
 İsterseniz ESP8266 ve FT232RL seri çevirici üzerinden de bunları WIFI kullanarak da yapabilirsiniz. 
 
-Detaylar: https://www.mikrobotik.com/wp2/
+Detaylar: https://www.mikrobotik.com/wp2/2024/07/30/pc_control_joystick_control-with-arduino_python_and_mobile_control/
