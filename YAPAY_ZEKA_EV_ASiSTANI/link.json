@@ -1,0 +1,14 @@
+[
+  {
+    "id": "szctv",
+    "komutlar": ["szc tv", "sözcü tv", "sözcütv"],
+    "standart_cevap": "Sözcü TV açılıyor.",
+    "olaylar": "https://youtu.be/ztmY_cCtUl0"
+  },
+  {
+    "id": "halktv",
+    "komutlar": ["halk tv", "halktv"],
+    "standart_cevap": "Halk TV açılıyor.",
+    "olaylar": "https://youtu.be/ZSWPj9szKb8"
+  }
+]

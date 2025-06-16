@@ -1,0 +1,77 @@
+{
+   "senaryolar": [
+      {
+         "id": "eve gelme",
+         "komutlar": [
+            "Eve geliyorum",
+            "Az sonra evdeyim",
+            "Arabayı park ettim",
+            "Yoldayım",
+            "Kapıyı açın"
+         ],
+         "standart_cevap": "Hoş geldiniz. Ev modu aktif. Işıklar açıldı, sıcaklık ayarlandı.",
+         "emirler": "koridor ışık aç, kilit aç"
+      },
+      {
+         "id": "evden çıkma",
+         "komutlar": [
+            "evden gidiyorum",
+            "evin dışındayım",
+            "kapıyı kilitleyin",
+            "evden çıkılıyor",
+            "evde kimse kalmadı"
+         ],
+         "standart_cevap": "güle güle. güvenlik aktif. cihazlar kapatıldı, kapılar kilitlendi",
+         "emirler": "cihazları kapat, kombi kapat,klima kapat"
+      },
+      {
+         "id": "ortam karanlık",
+         "komutlar": [
+            "çok karanlık",
+            "Işık açılır mı?",
+            "hiç bir şey göremiyorum"
+         ],
+         "standart_cevap": "Bulunduğunuz bölgedeki ışıklar açıldı.",
+         "emirler": "mutfak ışık aç,yo ışık aç,ot ışık aç,ko ışık aç,banyo ışık aç,wc ışık aç"
+      },
+	  {
+         "id": "oda_aktivitesi",
+         "komutlar": [
+            "mutfaktayım",
+			"misafir odasındayım",
+			"oturma odasındayım",
+			"banyodayım",
+			"koridordayım",
+			"yatak odasındayım",
+			"wcdeyim"
+         ],
+         "standart_cevap": "Bulunduğunuz ortam ayarlanıyor.",
+         "emirler": "mutfak ışık aç, misafir oda ışık aç, oturma oda ışık aç, banyo ışık aç, koridor ışık aç, yatak oda ışık aç, wc ışık aç, oturma oda AC aç, yatak oda AC aç, banyo fan aç,oturma oda tv aç,kombi aç"
+      },
+	  {
+         "id": "Alarm durumu",
+         "komutlar": [
+            "Alarm tetiklendi"
+         ],
+         "standart_cevap": "Alarm Tetiklendi",
+         "emirler": "ALARM DURUMU"
+      },
+      {
+         "id": "muzik_modu",
+         "komutlar": [
+            "Müzik çal",
+            "Bir şeyler dinlemek istiyorum",
+            "Ses yükselt",
+            "Ses azalt",
+            "haber dinlemek istiyorum",
+            "sözcü tv aç",
+            "halk tv aç",
+            "sesi kapat",
+            "müziği kapat",
+            "hareketli bir şeyler çal"
+         ],
+         "standart_cevap": "İsteğiniz üzere sesli sistem çalışıyor veya durduruluyor",
+         "emirler": "haber aç, sözcü tv,sözcütv, halktv, halk tv, müzik çal,hareketli müzik,nostaljik müzik,pop müzik,sanat müzik, bir sonraki, sonraki, önceki, ses arttır, ses azalt, durdur,dur dur"
+      }
+   ]
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "filename": "ali_veli_maria.mp3",
+    "title": "ali veli maria",
+    "artist": "ilhan irem",
+    "tags": ["türkçe", "hareketli","nostaljik", "pop"]
+  },
+  {
+    "filename": "er_mektubu_gorulmustur.mp3",
+    "title": "er mektubu",
+    "artist": "ilhan irem",
+    "tags": ["turkce", "nostaljik", "pop", "hareketli"]
+  },
+  {
+    "filename": "herseysin.mp3",
+    "title": "herşeysin",
+    "artist": "ilhan irem",
+    "tags": ["türkçe", "pop", "soft"]
+  }
+]

@@ -1,0 +1,88 @@
+{
+  "cihazlar": [
+    {
+      "cihaz isim": "mut_ayd",
+      "close": "0",
+      "open": "1",
+      "Value": "0",
+      "Status": "mutfak ışık"
+    },
+    {
+      "cihaz isim": "mis_ayd",
+      "close": "0",
+      "open": "1",
+      "Value": "0",
+      "Status": "misafir oda ışık"
+    },
+    {
+      "cihaz isim": "ot_ayd",
+      "close": "0",
+      "open": "1",
+      "Value": "0",
+      "Status": "oturma oda ışık"
+    },
+    {
+      "cihaz isim": "ba_ayd",
+      "close": "0",
+      "open": "1",
+      "Value": "0",
+      "Status": "banyo ışık"
+    },
+    {
+      "cihaz isim": "ko_ayd",
+      "close": "0",
+      "open": "1",
+      "Value": "0",
+      "Status": "koridor ışık"
+    },
+    {
+      "cihaz isim": "ya_ayd",
+      "close": "0",
+      "open": "1",
+      "Value": "0",
+      "Status": "yatak oda ışık"
+    },
+    {
+      "cihaz isim": "wc_ayd",
+      "close": "0",
+      "open": "1",
+      "Value": "0",
+      "Status": "wc ışık"
+    },
+    {
+      "cihaz isim": "ot_AC",
+      "close": "0",
+      "open": "1",
+      "Value": "0",
+      "Status": "oturma oda AC"
+    },
+    {
+      "cihaz isim": "ya_AC",
+      "close": "0",
+      "open": "1",
+      "Value": "0",
+      "Status": "yatak oda AC"
+    },
+    {
+      "cihaz isim": "ba_fan",
+      "close": "0",
+      "open": "1",
+      "Value": "0",
+      "Status": "banyo fan"
+    },
+    {
+      "cihaz isim": "kombi",
+      "close": "0",
+      "open": "1",
+      "Value": "0",
+      "Status": "kombi"
+    },
+    {
+      "cihaz isim": "ot_tv",
+      "close": "0",
+      "open": "1",
+      "Value": "0",
+      "Status": "oturma oda tv"
+    }
+  ]
+}

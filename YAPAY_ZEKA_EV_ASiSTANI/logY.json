@@ -1,0 +1,158 @@
+{
+  "sensorler": [
+    {
+      "Sensor": "MUT_DUMAN",
+      "Min": 0,
+      "Max": 0,
+      "Value": "0",
+      "Status": "kitchen_smoke"
+    },
+    {
+      "Sensor": "MIS_DUMAN",
+      "Min": 0,
+      "Max": 0,
+      "Value": "0",
+      "Status": "guest_smoke"
+    },
+    {
+      "Sensor": "OT_DUMAN",
+      "Min": 0,
+      "Max": 0,
+      "Value": "0",
+      "Status": "living_smoke"
+    },
+    {
+      "Sensor": "YA_DUMAN",
+      "Min": 0,
+      "Max": 0,
+      "Value": "0",
+      "Status": "bedroom_smoke"
+    },
+    {
+      "Sensor": "MUT_SU",
+      "Min": 0,
+      "Max": 0,
+      "Value": "0",
+      "Status": "Kitchen_water"
+    },
+    {
+      "Sensor": "MIS_SU",
+      "Min": 0,
+      "Max": 0,
+      "Value": "0",
+      "Status": "guest_water"
+    },
+    {
+      "Sensor": "OT_SU",
+      "Min": 0,
+      "Max": 0,
+      "Value": "0",
+      "Status": "living_water"
+    },
+    {
+      "Sensor": "YA_SU",
+      "Min": 0,
+      "Max": 0,
+      "Value": "0",
+      "Status": "bedroom_water"
+    },
+    {
+      "Sensor": "BA_SU",
+      "Min": 0,
+      "Max": 0,
+      "Value": "0",
+      "Status": "bath_water"
+    },
+    {
+      "Sensor": "KO_SU",
+      "Min": 0,
+      "Max": 0,
+      "Value": "0",
+      "Status": "corridor_water"
+    },
+    {
+      "Sensor": "WC_SU",
+      "Min": 0,
+      "Max": 0,
+      "Value": "0",
+      "Status": "WC_water"
+    },
+    {
+      "Sensor": "ZiL_AYD_B",
+      "Min": 0,
+      "Max": 1,
+      "Value": "0",
+      "Status": "outside door ring"
+    },
+    {
+      "Sensor": "KAPI_SES",
+      "Min": 0,
+      "Max": 2,
+      "Value": "0",
+      "Status": "outside door_sound"
+    },
+    {
+      "Sensor": "MUT_GAZ",
+      "Min": 0,
+      "Max": 0,
+      "Value": "0",
+      "Status": "Kitchen_gas"
+    },
+    {
+      "Sensor1": "MUT_TEMP",
+      "Min": 15,
+      "Max": 40,
+      "Value": "27",
+      "Status": "Kitchen"
+    },
+    {
+      "Sensor1": "MIS_TEMP",
+      "Min": 15,
+      "Max": 40,
+      "Value": "32",
+      "Status": "guest"
+    },
+    {
+      "Sensor1": "OT_TEMP",
+      "Min": 15,
+      "Max": 40,
+      "Value": "30",
+      "Status": "living"
+    },
+    {
+      "Sensor1": "BA_TEMP",
+      "Min": 15,
+      "Max": 40,
+      "Value": "25",
+      "Status": "bath"
+    },
+    {
+      "Sensor1": "KO_TEMP",
+      "Min": 15,
+      "Max": 40,
+      "Value": "29",
+      "Status": "corridor"
+    },
+    {
+      "Sensor1": "YA_TEMP",
+      "Min": 15,
+      "Max": 40,
+      "Value": "23",
+      "Status": "Bedroom"
+    },
+    {
+      "Sensor1": "kapi_mes",
+      "Min": 0,
+      "Max": 200,
+      "Value": "0",
+      "Status": "outside door_motion"
+    },
+    {
+      "Sensor1": "Ambient_temp",
+      "Min": 15,
+      "Max": 40,
+      "Value": "25",
+      "Status": "Ambient"
+    }
+  ]
+}
