@@ -1,0 +1,3 @@
+kendi google yapay zeka api anahtarınızı buraya kopyalayın. 
+dosyanın ilk satırı api anahtarınız olsun başka bir şey olmasın. 
+
