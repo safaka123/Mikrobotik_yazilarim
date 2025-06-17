@@ -17,7 +17,7 @@ require 'PHPMailer/src/SMTP.php';
 // Güvenli config.php dosyasını dahil et
 // Buradaki yol, sizin config.php dosyasının konumuna göre ayarlanmalıdır.
 // Eğer config.php, send.php'nin bulunduğu klasörün BİR ÜST KLASÖRÜNDEYSE:
-require_once '/home/mikrobot/php/docs/config.php';
+require_once '/home/mikrobot/php/docs/config.php';  //************  bu dizini kendi dosyanızın dizinine göre değiştirin. 
 // Eğer config.php, send.php'nin bulunduğu klasörle aynı seviyede ve erişilemeyen bir dizindeyse,
 // Örneğin 'private_includes' gibi bir klasörde:
 // require_once '/home/kullaniciadi/private_includes/config.php'; // Kendi hosting yolunuzu girin
