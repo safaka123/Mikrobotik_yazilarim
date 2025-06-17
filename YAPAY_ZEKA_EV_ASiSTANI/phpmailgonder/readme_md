@@ -1,0 +1,33 @@
+config.php dosyasını da oluşturmanız gerekiyor. 
+bu dosya içeriğine aşağıdaki bilgileri koymanız gerekiyor. 
+Ayrıca bunu sendmail.php nin bulunduğu dizine koymanız gerekir. 
+Şayet bu dosya görülmesin şifreler var diyorsanız 
+sunucunuzda public_HTML dizininden önce bir doc dizini oluşturup ya da harhenagi kullanılmayan bir dizine config.php dosyanızı koyabilirsiniz. 
+bu şekilde bir işlem yaparsanız sendmail.php içerisinde bu dizini tanımlamalısınız. 
+sendmail.php içerisinde bu satırı bulup kendi path= yolunuza göre ayarlayabilirsiniz. 
+Bu çok önemli aynı dizine koyduysanız bu satırı kapatmalısınız çünkü aynı dizinde olacağı için bunu direkt okuyacaktır. 
+
+<?php
+// config.php
+// Bu dosya, web sunucusunun kök dizininin (public_html, www) dışında olmalı
+// ve doğrudan web tarayıcısı üzerinden erişilememelidir.
+
+// Gmail kullanıcı adınız
+define('GMAIL_USERNAME', 'gmail adresiniz');
+
+// Gmail Uygulama Şifreniz
+// Google Hesabınız -> Güvenlik -> 2 Adımlı Doğrulama -> Uygulama Şifreleri kısmından alacaksınız.
+define('GMAIL_APP_PASSWORD', '2 adımlı doğrulama şifresi');
+
+// E-postanın gönderileceği varsayılan alıcılar (birden fazla olabilir, virgülle ayırın)
+define('DEFAULT_MAIL_TO', 'gönderilecek email adresi');
+
+// CC alıcıları (isteğe bağlı, boş bırakabilirsiniz)
+define('DEFAULT_MAIL_CC', 'CC alıcı adresi ');
+
+// E-posta gönderen adı (alıcının gelen kutusunda görünecek isim)
+define('MAIL_FROM_NAME', 'Ev Otomasyon Sistemi');
+
+// E-posta gönderen adresi (Gmail adresinizle aynı olmalı)
+define('MAIL_FROM_EMAIL', 'gmail adresiniz');
+?>
