@@ -1,0 +1,102 @@
+<html><head><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0"><meta content="text/html; charset=UTF-8" http-equiv="content-type"><style type="text/css">
+/* 1. SAYFA DÜZENİ VE ORTALAMA */
+body {
+    max-width: 900px !important; 
+    margin: 0 auto !important; 
+    padding: 5% !important; /* Kenarlardan %5 boşluk bırakarak her ekranda nefes aldırır */
+    background-color: #ffffff;
+    word-wrap: break-word;
+}
+
+/* 2. DİNAMİK FONT ÖLÇEKLENDİRME (Kritik Bölüm) */
+/* Telefon dikken 18px, ekran genişledikçe %2.5 oranında artar, maks 24px olur */
+p, p span, li, li span, td {
+    font-family: "Arial", sans-serif !important;
+    font-size: clamp(18px, 2.5vw, 24px) !important; 
+    line-height: 1.5 !important;
+    text-align: left !important;
+}
+
+/* 3. BAŞLIKLARIN ÖLÇEKLENMESİ */
+h1, h1 span, h2, h2 span {
+    font-size: clamp(20px, 5vw, 32px) !important;
+    line-height: 1.2 !important;
+    margin-top: 1.5em !important;
+    margin-bottom: 0.5em !important;
+    font-weight: bold !important;
+}
+
+/* 3.1. ALT BAŞLIKLARIN (H3) ÖLÇEKLENMESİ */
+h3, h3 span {
+    font-size: clamp(19px, 3.5vw, 26px) !important; /* H1/H2'nin yaklaşık %70'i kadar */
+    line-height: 1.3 !important;
+    margin-top: 1.2em !important;
+    margin-bottom: 0.4em !important;
+    font-weight: bold !important;
+    color: #333333 !important; /* Ana başlıklardan bir ton daha gri yaparak hiyerarşiyi güçlendirir */
+}
+
+/* 4. TABLOLARIN MOBİL UYUMU VE ÇİZGİLERİ */
+table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    margin: 20px 0 !important;
+    border: 1px solid #444 !important; /* Tablonun dış çerçevesi */
+}
+
+table td, table th {
+    border: 1px solid #888 !important; /* Hücrelerin iç çizgileri */
+    padding: 12px 8px !important;      /* Yazıların çizgiye yapışmaması için */
+    vertical-align: middle !important;
+    word-break: break-word !important;
+}
+
+/* Tablo başlıklarını (varsa) biraz daha belirgin yapalım */
+table th {
+    background-color: #f2f2f2 !important;
+    font-weight: bold !important;
+}
+
+
+
+/* 6. LİSTE İŞARETLERİ VE HİZALAMA */
+ul, ol {
+    padding-left: 25px !important;
+}
+
+/* 7. GOOGLE DOCS ÖZEL STİLLERİNİ (BOLD/VURGU) KURTARMA */
+.c4, .c4 span, .c17, .c14, .c3, .c22, .c16 {
+    font-weight: bold !important;
+}
+
+/* 7. GOOGLE DOCS ÖZEL STİLLERİNİ (BOLD/VURGU) KURTARMA */
+.c0, .c0 span {
+    font-weight: normal !important;
+}
+
+/* HEADER RESİM ÖLÇEKLENDİRME */
+.header-image-container {
+    width: 100% !important;
+    text-align: center !important;
+    margin: 20px 0 !important;
+}
+
+.responsive-header-img {
+    /* Ekran dar iken %100 kaplar, ekran genişledikçe sayfa genişliğine (900px) sadık kalır */
+    width: 100% !important;
+    max-width: 100% !important; 
+    height: auto !important; /* Oranı bozmadan küçültüp büyütür */
+    border-radius: 8px !important; /* Köşeleri hafif yumuşatarak profesyonel gösterir */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1) !important; /* Hafif derinlik katar */
+}
+
+/* Telefon yatay çevrildiğinde veya büyük ekranlarda çok devasa olmaması için */
+@media (min-width: 900px) {
+    .responsive-header-img {
+        width: 100% !important; /* Sayfa max-width değerine (900px) tam oturur */
+    }
+}
+
+</style></head><body class="c23 doc-content"><h1 class="c13" id="h.tbms35wah7v3"><span class="c4 c26">MARKET F&#304;&#350;LER&#304;NDE KA&#286;IT TASARRUFU VE G&Uuml;VENL&#304; D&#304;J&#304;TAL S&#304;STEM &Ouml;NER&#304;S&#304;</span><div class="header-image-container">
+    <img src="https://drive.google.com/uc?export=view&id=1WAGpJSILWppqzPJNZtoDnWDGYaK6ux_B" alt="Market Fişi Tasarruf Analizi" class="responsive-header-img">
+</div></h1><h2 class="c8" id="h.ihw3jiu7tfln"><span class="c24 c4">1. G&#304;R&#304;&#350; VE MEVCUT DURUM ANAL&#304;Z&#304;</span></h2><p class="c12"><span>G&uuml;n&uuml;m&uuml;zde perakende sekt&ouml;r&uuml;nde kullan&#305;lan termal fi&#351;ler, e-Ar&#351;iv fatura sistemine ge&ccedil;ilmi&#351; olmas&#305;na ra&#287;men fiziksel boyutuyla ciddi bir kaynak israf&#305;na neden olmaktad&#305;r. Yap&#305;lan saha incelemelerinde, </span><span class="c4">tek bir &uuml;r&uuml;n al&#305;m&#305;nda dahi fi&#351; boyunun 37,5 cm&rsquo;ye ula&#351;t&#305;&#287;&#305; (&Ouml;rn: Migros)</span><span class="c0">, buna kar&#351;&#305;n daha kompakt font ve d&uuml;zen kullanan marketlerde (&Ouml;rn: B&#304;M) bu uzunlu&#287;un 16,5 cm seviyelerinde kald&#305;&#287;&#305; tespit edilmi&#351;tir.</span></p><p class="c12"><span class="c4">Temel Sorun:</span><span class="c0">&nbsp;Gereksiz b&uuml;y&uuml;k font kullan&#305;m&#305;, geni&#351; sat&#305;r aral&#305;klar&#305; ve her fi&#351;te tekrarlanan statik yasal bilgilerin (adres, mersis no vb.) yaratt&#305;&#287;&#305; &quot;ka&#287;&#305;t kirlili&#287;i&quot; ve ithal hammadde maliyetidir.</span></p><p class="c14 c15"><span class="c0"></span></p><h2 class="c8" id="h.brla8kffmq7"><span class="c4 c24">2. EKONOM&#304;K PROJEKS&#304;YON VE TASARRUF TABLOSU</span></h2><p class="c12"><span>A&#351;a&#287;&#305;daki hesaplamalar, T&uuml;rkiye&rsquo;deki yakla&#351;&#305;k </span><span class="c4">30 Milyon Hane</span><span>&nbsp;baz al&#305;narak ve her hanenin g&uuml;nde </span><span class="c4">en az 2 fi&#351;</span><span>&nbsp;(farkl&#305; marketlerden indirim takibi nedeniyle) ald&#305;&#287;&#305; varsay&#305;m&#305;yla </span><span class="c4">minimum de&#287;erler</span><span class="c0">&nbsp;&uuml;zerinden yap&#305;lm&#305;&#351;t&#305;r. ( ortalama fi&#351; uzunlu&#287;u 250mm al&#305;nm&#305;&#351;t&#305;r. fakat baz&#305; firmalar&#305;n uzunlu&#287;u ve geni&#351;li&#287;i &ccedil;ok daha b&uuml;y&uuml;kt&uuml;r.)</span></p><h3 class="c17" id="h.zeueut7hca9f"><span class="c3">YILLIK ULUSAL TASARRUF PROJEKS&#304;YONU</span></h3><table class="c32"><tr class="c29"><td class="c21" colspan="1" rowspan="1"><p class="c18"><span class="c4">PARAMETRE</span></p></td><td class="c27" colspan="1" rowspan="1"><p class="c18"><span class="c4">MEVCUT DURUM (ORTALAMA)</span></p></td><td class="c16" colspan="1" rowspan="1"><p class="c18"><span class="c4">&Ouml;NER&#304;LEN STANDART (OPT&#304;M&#304;ZE)</span></p></td><td class="c1" colspan="1" rowspan="1"><p class="c18"><span class="c4">YILLIK KAZAN&Ccedil; / TASARRUF</span></p></td></tr><tr class="c30"><td class="c21" colspan="1" rowspan="1"><p class="c18"><span class="c4">Ortalama Fi&#351; Uzunlu&#287;u</span></p></td><td class="c27" colspan="1" rowspan="1"><p class="c11"><span class="c0">250 mm</span></p></td><td class="c16" colspan="1" rowspan="1"><p class="c11"><span class="c0">100 mm</span></p></td><td class="c1" colspan="1" rowspan="1"><p class="c18"><span class="c4">150 mm (K&#305;salma)</span></p></td></tr><tr class="c30"><td class="c21" colspan="1" rowspan="1"><p class="c18"><span class="c4">G&uuml;nl&uuml;k Ka&#287;&#305;t T&uuml;ketimi</span></p></td><td class="c27" colspan="1" rowspan="1"><p class="c11"><span class="c0">15.000.000 Metre</span></p></td><td class="c16" colspan="1" rowspan="1"><p class="c11"><span class="c0">6.000.000 Metre</span></p></td><td class="c1" colspan="1" rowspan="1"><p class="c18"><span class="c4">9.000.000 Metre/G&uuml;n</span></p></td></tr><tr class="c30"><td class="c21" colspan="1" rowspan="1"><p class="c18"><span class="c4">Y&#305;ll&#305;k Ka&#287;&#305;t Alan&#305; (m^2)</span></p></td><td class="c27" colspan="1" rowspan="1"><p class="c18"><span class="c0">438.000.000 m^2</span></p></td><td class="c16" colspan="1" rowspan="1"><p class="c18"><span class="c0">175.200.000 m^2</span></p></td><td class="c1" colspan="1" rowspan="1"><p class="c18"><span class="c4">262.800.000 m^2</span></p></td></tr><tr class="c30"><td class="c21" colspan="1" rowspan="1"><p class="c18"><span class="c4">YILLIK EKONOM&#304;K KAYIP/KAZAN&Ccedil;</span></p></td><td class="c27" colspan="1" rowspan="1"><p class="c11"><span class="c0">~3,4 Milyar TL</span></p></td><td class="c16" colspan="1" rowspan="1"><p class="c11"><span class="c0">~1,3 Milyar TL</span></p></td><td class="c1" colspan="1" rowspan="1"><p class="c18"><span class="c4">2,1 M&#304;LYAR TL (NET TASARRUF)</span></p></td></tr></table><p class="c12 c33"><span class="c4">NOT:</span><span>&nbsp;Bu hesaplamaya m&uuml;rekkep/toner maliyeti dahil edilmemi&#351;tir; zira termal yaz&#305;c&#305;lar &#305;s&#305; ile yakma yapmaktad&#305;r. Ancak termal ka&#287;&#305;tlar&#305;n &uuml;zerindeki </span><span class="c4">BPA/BPS kaplamalar&#305;</span><span class="c0">&nbsp;&ccedil;evresel a&ccedil;&#305;dan geri d&ouml;n&uuml;&#351;&uuml;m&uuml; zorla&#351;t&#305;ran bir maliyet unsurudur.</span></p><p class="c14 c19"><span class="c0"></span></p><h2 class="c8" id="h.ry8adprjyzw2"><span class="c24 c4">3. TEKN&#304;K STANDARTLA&#350;TIRMA &Ouml;NER&#304;LER&#304;</span></h2><p class="c12"><span>Ka&#287;&#305;t israf&#305;n&#305; %60 oran&#305;nda azaltmak i&ccedil;in a&#351;a&#287;&#305;daki teknik d&uuml;zenlemelerin </span><span class="c4">Tebli&#287;</span><span class="c0">&nbsp;ile zorunlu hale getirilmesi &ouml;nerilmektedir:</span></p><ul class="c28 lst-kix_r3uszckglwib-0 start"><li class="c12 c7 li-bullet-0"><span class="c4">Font ve Sat&#305;r Aral&#305;&#287;&#305;:</span><span>&nbsp;Fi&#351;lerdeki karakter b&uuml;y&uuml;kl&uuml;&#287;&uuml; </span><span class="c4">maksimum 8 punto</span><span>, sat&#305;r aral&#305;&#287;&#305; ise </span><span class="c4">1.0 birim</span><span class="c0">&nbsp;ile s&#305;n&#305;rland&#305;r&#305;lmal&#305;d&#305;r.( Ya da rahat okunabilecek bir standart font )</span></li><li class="c12 c7 li-bullet-0"><span class="c4">Dinamik QR Kod Entegrasyonu:</span><span>&nbsp;Adres, mersis no, vergi dairesi ve uzun e-ar&#351;iv detaylar&#305; yerine; t&uuml;m bu bilgileri i&ccedil;eren </span><span class="c4">tek bir g&uuml;venli Karekod (QR)</span><span class="c0">&nbsp;kullan&#305;m&#305; zorunlu hale getirilmelidir. Ayr&#305;ca dijital kopya i&ccedil;in gerekti&#287;inde bir link verilebilir.</span></li><li class="c12 c7 li-bullet-0"><span class="c4">Reklam Alan&#305; S&#305;n&#305;r&#305;:</span><span>&nbsp;Ticari kampanya ve reklam i&ccedil;erikleri, toplam fi&#351; boyunun </span><span class="c4">%10&#39;unu</span><span class="c0">&nbsp;ge&ccedil;emez.</span></li></ul><p class="c14 c19"><span class="c0"></span></p><h2 class="c34" id="h.gmom2rqgjwef"><span class="c2">3.1. MEVCUT C&#304;HAZ PARKININ DE&#286;ERLEND&#304;R&#304;LMES&#304; VE PRAT&#304;K &Ccedil;&Ouml;Z&Uuml;M</span></h2><p class="c6"><span>Sekt&ouml;r genelinde kullan&#305;lan termal yaz&#305;c&#305;lar&#305;n (80mm ve 57mm geni&#351;li&#287;inde) an&#305;nda de&#287;i&#351;tirilmesi ekonomik ve lojistik a&ccedil;&#305;dan m&uuml;mk&uuml;n de&#287;ildir. Bu nedenle, &ouml;nerilen tasarruf modeli </span><span class="c4">mevcut cihazlar&#305;n donan&#305;m&#305;na dokunmadan, sadece yaz&#305;l&#305;m d&uuml;zeyinde yap&#305;lacak g&uuml;ncellemelerle</span><span class="c0">&nbsp;hayata ge&ccedil;irilmelidir.</span></p><p class="c6"><span class="c4">Geni&#351; Ka&#287;&#305;tlarda (80mm) Yatay Tasar&#305;m &Ouml;nerisi:</span><span class="c0">&nbsp;&Ouml;zellikle 80mm&#39;lik geni&#351; ka&#287;&#305;tlarda, her bilginin alt alta yaz&#305;lmas&#305; (dikey tasar&#305;m) fi&#351; boyunu uzatmaktad&#305;r. Bunun yerine:</span></p><ul class="c28 lst-kix_hsgwg1hxb9xo-0 start"><li class="c6 c7 li-bullet-0"><span class="c4">Yatay Veri Dizilimi:</span><span>&nbsp;</span><span class="c5">&Uuml;r&uuml;n Ad&#305; / Miktar / Birim Fiyat / Toplam</span><span>&nbsp;gibi 4 sat&#305;rl&#305;k bilgi, geni&#351; ka&#287;&#305;tlarda </span><span class="c4">tek bir sat&#305;rda</span><span>&nbsp;(veya yanyana </span><span class="c5">//</span><span class="c0">&nbsp;i&#351;areti ile) birle&#351;tirilmelidir.</span></li><li class="c6 c7 li-bullet-0"><span class="c4">Bo&#351;luk Y&ouml;netimi:</span><span class="c0">&nbsp;Yaz&#305;l&#305;m&#305;n, fi&#351;in ba&#351;&#305;ndaki ve sonundaki &quot;Gereksiz Ka&#287;&#305;t Besleme&quot; (Margin) ayarlar&#305;n&#305; minimuma indirmesi zorunlu hale getirilmelidir.</span></li></ul><p class="c6"><span class="c4">Sonu&ccedil;:</span><span>&nbsp;Bu yaz&#305;l&#305;msal d&uuml;zenlemelerle, makineler de&#287;i&#351;meden de 80mm&#39;lik fi&#351;lerde dahi boyun </span><span class="c4">%40 oran&#305;nda k&#305;salt&#305;lmas&#305;</span><span class="c0">&nbsp;m&uuml;mk&uuml;nd&uuml;r.</span></p><h2 class="c6 c22" id="h.akuttag61szm"><span class="c2">3.2. C&#304;HAZ STANDARTLARININ YEN&#304;DEN BEL&#304;RLENMES&#304; (GELECEK V&#304;ZYONU)</span></h2><p class="c6"><span class="c0">Mevcut israf&#305;n kal&#305;c&#305; olarak &ouml;n&uuml;ne ge&ccedil;ilmesi i&ccedil;in yaz&#305;l&#305;msal &ccedil;&ouml;z&uuml;mlerin yan&#305; s&#305;ra, donan&#305;m ithalat&#305; ve &uuml;retiminde de standartla&#351;maya gidilmelidir. Yeni cihaz sat&#305;n al&#305;nacak ise bu a&#351;a&#287;&#305;daki standartlara uygun &uuml;retim ya da ithalat yap&#305;lm&#305;&#351; cihazlar&#305;n al&#305;nmas&#305; gerekmektedir :</span></p><ul class="c28 lst-kix_8zt7l8s5jc9s-0 start"><li class="c6 c7 li-bullet-0"><span class="c4">57mm Standartla&#351;mas&#305;:</span><span>&nbsp;Market ve perakende sekt&ouml;r&uuml;nde &quot;bilgi fi&#351;i&quot; basan cihazlarda </span><span class="c4">57mm ka&#287;&#305;t geni&#351;li&#287;inin &quot;Ulusal Standart&quot;</span><span class="c0">&nbsp;olarak kabul edilmesi.</span></li><li class="c6 c7 li-bullet-0"><span class="c4">80mm Cihaz S&#305;n&#305;rland&#305;rmas&#305;:</span><span class="c0">&nbsp;80mm geni&#351;li&#287;inde ka&#287;&#305;t kullanan cihazlar&#305;n (mutfak yaz&#305;c&#305;lar&#305; veya &ouml;zel geni&#351; d&ouml;k&uuml;man gerektiren alanlar hari&ccedil;) genel perakende sat&#305;&#351; noktalar&#305;nda kullan&#305;m&#305;n&#305;n ve ithalat&#305;n&#305;n kademeli olarak durdurulmas&#305;.</span></li><li class="c6 c7 li-bullet-0"><span class="c4">Donan&#305;m Verimlili&#287;i:</span><span class="c0">&nbsp;Daha dar ka&#287;&#305;t (57mm), hem rulo ba&#351;&#305;na daha az ham madde kullan&#305;m&#305; sa&#287;lar hem de cihazlar&#305;n kaplad&#305;&#287;&#305; alan&#305; ve enerji t&uuml;ketimini azalt&#305;r.</span></li></ul><p class="c14 c19"><span class="c0"></span></p><h2 class="c8" id="h.syeu59j1yyqn"><span class="c24 c4">4. G&Uuml;VENL&#304; D&#304;J&#304;TAL F&#304;&#350; VE SMS PROTOKOL&Uuml; (FIS-BILGI)</span></h2><p class="c12"><span class="c0">Dijital fi&#351; uygulamas&#305;na ge&ccedil;i&#351;te vatanda&#351;&#305;n &quot;g&uuml;venlik&quot; ve &quot;doland&#305;r&#305;c&#305;l&#305;k&quot; endi&#351;elerini gidermek i&ccedil;in &ouml;nerilen protokol &#351;udur:</span></p><ol class="c28 lst-kix_k5kxl4vh0ofe-0 start" start="1"><li class="c12 c7 li-bullet-0"><span class="c4">Merkezi SMS Ba&#351;l&#305;&#287;&#305;:</span><span>&nbsp;Firmalar kendi adlar&#305;yla (ve sahtesi yap&#305;labilecek linklerle) SMS atmamal&#305;d&#305;r. Devlet taraf&#305;ndan onayl&#305;, tek bir merkezi ba&#351;l&#305;k (</span><span class="c4">&Ouml;rn: FIS-BILGI</span><span class="c0">) kullan&#305;lmal&#305;d&#305;r.</span></li><li class="c12 c7 li-bullet-0"><span class="c4">Link G&uuml;venli&#287;i:</span><span>&nbsp;SMS i&ccedil;eri&#287;inde do&#287;rudan bir link yerine, e-Devlet veya Banka Uygulamalar&#305; &uuml;zerinden sorgulanabilecek bir </span><span class="c4">&quot;Dijital Takip Kodu&quot;</span><span class="c0">&nbsp;yer almal&#305;d&#305;r.</span></li><li class="c12 c7 li-bullet-0"><span class="c4">Kasada Tercih Sistemi:</span><span>&nbsp;Sadakat kart&#305; veya banka kart&#305; ile yap&#305;lan &ouml;demelerde sistem otomatik olarak </span><span class="c4">&quot;Ka&#287;&#305;t Fi&#351; &#304;stiyor musunuz?&quot;</span><span class="c0">&nbsp;sorusunu sormal&#305;; hay&#305;r cevab&#305; durumunda ka&#287;&#305;t &ccedil;&#305;k&#305;&#351;&#305; bloke edilerek dijital kopya g&ouml;nderilmelidir.</span></li></ol><p class="c14 c19"><span class="c0"></span></p><h2 class="c8" id="h.yj3bov4mcxim"><span class="c24 c4">5. &Ccedil;EVRESEL ETK&#304; VE SOSYAL FARKINDALIK</span></h2><ul class="c28 lst-kix_fvbnlmrygfid-0 start"><li class="c12 c7 li-bullet-0"><span class="c4">A&#287;a&ccedil; Tasarrufu:</span><span>&nbsp;Bu proje hayata ge&ccedil;ti&#287;inde, sadece gereksiz bo&#351;luklar&#305; silerek y&#305;lda yakla&#351;&#305;k </span><span class="c4">450.000 yeti&#351;kin a&#287;ac&#305;n</span><span class="c0">&nbsp;kesilmesi &ouml;nlenecektir.</span></li><li class="c12 c7 li-bullet-0"><span class="c4">Karbon Ayak &#304;zi:</span><span class="c0">&nbsp;&#304;thal edilen termal ka&#287;&#305;tlar&#305;n lojisti&#287;i ve &uuml;retimi s&#305;ras&#305;nda sal&#305;nan karbon miktar&#305; &ouml;nemli &ouml;l&ccedil;&uuml;de azalacakt&#305;r.</span></li></ul><h3 class="c8" id="h.gruf9mchhrgp"><span class="c3">SONU&Ccedil; VE TALEP</span></h3><p class="c12"><span>Yukar&#305;da sunulan veriler &#305;&#351;&#305;&#287;&#305;nda, </span><span class="c4">Gelir &#304;daresi Ba&#351;kanl&#305;&#287;&#305; (G&#304;B)</span><span>&nbsp;ve </span><span class="c4">Ticaret Bakanl&#305;&#287;&#305;</span><span class="c0">&rsquo;n&#305;n ortak bir &ccedil;al&#305;&#351;ma ile perakende fi&#351; boyutlar&#305;na standart getirmesi, &uuml;lkemizin &quot;S&#305;f&#305;r At&#305;k&quot; vizyonuna ve milli ekonomimize milyarlarca liral&#305;k katk&#305; sa&#287;layacakt&#305;r.</span></p><p class="c14"><span class="c4">&Uuml;zerindeki kimyasal maddeden dolay&#305; bu ka&#287;&#305;tlar&#305;n geri d&ouml;n&uuml;&#351;&uuml;m&uuml; zor oldu&#287;undan, art&#305;l bir &uuml;r&uuml;n olarak kalm&#305;&#351; olmas&#305; da &quot;S&#305;f&#305;r At&#305;k&quot; vizyonuna zarar vermektedir. Bundan dolay&#305; bu tip ka&#287;&#305;tlar&#305;n kullan&#305;m&#305;n&#305; en aza indirmek gerekmektedir. Bu da e-ar&#351;iv d&uuml;zeninde, dijital sistemi g&uuml;&ccedil;lendirmekle olacakt&#305;r. </span><span class="c0">Ayr&#305;ca bu konuda, vatanda&#351;lar&#305;n ve firmalar&#305;n dikkatini &ccedil;ekecek kampanyalar haz&#305;rlayarak ya da te&#351;vikler verilerek, yeni sisteme al&#305;&#351;ma d&ouml;nemini k&#305;saltabilirsiniz. </span></p><p class="c14 c19"><span class="c20 c4"></span></p><p class="c14 c19"><span class="c4 c20"></span></p><p class="c9 subtitle" id="h.c65ahginbgkn"><span class="c25">Haz&#305;rlayan : &#350;afak A&#287;ustoslu</span></p><p class="c9 subtitle" id="h.wdxjif4dmbxj"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e-mail: </span><span class="c31"><a class="c10" href="mailto:safakagustoslu@hotmail.com">safakagustoslu@hotmail.com</a></span></p><p class="c9 subtitle" id="h.hsqqbrs60x8"><span class="c25">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tel &nbsp; &nbsp; &nbsp;: 0 533 271 3683</span></p><p class="c14 c19"><span class="c20 c4"></span></p></body></html>
