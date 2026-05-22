@@ -1,0 +1,42 @@
+02:05:43.608 -> ---- KREDI SISTEMI HESAPLAMA ----
+02:05:43.608 -> Kart Tipi : 0
+02:05:43.608 -> Mevcut Durum : 1
+02:05:43.608 -> Fark Dakika : 2327
+02:05:43.608 -> 🎫 TAM ILK BINIS: 30 KREDI
+02:05:43.654 -> 📅 Zaman Damgasi Guncellendi.
+02:05:43.795 -> ✅ ISLEM BASARILI. Dusulen: 30
+02:05:44.124 -> EEPROM TEST READ
+02:05:44.124 -> Pointer: 1
+02:05:44.124 -> LOG 0 : AF 0F 11 6A 04 83 DB 46 29 00 00 00 05 A7 03 00 00 1E 00 00 
+02:05:47.275 -> 
+02:05:47.275 -> ---- KREDI SISTEMI HESAPLAMA ----
+02:05:47.321 -> Kart Tipi : 0
+02:05:47.321 -> Mevcut Durum : 0
+02:05:47.321 -> Fark Dakika : 0
+02:05:47.321 -> 🎫 TAM ILK AKTARMA: 5 KREDI
+02:05:47.462 -> ✅ ISLEM BASARILI. Dusulen: 5
+02:05:47.794 -> EEPROM TEST READ
+02:05:47.794 -> Pointer: 2
+02:05:47.794 -> LOG 0 : AF 0F 11 6A 04 83 DB 46 29 00 00 00 05 A7 03 00 00 1E 00 00 
+02:05:47.794 -> LOG 1 : B2 0F 11 6A 04 83 DB 46 29 00 00 00 05 A2 03 00 00 05 01 00 
+02:05:50.977 -> 
+02:05:50.977 -> ---- KREDI SISTEMI HESAPLAMA ----
+02:05:50.977 -> Kart Tipi : 0
+02:05:50.977 -> Mevcut Durum : 1
+02:05:50.977 -> Fark Dakika : 0
+02:05:50.977 -> 🔄 2. AKTARMA VE SONRASI: UCRETSIZ
+02:05:51.072 -> ✅ UCRETSIZ GECIS ONAYLANDI (YAZMA YAPILMADI)
+02:05:51.398 -> EEPROM TEST READ
+02:05:51.398 -> Pointer: 3
+02:05:51.398 -> LOG 0 : AF 0F 11 6A 04 83 DB 46 29 00 00 00 05 A7 03 00 00 1E 00 00 
+02:05:51.445 -> LOG 1 : B2 0F 11 6A 04 83 DB 46 29 00 00 00 05 A2 03 00 00 05 01 00 
+02:05:51.445 -> LOG 2 : B6 0F 11 6A 04 83 DB 46 29 00 00 00 05 A2 03 00 00 00 01 00 
+
+yukarıdaki seri monitör çıktısı mifare classic 1K kartının kredili sistem çalışmasıdır. 
+Burada düşülen kredi 90dk metoduna göre ve indirim durumuna göre belirlenir. 
+ilk geçiş 30 kredi sonrakinde 5 kredi sonrakinde ise ücretsiz geçişi gösterir. 
+bu mikrobotik.com daki yazımda detaylandırılmıştır. 
+Ayrıca burada gördüğünüz LOG sistemi eproma kayıt durumudur. Çünkü seri port çalışmıyorsa eproma kayıt yapar. 
+daha sonra bunları seri monitöre aktarır. 
+Bunun için python seri port programı vardır ama diğer seri port programlarıyla da bunları görebilirsiniz. 
+

@@ -1,0 +1,20 @@
+01:44:58.149 -> Sistem Hazir.
+01:45:00.698 -> HATALI DENEME: 1
+01:45:00.745 -> HATALI DENEME: 2
+01:45:00.745 -> HATALI DENEME: 3
+01:45:00.792 -> HATALI DENEME: 4
+01:45:00.792 -> HATALI DENEME: 5
+01:45:00.792 -> ❌ SISTEM KILITLENDI
+01:45:02.814 -> SISTEM OTOMATIK ACILDI ✅
+
+Yukarıdaki bölüm kart yaklaşırken hatalı okumayı gösteriyor. 
+
+01:45:02.860 -> Okunan ISIM: Efe
+01:45:02.860 -> Okunan FIRMA: izbb
+01:45:02.860 -> Okunan BITMASK: 199 
+01:45:02.860 -> ✅ ONAYLANDI
+01:45:02.954 -> BIP
+
+199=0000 0000 1100 0111 en sağdan 1 olanlar
+yetkili kapılardırç burada yetkili kapılar 
+1,2,3,7,8 dir. 

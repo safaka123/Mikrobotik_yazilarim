@@ -1,0 +1,28 @@
+02:01:31.994 -> ===================================================
+02:01:31.994 ->               NTAG213 ETİKET ALGILANDI             
+02:01:32.040 -> ===================================================
+02:01:32.040 -> Etiket UID       : DA 17 B8 00 FE 51 00 
+02:01:32.040 -> 🔒 Şifre kontrol ediliyor...
+02:01:32.040 -> ❌ [GERÇEK TEŞHİS] ŞİFRE HATALI VEYA KART KİLİTLİ! Erişim reddedildi.
+02:01:32.040 -> ❌ Şifre Hatalı veya Kart Yanıt Vermedi!
+02:01:32.088 -> ⚠️ İşlem İptal Edildi. Kartı Tekrar Gösterin.
+02:01:32.088 -> ===================================================
+02:01:48.524 -> 
+02:01:48.524 -> ===================================================
+02:01:48.524 ->               NTAG213 ETİKET ALGILANDI             
+02:01:48.524 -> ===================================================
+02:01:48.524 -> Etiket UID       : DA 17 B8 00 FE 51 00 
+02:01:48.524 -> 🔒 Şifre kontrol ediliyor...
+02:01:48.524 -> 🔑 [GERÇEK TEŞHİS] ŞİFRE DOĞRU! Korunmuş hafıza başarıyla okundu.
+02:01:48.994 -> ===================================================
+02:01:48.994 -> 
+
+
+NTAG etiketlerini MFRC522 çok zor okuyor. okuduğu zaman ise 
+aşağıdaki seri monitör çıktısında görünüyor. 
+fakat daha çok okuma hatası veriyor. Bu da MFRC522 anteninin PN532 anteni
+kadar iyi olmamasından kaynaklanıyor. 
+PN532 hatasız okuyor. 
+Ayrıca Burada bahsettiği ŞİFRE
+SAFK olarak 4 byte yazıldı. 
+android program ile bunu yazabilirsiniz kontrol edebilirsiniz.
