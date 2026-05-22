@@ -1,0 +1,4 @@
+bu dizindeki şifreleme ve şifre bulma sistemi 
+SAFK şifresi üzerine yapılmıştır. siz başka şifre
+tanımlamak isterseniz türkçe karakter olmamalı
+ayrıca 4 byte olmalı. 

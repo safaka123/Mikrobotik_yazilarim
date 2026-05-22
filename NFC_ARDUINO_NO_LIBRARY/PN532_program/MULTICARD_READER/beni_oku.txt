@@ -1,0 +1,12 @@
+bu programlar MIFARE ve NTAG etiketlerini ayırmaya yarıyor. 
+
+Bu sadece 2 farklı etiket ya da kartı tanıyor fakat hiç bir işlem yapmıyor
+
+Sadece örnek amaçlı kendi sisteminizde 2 ayrı kart tipi var ise
+bu şekilde kartları önce algılayıp sonra ilgili fonksiyonlara
+ yönlendirebilirsiniz.
+
+MIFARE ve NTAG okuma fonksiyonları tek bir programda olur
+bu program ile kart tipini belirleyip ilgili okuma kısmına gidebilirsiniz. 
+
+sadece örnek uygulama
