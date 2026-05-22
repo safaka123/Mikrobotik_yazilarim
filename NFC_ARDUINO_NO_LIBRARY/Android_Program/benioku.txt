@@ -1,0 +1,6 @@
+Bu program ismi uzun olduğundan ya ismi kısaltın 
+ya da 
+root dizinine kısa isimli bir dizin oluşturun buraya açın. 
+
+Uzun isimlerden dolayı kopyalama ya da açma hatası verebilir. 
+
