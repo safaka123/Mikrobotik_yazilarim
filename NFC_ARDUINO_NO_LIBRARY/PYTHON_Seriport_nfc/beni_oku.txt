@@ -1,0 +1,16 @@
+Bu programlar 16 bytelık LOG ya da 20 bytelık LOG okur. 
+
+ilk yapılan seri porta gönderen programlar 16 byte bilgi yolluyordu
+son yapılanlarda ise 20 byte bilgi vardı.
+
+Buna göre 2 ayrı program yapıldı. 
+Bu sadece seri port haberleşme programıdır ve NFC etiket programlarının 
+gönderdiği LOG bilgisini anlamlı şekilde ekrana yazar. 
+
+Bunun yerine başka seri port programları kullanabilirsiniz 
+Fakat orada sadece HEX byte alırsınız ayırmak size düşer. 
+Programlar seri port kesildiğinde arduino epromuna kayıt yapar. 
+
+seri port tekrar bağlandığında eprom içeriğini seri porta gönderir. 
+Seri port bağlıysa eproma kayıt yapmaz. 
+
