@@ -4,3 +4,9 @@ root dizinine kısa isimli bir dizin oluşturun buraya açın.
 
 Uzun isimlerden dolayı kopyalama ya da açma hatası verebilir. 
 
+APK dosyası google plat store dan alınmadığı için bilinmeyen kaynak uyarısı verebilir. 
+içeriğinde android studio programından başka bir eklenti olmadığı için güvenebilirsiniz. 
+Şayet güvenmiyorsanız kendiniz android studio yu kurup kaynak dosyadan yeniden APK üretebilirsiniz. 
+
+
+
