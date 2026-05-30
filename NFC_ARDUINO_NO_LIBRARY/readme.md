@@ -4,9 +4,9 @@ daha yayınlanmadı. Yayınlanınca aşağıdaki sitede olacak.
 
 kısa zaman sonra bu sitede detayları bulacaksınız. 
 
-Details, will be available on this site shortly.
+Details:
 
-https://www.mikrobotik.com/wp2/
+https://www.mikrobotik.com/wp2/2026/05/30/rfid-ve-nfc-kartlara-giris-ve-kutuphanesiz-rc522-pn532-ve-android-6-0-kart-okuyucu-projeleri/
 
 Not: Program isimleri uzun olduğundan, ya kısaltın ya da root dizininizde bir dizin içine açın ki sorun olmasın. 
 Özellikle Android programı.
